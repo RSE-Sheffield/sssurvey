@@ -61,6 +61,9 @@ def get_counts(df):
     # Go through each col, get the counts of each question, calculate a percentage and then store as a result df
     for current_col in df.columns:
         df_counts = pd.DataFrame(data = (df[current_col].value_counts(sort=False)), columns = [current_col])
+        print(df_counts.index)
+        df_counts.index.str.split(';', expand=True).stack().reset_index(name='c').groupby('c', as_index=False)[current_col].sum()
+        print(df_counts.index)
         df_counts['percentage'] = round(100 * df_counts[current_col] / df_counts[current_col].sum(), 0)
         univariate_summary_dfs[current_col] = df_counts
 
@@ -78,7 +81,6 @@ def main():
     df = import_csv_to_df(DATAFILELOC, DATAFILENAME)
 
     df = clean_col_names(df)
-
 
     get_counts(df)
 
