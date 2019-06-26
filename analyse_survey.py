@@ -14,9 +14,11 @@ import math
 from column_name_renaming import col_shortener
 from column_name_renaming import sort_no_further_analysis
 from column_name_renaming import yes_no_analysis
+from column_name_renaming import add_an_other_category
+
 
 DATAFILELOC = "./data/"
-DATAFILENAME = "UniSotonSoftwareSurvey-csv.csv"
+DATAFILENAME = "Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv"
 CSVSTORE = "./output_csv/"
 
 
@@ -48,8 +50,23 @@ def clean_col_names(df):
     :return: the main df with new col names
     """
 
-
     return df.rename(index=str, columns=col_shortener)
+
+
+def find_number_responses(df):
+    """
+    Finds the number of people who responded to each question and save it as a csv
+    :param df: the main dataframe
+    :return: nothing
+    """
+
+    for current_col in df.columns:
+        temp_df = df.dropna(axis=0, subset=[current_col])
+        print(current_col)
+        print(len(temp_df))
+
+
+    return
 
 
 def get_counts(df):
@@ -76,6 +93,19 @@ def get_counts(df):
         df_counts['percentage'] = round(100 * df_counts[current_col] / df_counts[current_col].sum(), 0)
         # Save as dict of dfs
         summary_dfs[current_col] = df_counts
+
+    return summary_dfs
+
+
+def change_lows_to_other(summary_dfs):
+    """
+    Questions with an "other" response can generate lots of low value responses. Shifting these into an "other"
+    category makes it easier to present the data
+    :param summary_dfs: dict of dfs holding summaries on the answers to each question
+    :return: dict of dfs holding summaries on the answers to each question - but with an other response used to mop up
+             ansewrs with low response numbers
+    """
+
 
     return summary_dfs
 
@@ -122,7 +152,11 @@ def main():
 
     df = clean_col_names(df)
 
+    find_number_responses(df)
+
     summary_dfs = get_counts(df)
+
+    summary_dfs = change_lows_to_other(summary_dfs)
 
     # Prepare data for graphing programs
 
