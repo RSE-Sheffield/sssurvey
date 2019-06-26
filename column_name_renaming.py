@@ -23,3 +23,35 @@ col_shortener = {
     'How suitable would the following models be for your software development needs? [Hire a full-time software developer]':'hire_full_time_developer',
     'How suitable would the following models be for your software development needs? [Recruit a developer from a central Southampton pool as needed]':'hire_rse'
 }
+
+
+sort_no_further_analysis = [
+    'faculty',
+    'funders',
+    'job_title',
+]
+
+yes_no_analysis = [
+    'use_software',
+    'develop_own_code',
+    'training',
+    'want_to_commercialise',
+    'ready_to_share',
+    'hired_developer',
+]
+
+scale_analysis = [
+    'importance_software',
+    'development_expertise',
+    'current_support',
+]
+
+worded_scale_analysis = [
+    'hpc_use',
+    'version_control',
+    'continuous_integration',
+    'unit_testing',
+    'funds_for_development',
+    'hire_full_time_developer',
+    'hire_rse'
+]

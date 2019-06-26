@@ -12,11 +12,12 @@ import math
 
 # Get details for plots from look up table
 from column_name_renaming import col_shortener
-
+from column_name_renaming import sort_no_further_analysis
+from column_name_renaming import yes_no_analysis
 
 DATAFILELOC = "./data/"
 DATAFILENAME = "UniSotonSoftwareSurvey-csv.csv"
-STOREFILENAME = "./output/"
+CSVSTORE = "./output_csv/"
 
 
 def import_csv_to_df(location, filename):
@@ -50,15 +51,16 @@ def clean_col_names(df):
 
     return df.rename(index=str, columns=col_shortener)
 
+
 def get_counts(df):
     """
-    Conduct univariate analysis
+    Get summary dataframes. Where needed split up the multiple answer responses so that they fall into simple bins.
     :param df: the main df
-    :return: a dict of dfs that contain the results
+    :return: dict of dfs holding summaries on the answers to each question
     """
 
     # Initiailise a dict into which I shall store the results dfs
-    univariate_summary_dfs = {}
+    summary_dfs = {}
 
     # Go through each col, get the counts of each question, calculate a percentage and then store as a result df
     for current_col in df.columns:
@@ -72,11 +74,43 @@ def get_counts(df):
             df_counts = (df_counts.set_index(current_col)['answers'].str.split(';', expand=True).stack().reset_index(name='answers').groupby('answers', as_index=False)[current_col].sum())
         df_counts.set_index('answers', inplace=True)
         df_counts['percentage'] = round(100 * df_counts[current_col] / df_counts[current_col].sum(), 0)
-        print(df_counts)
-        univariate_summary_dfs[current_col] = df_counts
+        # Save as dict of dfs
+        summary_dfs[current_col] = df_counts
 
-    return univariate_summary_dfs
+    return summary_dfs
 
+
+def sort_and_save(summary_dfs):
+    """
+    Takes the summary dfs that merely need sorted and saves them out as csvs
+    Uses info from the sort_no_further_analysis var to know which dfs to process
+    :param summary_dfs: dict of dfs holding summaries on the answers to each question
+    :return: nothing
+    """
+
+    for key in sort_no_further_analysis:
+        df_temp = summary_dfs[key]
+        df_temp.sort_values(by='percentage', inplace=True, ascending=False)
+        export_to_csv(df_temp, CSVSTORE, key, True)
+    return
+
+
+def yes_and_no(summary_dfs):
+    """
+    Takes summary dfs of yes-and-no questions, sorts them yes first, then no, then saves the csv
+    Uses the yes_no_analysis var to work out which dfs to process
+    :param summary_dfs: dict of dfs holding summaries on the answers to each question
+    :return: nothing
+    """
+
+    for key in yes_no_analysis:
+        df_temp = summary_dfs[key]
+        # Sorting an index of 'yes' and 'no' in descending order is the same as ensuring that yes comes first
+        # which is what I want
+        df_temp.sort_index(inplace=True, ascending=False)
+        export_to_csv(df_temp, CSVSTORE, key, True)
+
+    return
 
 
 def main():
@@ -88,7 +122,13 @@ def main():
 
     df = clean_col_names(df)
 
-    get_counts(df)
+    summary_dfs = get_counts(df)
+
+    # Prepare data for graphing programs
+
+    sort_and_save(summary_dfs)
+
+    yes_and_no(summary_dfs)
 
 
 if __name__ == '__main__':
