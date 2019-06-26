@@ -7,11 +7,8 @@ import matplotlib
 # on a Mac
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
 import numpy as np
 import math
-
-#testing
 
 # Get details for plots from look up table
 from column_name_renaming import col_shortener
@@ -66,13 +63,17 @@ def get_counts(df):
     # Go through each col, get the counts of each question, calculate a percentage and then store as a result df
     for current_col in df.columns:
         df_counts = pd.DataFrame(data = (df[current_col].value_counts(sort=False)), columns = [current_col])
-        print(df_counts.index)
-        df_counts.index.str.split(';', expand=True).stack().reset_index(name='c').groupby('c', as_index=False)[current_col].sum()
-        print(df_counts.index)
+        # Shift the index into a new column needed for the next bit
+        df_counts['answers'] = df_counts.index
+        # Multi-choice questions provide multiple answers separated by semicolon. Need to separate these up and count
+        # them individually. The method I use (with Stack etc) below fails on answers that are numeric, so I filter them
+        # out. Obviously, anything with a semicolon in it is not numeric!
+        if df_counts['answers'].dtype == 'object':
+            df_counts = (df_counts.set_index(current_col)['answers'].str.split(';', expand=True).stack().reset_index(name='answers').groupby('answers', as_index=False)[current_col].sum())
+        df_counts.set_index('answers', inplace=True)
         df_counts['percentage'] = round(100 * df_counts[current_col] / df_counts[current_col].sum(), 0)
+        print(df_counts)
         univariate_summary_dfs[current_col] = df_counts
-
-
 
     return univariate_summary_dfs
 
