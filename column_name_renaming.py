@@ -5,7 +5,7 @@
 col_shortener = {
     'In which faculty are you based?':'faculty',
     'Which of the following organisations usually fund your research?':'funders',
-    'Simplified job title':'job_title',
+    'What is your job title?':'job_title',
     'Do you use research software?':'use_software',
     'How important is research software to your work?':'importance_software',
     'Have you developed your own research software?':'develop_own_code',
@@ -23,6 +23,13 @@ col_shortener = {
     'How suitable would the following models be for your software development needs? [Hire a full-time software developer]':'hire_full_time_developer',
     'How suitable would the following models be for your software development needs? [Recruit a developer from a central Southampton pool as needed]':'hire_rse'
 }
+
+
+add_an_other_category = [
+    'funders',
+    'job_title',
+    'hpc_use',
+]
 
 
 sort_no_further_analysis = [
