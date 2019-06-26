@@ -3,6 +3,10 @@
 
 import pandas as pd
 import matplotlib
+# You have to use this library to sidestep a problem with Python not being installed as a framework
+# on a Mac
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 import numpy as np
 import math
