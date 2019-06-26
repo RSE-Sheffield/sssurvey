@@ -2,8 +2,6 @@ __pycache__/
 venv/
 .idea/
 __pycache__
-data/
-output_files/
 .DS_Store
 ~$*
 archive/
