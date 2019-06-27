@@ -60,10 +60,15 @@ def find_number_responses(df):
     :return: nothing
     """
 
+    response_list = {}
+
     for current_col in df.columns:
         temp_df = df.dropna(axis=0, subset=[current_col])
-        print(current_col)
-        print(len(temp_df))
+        response_list[current_col] = len(temp_df)
+
+    df_responses = pd.DataFrame(response_list.items(), columns=['question','responses'])
+
+    export_to_csv(df_responses, CSVSTORE, 'responses', False)
 
 
     return
