@@ -55,7 +55,7 @@ def clean_col_names(df):
 
 def find_number_responses(df):
     """
-    Finds the number of people who responded to each question and save it as a csv
+    Finds the number of people who responded to each question and saves it as a csv
     :param df: the main dataframe
     :return: nothing
     """
@@ -69,7 +69,6 @@ def find_number_responses(df):
     df_responses = pd.DataFrame(response_list.items(), columns=['question','responses'])
 
     export_to_csv(df_responses, CSVSTORE, 'responses', False)
-
 
     return
 
@@ -141,7 +140,7 @@ def yes_and_no(summary_dfs):
     for key in yes_no_analysis:
         df_temp = summary_dfs[key]
         # Sorting an index of 'yes' and 'no' in descending order is the same as ensuring that yes comes first
-        # which is what I want
+        # which is... you know... what I want
         df_temp.sort_index(inplace=True, ascending=False)
         export_to_csv(df_temp, CSVSTORE, key, True)
 
