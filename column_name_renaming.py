@@ -28,7 +28,7 @@ col_shortener = {
 add_an_other_category = [
     'funders',
     'job_title',
-    'hpc_use',
+    'hpc_use'
 ]
 
 
@@ -36,6 +36,7 @@ sort_no_further_analysis = [
     'faculty',
     'funders',
     'job_title',
+    'hpc_use'
 ]
 
 yes_no_analysis = [
@@ -44,17 +45,16 @@ yes_no_analysis = [
     'training',
     'want_to_commercialise',
     'ready_to_share',
-    'hired_developer',
+    'hired_developer'
 ]
 
 scale_analysis = [
     'importance_software',
     'development_expertise',
-    'current_support',
+    'current_support'
 ]
 
 worded_scale_analysis = [
-    'hpc_use',
     'version_control',
     'continuous_integration',
     'unit_testing',

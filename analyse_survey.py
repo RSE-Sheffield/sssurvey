@@ -15,7 +15,8 @@ from column_name_renaming import col_shortener
 from column_name_renaming import sort_no_further_analysis
 from column_name_renaming import yes_no_analysis
 from column_name_renaming import add_an_other_category
-
+from column_name_renaming import scale_analysis
+from column_name_renaming import worded_scale_analysis
 
 DATAFILELOC = "./data/"
 DATAFILENAME = "Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv"
@@ -80,7 +81,7 @@ def get_counts(df):
     :return: dict of dfs holding summaries on the answers to each question
     """
 
-    # Initiailise a dict into which I shall store the results dfs
+    # Initialise a dict into which I shall store the results dfs
     summary_dfs = {}
 
     # Go through each col, get the counts of each question, calculate a percentage and then store as a result df
@@ -103,13 +104,28 @@ def get_counts(df):
 
 def change_lows_to_other(summary_dfs):
     """
-    Questions with an "other" response can generate lots of low value responses. Shifting these into an "other"
-    category makes it easier to present the data
+    Questions with an "other" response can generate lots of low value responses. Convert all answers that gain fewer
+     than 5 responses into an "other" category to make things cleaner.
     :param summary_dfs: dict of dfs holding summaries on the answers to each question
     :return: dict of dfs holding summaries on the answers to each question - but with an other response used to mop up
              ansewrs with low response numbers
     """
 
+    for key in add_an_other_category:
+        df_temp = summary_dfs[key]
+        # New index makes the current index a col that we can work with
+        df_temp.reset_index(inplace=True)
+        # Make a Boolean mask of all the rows that have fewer than 5 responses and use it
+        # to change the category to 'other'
+        mask = df_temp[key].le(5)
+        df_temp.loc[mask, 'answers'] = 'other'
+        # Collapse all the 'other' rows into a single row, sum the result and convert back to a df
+        df_temp = pd.DataFrame(df_temp.groupby('answers')[key].sum())
+        df_temp.columns = [key]
+        # Add a percentage col, because the last one was stripped by the groupby operation
+        df_temp['percentage'] = round(100 * df_temp[key] / df_temp[key].sum(), 0)
+        # Replace the original df in the dict of dfs
+        summary_dfs[key] = df_temp
 
     return summary_dfs
 
@@ -124,9 +140,12 @@ def sort_and_save(summary_dfs):
 
     for key in sort_no_further_analysis:
         df_temp = summary_dfs[key]
-        df_temp.sort_values(by='percentage', inplace=True, ascending=False)
+        df_temp.sort_values(by=key, inplace=True, ascending=False)
+        # Replace the original df in the dict of dfs
+        summary_dfs[key] = df_temp
         export_to_csv(df_temp, CSVSTORE, key, True)
-    return
+
+    return summary_dfs
 
 
 def yes_and_no(summary_dfs):
@@ -142,9 +161,45 @@ def yes_and_no(summary_dfs):
         # Sorting an index of 'yes' and 'no' in descending order is the same as ensuring that yes comes first
         # which is... you know... what I want
         df_temp.sort_index(inplace=True, ascending=False)
+        # Replace the original df in the dict of dfs
+        summary_dfs[key] = df_temp
         export_to_csv(df_temp, CSVSTORE, key, True)
 
-    return
+    return summary_dfs
+
+
+def scale_question_analysis(summary_dfs):
+
+    for key in scale_analysis:
+        df_temp = summary_dfs[key]
+        df_temp.sort_index(ascending=True, inplace=True)
+        # Replace the original df in the dict of dfs
+        summary_dfs[key] = df_temp
+        export_to_csv(df_temp, CSVSTORE, key, True)
+
+    return summary_dfs
+
+def scale_worded_questions(summary_dfs):
+
+    for key in worded_scale_analysis:
+        df_temp = summary_dfs[key]
+        # New index makes the current index a col that we can work with
+        df_temp.reset_index(inplace=True)
+        print(df_temp)
+        if key == 'version_control' or 'continuous_integration' or 'unit_testing':
+            df_temp['answers'] = pd.Categorical(df_temp['answers'], categories=['Not heard of it', 'Not confident', 'Confident', 'Very confident'], ordered=True)
+            print(df_temp.sort_values('answers'))
+        elif key == 'hire_full_time_developer' or 'hire_rse':
+            df_temp['answers'] = pd.Categorical(df_temp['answers'],
+                                                categories=['Not heard of it', 'Not confident', 'Confident',
+                                                          'Very confident'], ordered=True)
+
+    # No (but we DID expect to write software as part of the project)
+    # No (we did NOT expect to write software as part of the project)
+    # Yes
+
+    return summary_dfs
+
 
 
 def main():
@@ -164,10 +219,13 @@ def main():
 
     # Prepare data for graphing programs
 
-    sort_and_save(summary_dfs)
+    summary_dfs = sort_and_save(summary_dfs)
 
-    yes_and_no(summary_dfs)
+    summary_dfs = yes_and_no(summary_dfs)
 
+    summary_dfs = scale_question_analysis(summary_dfs)
+
+    summary_dfs = scale_worded_questions(summary_dfs)
 
 if __name__ == '__main__':
     main()
