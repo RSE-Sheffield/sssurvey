@@ -1,4 +1,4 @@
-### Survey of software use at the University of Southampton
+# Survey of software use at the University of Southampton
 
 In June 2019 we conducted a survey of software use across 6355 academic staff and PhD students. The survey was open for two weeks and collected 603 responses.
 
@@ -28,4 +28,4 @@ and if you also wanted to investigate how the training question segemented by fa
 
 ## Files
 
-Univariate results are stored in the `output_csvs`.
+Univariate results are stored in the `output_csvs` directory. Bivariate results are stored in the `output_csvs/bivariate` directory.
