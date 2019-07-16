@@ -2,13 +2,6 @@
 # encoding: utf-8
 
 import pandas as pd
-import matplotlib
-# You have to use this library to sidestep a problem with Python not being installed as a framework
-# on a Mac
-matplotlib.use('TkAgg')
-import matplotlib.pyplot as plt
-import numpy as np
-import math
 
 # Get details for plots from look up table
 from column_name_renaming import col_shortener
@@ -17,10 +10,13 @@ from column_name_renaming import yes_no_analysis
 from column_name_renaming import add_an_other_category
 from column_name_renaming import scale_analysis
 from column_name_renaming import worded_scale_analysis
+from bivariate_instructions import which_by_which
+
 
 DATAFILELOC = "./data/"
 DATAFILENAME = "Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv"
 CSVSTORE = "./output_csv/"
+BIVARIATESTORE = "./output_csv/bivariate/"
 
 
 def import_csv_to_df(location, filename):
@@ -53,7 +49,6 @@ def remove_timestamp(df):
     """
 
     df.drop(labels=['Timestamp'], axis='columns', inplace=True)
-    print(df.columns)
 
     return df
 
@@ -274,6 +269,35 @@ def scale_worded_questions(summary_dfs):
     return summary_dfs
 
 
+def bivariate_analysis(df, summary_dfs):
+
+    counter = 0
+
+    for denominator in which_by_which:
+        counter = counter + 1
+        differentiator = list(summary_dfs[denominator].index)
+        dfs_by_denominator = {}
+        print(denominator)
+        for current_diff in differentiator:
+            temp_df=df[df[denominator]==current_diff]
+            print(current_diff)
+            for current_question in which_by_which[denominator]:
+                df_counts = pd.DataFrame(data=(temp_df[current_question].value_counts(sort=False)), columns=[current_question])
+                df_counts['answers'] = df_counts.index
+                # Multi-choice questions provide multiple answers separated by semicolon. Need to separate these up and count
+                # them individually. The method I use (with Stack etc) below fails on answers that are numeric, so I filter them
+                # out. Obviously, anything with a semicolon in it is not numeric!
+                # Needs an "and length isn't 0" bit because the function doesn't work for zero-length dfs
+                if df_counts['answers'].dtype == 'object' and len(df_counts) != 0:
+                    df_counts = (
+                        df_counts.set_index(current_question)['answers'].str.split(';', expand=True).stack().reset_index(
+                            name='answers').groupby('answers', as_index=False)[current_question].sum())
+                df_counts.set_index('answers', inplace=True)
+                filename = str(counter) + "_" + str(current_diff) + "_" + str(current_question)
+                export_to_csv(df_counts, BIVARIATESTORE, filename, True)
+    return
+
+
 def write_out_summaries(summary_dfs):
     """
     Write the summary dfs out to csvs
@@ -316,7 +340,10 @@ def main():
 
     summary_dfs = scale_worded_questions(summary_dfs)
 
-    write_out_summaries(summary_dfs)
+    #ßwrite_out_summaries(summary_dfs)
+
+    # Conduct bivariate analysis
+    bivariate_analysis(df, summary_dfs)
 
 if __name__ == '__main__':
     main()
