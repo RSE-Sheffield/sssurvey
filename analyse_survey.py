@@ -64,6 +64,19 @@ def clean_col_names(df):
     return df.rename(index=str, columns=col_shortener)
 
 
+def shorten_faculties(df):
+    """
+    There's no need to have "Faculty of" before each faculty name in the output data. It just makes it clunky
+    so removing it here.
+    :param df: the main df
+    :return: the main df with "Faculty of " removed from "faculty" col
+    """
+
+    df['faculty'].replace(regex=True, inplace=True, to_replace=r'Faculty of ', value=r'')
+
+    return df
+
+
 def get_counts(df):
     """
     Get summary dataframes. Where needed split up the multiple answer responses so that they fall into simple bins.
@@ -271,21 +284,16 @@ def scale_worded_questions(summary_dfs):
 
 def bivariate_analysis(df, summary_dfs):
 
-    counter = 0
-
     for denominator in which_by_which:
-        counter = counter + 1
         differentiator = list(summary_dfs[denominator].index)
         dfs_by_denominator = {}
-        print(denominator)
         for current_diff in differentiator:
             temp_df=df[df[denominator]==current_diff]
-            print(current_diff)
             for current_question in which_by_which[denominator]:
                 df_counts = pd.DataFrame(data=(temp_df[current_question].value_counts(sort=False)), columns=[current_question])
                 df_counts['answers'] = df_counts.index
                 # Multi-choice questions provide multiple answers separated by semicolon. Need to separate these up and count
-                # them individually. The method I use (with Stack etc) below fails on answers that are numeric, so I filter them
+                # them printindividually. The method I use (with Stack etc) below fails on answers that are numeric, so I filter them
                 # out. Obviously, anything with a semicolon in it is not numeric!
                 # Needs an "and length isn't 0" bit because the function doesn't work for zero-length dfs
                 if df_counts['answers'].dtype == 'object' and len(df_counts) != 0:
@@ -293,7 +301,8 @@ def bivariate_analysis(df, summary_dfs):
                         df_counts.set_index(current_question)['answers'].str.split(';', expand=True).stack().reset_index(
                             name='answers').groupby('answers', as_index=False)[current_question].sum())
                 df_counts.set_index('answers', inplace=True)
-                filename = str(counter) + "_" + str(current_diff) + "_" + str(current_question)
+                df_counts['percentage'] = round(100 * df_counts[current_question] / df_counts[current_question].sum(), 0)
+                filename = str(current_diff) + "_" + str(current_question)
                 export_to_csv(df_counts, BIVARIATESTORE, filename, True)
     return
 
@@ -322,6 +331,8 @@ def main():
 
     df = clean_col_names(df)
 
+    df = shorten_faculties(df)
+
     summary_dfs = get_counts(df)
 
     summary_dfs = clean_software_funding(summary_dfs)
@@ -340,7 +351,7 @@ def main():
 
     summary_dfs = scale_worded_questions(summary_dfs)
 
-    #ßwrite_out_summaries(summary_dfs)
+    write_out_summaries(summary_dfs)
 
     # Conduct bivariate analysis
     bivariate_analysis(df, summary_dfs)
