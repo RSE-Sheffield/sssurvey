@@ -30,3 +30,7 @@ if you also wanted to investigate how the training question segemented by facult
 Univariate results are stored in the `output_csvs` directory. Bivariate results are stored in the `output_csvs/bivariate` directory.
 
 You can plot the csv files using any graphing program of your choice. Personally, I use a [graphing program I wrote in Python](https://github.com/SimonHettrick/graphing) to make the results look pretty. Feel free to use it too.
+
+## Charts
+
+I've added charts of the results from the univariate analysis in the ```charts``` directory. These were created by taking the csvs from the ```output_csvs``` directory and running them through my [graphing program](https://github.com/SimonHettrick/graphing). The ```plot_details``` directory found inside the ```charts``` directory contains all the details needed to recreate these charts.
