@@ -178,7 +178,7 @@ def find_number_responses(summary_dfs, df):
         # Write the actual number of responses over the current number in the response list
         response_list[current_question] = len(df_temp)
 
-    df_responses = pd.DataFrame(response_list.items(), columns=['question', 'responses'])
+    df_responses = pd.DataFrame(response_list.items(), columns=['answers', 'responses'])
 
     export_to_csv(df_responses, CSVSTORE, 'responses', False)
 
