@@ -1,0 +1,20 @@
+field,value
+plot_type,bar
+y1_axis,percentage
+y2_axis,FALSE
+x_title,FALSE
+x_rot,0
+x_max_len,15
+y_title,FALSE
+show_values,TRUE
+symbol_after_value,%
+skip_labels,FALSE
+skip_data_labels,FALSE
+bottom_size,0.1
+left_size,0.08
+title_font_size,12
+axis_font_size,16
+value_font_size,16
+uniform_colour,FALSE
+filename,current_support.csv
+chart_title,How would you rate the university's current level of support for your software-development needs?
