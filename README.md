@@ -4,6 +4,10 @@ In June 2019 we conducted a survey of software use across 6355 academic staff an
 
 The raw data was cleaned using Open Refine to remove email addresses, for privacy reasons, to remove responses that were not valid (namely responses that were not associated with a known faculty at the University of Southampton) and to reduce the job title provided by the respondents into a set of known job titles (e.g. convert "Prof", "Professor", "Proffessor" [sic] to "Professor"). The result of this cleaning is the file `data/Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv`.
 
+## Results
+
+Univariate analysis can be seen in [this simple presentation](https://slides.com/simonhettrick/results-of-university-of-southampton-software-survey). You can also see the individual results by looking in the ```charts``` directory.
+
 ## Important points
 
 * Licence for the code and data can be found in the the LICENCE and DATA LICENCE files respectively.
