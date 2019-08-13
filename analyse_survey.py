@@ -165,7 +165,7 @@ def find_number_responses(summary_dfs, df):
     response_list = {}
 
     for key in summary_dfs:
-        df_temp = summary_dfs[key]git ppu
+        df_temp = summary_dfs[key]
         response_list[key] = df_temp[key].sum()
 
     # This approach doesn't work for multiple choice questions (you get over-counting for anyone that added more than
@@ -302,7 +302,7 @@ def bivariate_analysis(df, summary_dfs):
                             name='answers').groupby('answers', as_index=False)[current_question].sum())
                 df_counts.set_index('answers', inplace=True)
                 df_counts['percentage'] = round(100 * df_counts[current_question] / df_counts[current_question].sum(), 0)
-                filename = str(current_diff) + "_" + str(current_question)
+                filename = str(current_diff) + "_sep_" + str(current_question)
                 export_to_csv(df_counts, BIVARIATESTORE, filename, True)
     return
 
