@@ -284,10 +284,13 @@ def scale_worded_questions(summary_dfs):
 
 def bivariate_analysis(df, summary_dfs):
 
+    counter = 0
+
     for denominator in which_by_which:
         differentiator = list(summary_dfs[denominator].index)
         dfs_by_denominator = {}
         for current_diff in differentiator:
+            counter += 1
             temp_df=df[df[denominator]==current_diff]
             for current_question in which_by_which[denominator]:
                 df_counts = pd.DataFrame(data=(temp_df[current_question].value_counts(sort=False)), columns=[current_question])
@@ -302,7 +305,7 @@ def bivariate_analysis(df, summary_dfs):
                             name='answers').groupby('answers', as_index=False)[current_question].sum())
                 df_counts.set_index('answers', inplace=True)
                 df_counts['percentage'] = round(100 * df_counts[current_question] / df_counts[current_question].sum(), 0)
-                filename = str(current_diff) + "_sep_" + str(current_question)
+                filename = str(counter) + "_sep_" + str(current_diff) + "_sep_" + str(current_question)
                 export_to_csv(df_counts, BIVARIATESTORE, filename, True)
     return
 
