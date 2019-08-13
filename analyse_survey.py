@@ -165,7 +165,7 @@ def find_number_responses(summary_dfs, df):
     response_list = {}
 
     for key in summary_dfs:
-        df_temp = summary_dfs[key]
+        df_temp = summary_dfs[key]git ppu
         response_list[key] = df_temp[key].sum()
 
     # This approach doesn't work for multiple choice questions (you get over-counting for anyone that added more than
