@@ -139,7 +139,7 @@ def reconstruct_single_bivariate_analyses(indiv_bivariate_dfs):
         final_summary_df = pd.concat(dict_of_bivariates.values(), sort=False, ignore_index=False, axis=1)
         final_summary_df = final_summary_df.transpose()
 
-        export_to_csv(final_summary_df, BIVARIATESTORE + 'summaries/', 'summary_of_' + str(current_df) + '.csv', True)
+        export_to_csv(final_summary_df, BIVARIATESTORE + 'summaries/', 'summary_of_' + str(current_df), True)
         name_of_summary = current_df.split('_')
 
         print('here ' + current_df)
