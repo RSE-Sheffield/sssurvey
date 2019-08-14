@@ -288,12 +288,10 @@ def bivariate_analysis(df, summary_dfs):
     Conducts bivariate analysis as instructed by the imported which_by_which
     dict. Each key in the dict is one question from the survey which will be segmented
     by the question(s) held in the value(s) of the dict.
-
     :param df:
     :param summary_dfs:
     :return:
     """
-
     counter = 0
 
     for denominator in which_by_which:
@@ -314,7 +312,7 @@ def bivariate_analysis(df, summary_dfs):
                             name='answers').groupby('answers', as_index=False)[current_question].sum())
                 df_counts.set_index('answers', inplace=True)
                 df_counts['percentage'] = round(100 * df_counts[current_question] / df_counts[current_question].sum(), 0)
-                filename = str(counter) + "_sep_" + str(current_diff) + "_sep_" + str(current_question)
+                filename = str(counter) + "_sep_" + str(current_diff) + "_sep_" + str(current_question) + '_' + str(denominator)
                 export_to_csv(df_counts, BIVARIATESTORE, filename, True)
     return
 

@@ -52,6 +52,7 @@ def get_dataframe(list_of_files):
         filename = os.path.basename(os.path.splitext(current)[0])
         temp_list=filename.split("_sep_")
         temp_list.append(current)
+        print(temp_list)
         blocks.append(temp_list)
 
     # First set is the question of interest and second set is the question that's used to segmen
@@ -100,7 +101,6 @@ def construct_bivariates_dfs(df_lists, unique_blocks, bivariates):
     :return indiv_bivariate_dfs: a dict of dfs each one containing all the data needed to reconstruct a specific bivariate
             analysis
     """
-
     indiv_bivariate_dfs = {}
 
     for key in bivariates:
@@ -114,16 +114,36 @@ def construct_bivariates_dfs(df_lists, unique_blocks, bivariates):
 
 def reconstruct_single_bivariate_analyses(indiv_bivariate_dfs):
 
+    bivariate_summaries = {}
+
     for current_df in indiv_bivariate_dfs:
         temp_df = indiv_bivariate_dfs[current_df]
         files_to_open = list(temp_df['path'])
+        #print(current_df)
+
+        dict_of_bivariates = {}
         for current_file in files_to_open:
+            #print(current_file)
+            new_row_name = current_file.split('_sep_')[1]
             # import_csv... takes a location and filename, rather than messing about splitting up the
             # path, I'll just submit the path as the location and submit a null for the filename. I know
             # it's a bit hacky, but not terrible.
             temp_df_2 = import_csv_to_df(current_file,'')
-            temp_df_2 = temp_df_2.transpose()
-            print(temp_df_2)
+            temp_df_2.drop(columns='percentage', inplace=True)
+            temp_df_2.set_index(['answers'], inplace=True)
+            #print(temp_df_2)
+            temp_df_2.columns = [new_row_name]
+            #print(current_file)
+            dict_of_bivariates[current_file] = temp_df_2
+
+        final_summary_df = pd.concat(dict_of_bivariates.values(), sort=False, ignore_index=False, axis=1)
+        final_summary_df = final_summary_df.transpose()
+
+        export_to_csv(final_summary_df, BIVARIATESTORE + 'summaries/', 'summary_of_' + str(current_df) + '.csv', True)
+        name_of_summary = current_df.split('_')
+
+        print('here ' + current_df)
+        print(final_summary_df)
 
     return
 
