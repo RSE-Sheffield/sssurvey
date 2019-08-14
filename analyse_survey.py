@@ -284,13 +284,22 @@ def scale_worded_questions(summary_dfs):
 
 def bivariate_analysis(df, summary_dfs):
 
+    """
+    Conducts bivariate analysis as instructed by the imported which_by_which
+    dict. Each key in the dict is one question from the survey which will be segmented
+    by the question(s) held in the value(s) of the dict.
+
+    :param df:
+    :param summary_dfs:
+    :return:
+    """
+
     counter = 0
 
     for denominator in which_by_which:
         differentiator = list(summary_dfs[denominator].index)
-        dfs_by_denominator = {}
+        counter += 1
         for current_diff in differentiator:
-            counter += 1
             temp_df=df[df[denominator]==current_diff]
             for current_question in which_by_which[denominator]:
                 df_counts = pd.DataFrame(data=(temp_df[current_question].value_counts(sort=False)), columns=[current_question])
