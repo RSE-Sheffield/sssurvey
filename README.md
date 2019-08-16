@@ -6,11 +6,13 @@ The raw data was cleaned using Open Refine to remove email addresses, for privac
 
 ## Results
 
-Univariate analysis can be seen in [this simple presentation](https://slides.com/simonhettrick/results-of-university-of-southampton-software-survey). You can also see the individual results by looking in the ```charts``` directory.
+If you want quick access to the results, take a [look at the report](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Results%20of%20University%20of%20Southampton%20software%20survey%20June%202019.pdf).
+
+Charts of the univariate analysis can also be seen in [this simple presentation](https://slides.com/simonhettrick/results-of-university-of-southampton-software-survey).
 
 ## Important points
 
-* Licence for the code and data can be found in the the LICENCE and DATA LICENCE files respectively.
+* Licence for the code, data, reports and charts can be found in the the LICENCE, DATA LICENCE and REPORT LICENCE files respectively.
 * The code runs on Python 3.
 
 ## Running the analysis
@@ -29,12 +31,23 @@ if you also wanted to investigate how the training question segemented by facult
 
 `which_by_which = {'faculty': ['develop_own_code', 'training']}`
 
-## Files
+The separate bivariate files (found in ```output_csv/bivariate```) are brought together into summary csvs by the script ```combine_bivariate_results_for_graphing.py``` to produce csvs the csvs found in ```output_csv/bivariate/summaries```
 
-Univariate results are stored in the `output_csvs` directory. Bivariate results are stored in the `output_csvs/bivariate` directory.
 
-You can plot the csv files using any graphing program of your choice. Personally, I use a [graphing program I wrote in Python](https://github.com/SimonHettrick/graphing) to make the results look pretty. Feel free to use it too.
+## Files and directories
 
-## Charts
+* ```analyse_survey.py```: the main analysis script that converts the survey data into csvs that each summarise a question.
+* ```column_name_renaming.py```: lookup file used for shortening names of columns of data.
+* ```bivariate_instructions.py```: lookup file used to instruct ```analyse_survey.py``` on which bivariate analyses to conduct.
+* ```combine_bivariate_results_for_graphing.py```: combines the individual bivariate csv files to produce useful summaries.
+* ```UniSotonSoftwareSurvey_June2019.pdf```: a pdf file of the original survey used to collect the data
+* ```data/Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv```: an anonymised version of the survey results
+* ```output/csv/```: all output csvs are stored in this directory and the enclosed directories.
+* ```report/Results of University of Southampton software survey June 2019.ipynb```: Jupyter notebook used to write report
+* ```report/Results of University of Southampton software survey June 2019.pdf```: pdf of Jupyter notebook
+* ```charts/```: charts of all the output csvs as png images
+* ```charts/plot_details/```: csvs holding parameters used to draw charts
 
-I've added charts of the results from the univariate analysis in the ```charts``` directory. These were created by taking the csvs from the ```output_csvs``` directory and running them through my [graphing program](https://github.com/SimonHettrick/graphing). The ```plot_details``` directory found inside the ```charts``` directory contains all the details needed to recreate these charts.
+## Plotting
+
+You can plot the csv files using any graphing program of your choice. Personally, I use a [graphing program I wrote in Python](https://github.com/SimonHettrick/graphing) to make the results look pretty. Feel free to use it too (made easier if you use the pre-existing parameters in the csvs held in ```report/charts/plot_details/```.
