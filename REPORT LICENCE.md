@@ -1,0 +1,1 @@
+The anonymised data from this study `data/Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv` is © University of Southampton on behalf of the Southampton Research Software Group. It is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0).
