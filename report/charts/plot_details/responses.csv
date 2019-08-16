@@ -3,14 +3,14 @@ plot_type,bar
 y1_axis,responses
 y2_axis,FALSE
 x_title,FALSE
-x_rot,45
+x_rot,90
 x_max_len,15
 y_title,FALSE
 show_values,TRUE
 symbol_after_value,FALSE
 skip_labels,FALSE
 skip_data_labels,FALSE
-bottom_size,0.24
+bottom_size,0.25
 left_size,0.08
 title_font_size,8
 axis_font_size,5
