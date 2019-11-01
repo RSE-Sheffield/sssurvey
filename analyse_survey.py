@@ -121,7 +121,6 @@ def clean_software_funding(summary_dfs):
 
     df_temp = summary_dfs[key]
 
-    print(df_temp)
     df_temp.drop(index='No (I\'m not involved in writing funding proposals)', inplace=True)
     # Obviously, removing one of the options changes the percentages, so have to re-do that calculation
     df_temp['percentage'] = round(100 * df_temp[key] / df_temp[key].sum(), 0)
