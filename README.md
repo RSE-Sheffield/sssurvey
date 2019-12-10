@@ -1,5 +1,7 @@
 # Survey of software use at the University of Southampton
 
+DOI: 10.5281/zenodo.3569549
+
 In June 2019 we conducted a survey of software use across 6355 academic staff and PhD students. The survey was open for two weeks and collected 603 responses.
 
 The raw data was cleaned using Open Refine to remove email addresses, for privacy reasons, to remove responses that were not valid (namely responses that were not associated with a known faculty at the University of Southampton) and to reduce the job title provided by the respondents into a set of known job titles (e.g. convert "Prof", "Professor", "Proffessor" [sic] to "Professor"). The result of this cleaning is the file `data/Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv`.
