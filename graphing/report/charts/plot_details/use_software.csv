@@ -1,0 +1,20 @@
+field,value
+plot_type,bar
+y1_axis,percentage
+y2_axis,FALSE
+x_title,FALSE
+x_rot,0
+x_max_len,15
+y_title,FALSE
+show_values,TRUE
+symbol_after_value,%
+skip_labels,FALSE
+skip_data_labels,FALSE
+bottom_size,0.1
+left_size,0.08
+title_font_size,8
+axis_font_size,6
+value_font_size,7
+uniform_colour,FALSE
+filename,use_software.csv
+chart_title,Do you use research software?
