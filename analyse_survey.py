@@ -14,7 +14,7 @@ from bivariate_instructions import which_by_which
 
 
 DATAFILELOC = "./data/"
-DATAFILENAME = "Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv"
+DATAFILENAME = "sheffield.csv"
 CSVSTORE = "./output_csv/"
 BIVARIATESTORE = "./output_csv/bivariate/"
 

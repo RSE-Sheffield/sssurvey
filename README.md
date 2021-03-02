@@ -1,16 +1,14 @@
-# Survey of software use at the University of Southampton
+# Survey of software use at the University of Sheffield
 
-DOI: 10.5281/zenodo.3569549
+This is a fork of the original scripts used to generate the results of the Survey form the University of Southhampton publisged with the DOI: 10.5281/zenodo.3569549
 
-In June 2019 we conducted a survey of software use across 6355 academic staff and PhD students. The survey was open for two weeks and collected 603 responses.
+In Novemeber 2020 the university of Sheffield conducted a survey of software use across all academic and researchstaff and PhD students. The survey was open for two weeks and collected 382 responses.
 
-The raw data was cleaned using Open Refine to remove email addresses, for privacy reasons, to remove responses that were not valid (namely responses that were not associated with a known faculty at the University of Southampton) and to reduce the job title provided by the respondents into a set of known job titles (e.g. convert "Prof", "Professor", "Proffessor" [sic] to "Professor"). The result of this cleaning is the file `data/Cleaning-of-Uni-Soton-Software-Survey-26Jun19.csv`.
+The raw data was cleaned to remove email addresses, for privacy reasons. The result of this cleaning is the file `data/sheffield.csv`.
 
 ## Results
 
-If you want quick access to the results, take a [look at the report](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Results%20of%20University%20of%20Southampton%20software%20survey%20June%202019.pdf).
-
-Charts of the univariate analysis can also be seen in [this simple presentation](https://slides.com/simonhettrick/results-of-university-of-southampton-software-survey).
+A link to published results will be added to the readme in this location.
 
 ## Important points
 
@@ -35,7 +33,6 @@ if you also wanted to investigate how the training question segemented by facult
 
 The separate bivariate files (found in ```output_csv/bivariate```) are brought together into summary csvs by the script ```combine_bivariate_results_for_graphing.py``` to produce csvs the csvs found in ```output_csv/bivariate/summaries```
 
-
 ## Files and directories
 
 * ```analyse_survey.py```: the main analysis script that converts the survey data into csvs that each summarise a question.
@@ -52,4 +49,4 @@ The separate bivariate files (found in ```output_csv/bivariate```) are brought t
 
 ## Plotting
 
-You can plot the csv files using any graphing program of your choice. Personally, I use a [graphing program I wrote in Python](https://github.com/SimonHettrick/graphing) to make the results look pretty. Feel free to use it too (made easier if you use the pre-existing parameters in the csvs held in ```report/charts/plot_details/```.
+[Simon Hettricks plotting scripts](https://github.com/SimonHettrick/graphing) have been added to this repository to allow plotting. You can generate the plots by navigating to the graphiing directory and running ```python graphing.py ```.
