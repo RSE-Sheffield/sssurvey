@@ -1,6 +1,6 @@
 # Survey of software use at the University of Sheffield
 
-This is a fork of the original scripts used to generate the results of the Survey form the University of Southhampton publisged with the DOI: 10.5281/zenodo.3569549
+This is a fork of the original scripts used to generate the results of the Survey from the University of Southampton publisged with the DOI: 10.5281/zenodo.3569549
 
 In Novemeber 2020 the university of Sheffield conducted a survey of software use across all academic and researchstaff and PhD students. The survey was open for two weeks and collected 382 responses.
 
