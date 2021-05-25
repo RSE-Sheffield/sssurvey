@@ -13,6 +13,10 @@ sheffield_df = pd.read_csv('./data/clean/sheffield_clean.csv')
 # Funders
 
 # Job titles
+(ggplot(sheffield_df, aes(x='clean_job')) + 
+    geom_bar() + 
+    coord_flip()
+).save('./plots/03_clean_job.png')
 
 # Software use
 (ggplot(sheffield_df, aes(x='use_software')) + 
