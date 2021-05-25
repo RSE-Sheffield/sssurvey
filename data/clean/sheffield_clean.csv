@@ -1,0 +1,383 @@
+,faculty,funders,job_title,use_software,importance_software,develop_own_code,development_expertise,training,want_to_commercialise,ready_to_share,hpc_use,version_control,continuous_integration,unit_testing,current_support,hired_developer,funds_for_development,hire_full_time_developer,hire_rse
+0,Social Sciences,ESRC,professor,No,1,No,,,,,,,,,,Yes,Yes,Suitable,Suitable
+1,Social Sciences,AHRC;Lots of it isn't externally funded,Senior Lecturer in Quantitative Methods,Yes,5,No,,,,,,,,,,Yes,Yes,Unsuitable,Perfect
+2,Social Sciences,ESRC;NERC;NIHR,Lecturer,Yes,5,No,,,,,,,,,,Yes,Yes,Suitable,Perfect
+3,Social Sciences,ESRC,Senior Lecturer,Yes,5,Yes,4.0,No,Yes,No,"No, but I would like to use IRIDIS in the future",Very confident,Confident,Confident,3.0,Yes,No (but we DID expect to write software as part of the project),Suitable,Suitable
+4,Social Sciences,ESRC;Leverhulme Trust/ British Academy,Senior Lecturer,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+5,Social Sciences,"EPSRC;ESRC;EU, Commercial, Charity",Professor,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+6,Social Sciences,ESRC,Senior Lecturer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+7,Social Sciences,ESRC,Research Associate,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+8,Social Sciences,ESRC,Innovation Fellow ,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+9,Social Sciences,ESRC,UKRI Innovation Fellow,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+10,Social Sciences,ESRC,Senior Lecturer,Yes,3,No,,,,,,,,,,No,Yes,Suitable,Unsuitable
+11,Social Sciences,ESRC,Policy Research Associate,Yes,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+12,Social Sciences,ESRC,Research Associate,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+13,Social Sciences,ESRC,Senior Lecturer in Quantitative Social Sciences,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Unsuitable
+14,Social Sciences,ESRC,Senior Research Fellow,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+15,Social Sciences,EPSRC;ESRC;Leverhulme Trust,Research Associate,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use IRIDIS in the future",Confident,Not heard of it,Not heard of it,3.0,Yes,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+16,Social Sciences,ESRC,ESRC Research Fellow,No,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+17,Social Sciences,voluntary and statutory sector organisations,Senior Lecturer in Social Work,Yes,3,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Unsuitable,Unsuitable
+18,Social Sciences,AHRC,Research Fellow,No,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+19,Social Sciences,"ESRC;British Academy, Leverhulme",Reader in Political Theory,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+20,Social Sciences,,Lecturer,Yes,2,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+21,Social Sciences,ESRC,SL,No,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+22,Social Sciences,Leverhulme Trust,Lecturer,Yes,5,Yes,3.0,No,Yes,No,"No, but I would like to use IRIDIS in the future",Not heard of it,Not heard of it,Not heard of it,1.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+23,Social Sciences,ESRC,Lecturer in Criminology and Social Policy,No,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+24,Social Sciences,British Academy,British Academy Postdoctoral Fellow,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+25,Social Sciences,ESRC,research associate,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+26,Social Sciences,ESRC;Leverhulme Trust,Lecturer,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+27,Social Sciences,ESRC,Postdoctoral Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+28,Social Sciences,NERC,Senior Lecturer in Physical Geography,Yes,5,Yes,2.0,Yes,No,Not interested,"No, I use other HPC facilities",Not confident,Not heard of it,Not heard of it,4.0,No,Yes,,Perfect
+29,Social Sciences,AHRC,Pos-doctoral fellow,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+30,Social Sciences,"ESRC;MRC;NIHR;British Red Cross, FareShare",Sr. Lecturer,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Perfect
+31,Social Sciences,BBSRC;ESRC;Leverhulme,Research Fellow,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+32,Social Sciences,EPSRC;NERC;Royal Society,Lecturer,Yes,5,Yes,3.0,No,No,Not interested,Sharc/Iceberg,Not confident,Not heard of it,Not heard of it,3.0,No,Yes,Unsuitable,Suitable
+33,Social Sciences,NERC,Senior Lecturer,Yes,5,No,,,,,,,,,,No,Yes,Suitable,Perfect
+34,Arts and Humanities,"AHRC;Wellcome Trust;British Academy, ERC",Professor East Asian Cinema.,Yes,3,No,,,,,,,,,,Yes,Yes,Suitable,Suitable
+35,Arts and Humanities,,Lecturer in Korean Studies,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+36,Arts and Humanities,Japanese organisations,Senior Lecturer,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+37,Social Sciences,STFC,Research Assistant ,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+38,Arts and Humanities,Daiwa Anglo-Japanese Foundation,PhD Candidate,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+39,Social Sciences,ESRC;MRC;NIHR;Wellcome Trust,Prof of Public health,Yes,4,No,,,,,,,,,,No,Yes,Unsuitable,Unsuitable
+40,Science,BBSRC;EPSRC;MRC,Lecturer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+41,Science,EPSRC,Lecturer,Yes,5,Yes,3.0,No,No,Not interested,Yes,Very confident,Not confident,Not confident,3.0,Yes,Yes,Unsuitable,Perfect
+42,Science,BBSRC,PGR Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Perfect
+43,Science,BBSRC,Doctoral researcher,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Not confident,Not confident,Not confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+44,Science,EPSRC,Lecturer,Yes,5,Yes,2.0,No,No,Not interested,Yes,Confident,Not heard of it,Not confident,3.0,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+45,Science,EPSRC;STFC,Research Fellow,Yes,5,Yes,5.0,No,No,Not interested,"No, I use other HPC facilities",Very confident,Confident,Confident,1.0,Yes,Yes,Suitable,Suitable
+46,Social Sciences,,LEcturer,Yes,5,No,,,,,,,,,,No,Yes,Unsuitable,Unsuitable
+47,Arts and Humanities,,Lecturer,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+48,Social Sciences,,Lecturer,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Unsuitable
+49,Social Sciences,Leverhulme,Professor ,Yes,5,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+50,Social Sciences,ESRC,Lecturer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+51,Social Sciences,ESRC;Health foundation; Leverhulme Trust,Professor,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+52,Social Sciences,,Senior Lecturer ,Yes,5,No,,,,,,,,,,No,Yes,Unsuitable,Unsuitable
+53,Social Sciences,ESRC,Lecturer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+54,Social Sciences,Government departments,Professor,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+55,Social Sciences,MRC;NIHR;Wellcome Trust,Professor,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+56,Science,ESRC;Wellcome Trust;Charity funding,Senior Lecturer in Psychology,Yes,5,Yes,1.0,Yes,No,No,"No, I do not require HPC in my research",Not heard of it,Not heard of it,Not heard of it,2.0,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+57,Social Sciences,ESRC;British Academy / Leverhulme,Senior Lecturer in Economics ,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+58,Arts and Humanities,AHRC,Senior Lecturer in Human Osteology,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+59,Arts and Humanities,,Senior Lecturer,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+60,Arts and Humanities,"AHRC;AHRC would be my usual funder, but I have not received funds from them...",Senior Lecturer,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+61,Arts and Humanities,,Senior Lecturer in ...,No,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+62,Arts and Humanities,NEH,Honorary Research Fellow,No,1,No,,,,,,,,,,No,Yes,,Perfect
+63,Arts and Humanities,AHRC,Professor of Electroacoustic Music Composition,Yes,5,Yes,4.0,Yes,No,No,"No, I do not require HPC in my research",Confident,Not heard of it,Not heard of it,5.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+64,Arts and Humanities,none,Professor Emeritus,Yes,2,No,,,,,,,,,,Yes,Yes,Unsuitable,Suitable
+65,Arts and Humanities,AHRC,University Teacher,No,1,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+66,Arts and Humanities,,Professor of Applied Linguistics,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+67,Arts and Humanities,AHRC,Research Associate,Yes,5,No,,,,,,,,,,No,Yes,Unsuitable,Unsuitable
+68,Arts and Humanities,AHRC;ESRC,Lecturer,Yes,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+69,Arts and Humanities,AHRC;ESRC;(Currently funded by a specific bequest/trust. Previously AHRC + ESRC.),Research Associate,Yes,4,No,,,,,,,,,,Yes,Yes;No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+70,Arts and Humanities,EPSRC,PhD candidate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+71,Arts and Humanities,AHRC,Senior Lecturer,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+72,Social Sciences,ESRC;government departments,,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,Suitable
+73,Science,STFC,Scientific Officer,Yes,5,Yes,4.0,No,Yes,Yes,Yes,Confident,Confident,Confident,2.0,Yes,Yes,Suitable,Suitable
+74,Social Sciences,NERC,Research Fellow,Yes,5,Yes,2.0,No,No,No,Yes,Not confident,Not heard of it,Not heard of it,2.0,No,Yes,Suitable,Perfect
+75,Science,EPSRC,Lecturer,Yes,5,No,,,,,,,,,,No,Yes,Unsuitable,Unsuitable
+76,Social Sciences,"AHRC;ESRC;Newton Fund, GCRF ",Lecturer,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+77,Arts and Humanities,AHRC,Senior Lecturer,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+78,Arts and Humanities,AHRC,Research Fellow,Yes,5,Yes,1.0,No,No,Yes,Yes,Very confident,Not heard of it,Not heard of it,5.0,Yes,Yes,Unsuitable,Unsuitable
+79,Social Sciences,"ESRC;EU, Leverhulme Trust",Research Fellow,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+80,Science,Pathological society,Clinical PhD fellow ,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+81,Science,,Visiting Professor,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Not confident,Not heard of it,Not confident,1.0,No,No (I'm not involved in writing funding proposals),,Suitable
+82,Science,EPSRC;MRC;Wellcome Trust,Senior Lecturer,Yes,5,Yes,4.0,Yes,No,No,Yes,Very confident,Not confident,Confident,4.0,No,No (but we DID expect to write software as part of the project),Suitable,Perfect
+83,Science,EPSRC;STFC,honorary research fellow,Yes,5,Yes,4.0,No,No,Not interested,"No, I do not require HPC in my research",Confident,Not heard of it,Not heard of it,3.0,Yes,Yes,Suitable,Unsuitable
+84,Science,EPSRC;NERC;ERC,Senior Lecturer,Yes,5,Yes,4.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not heard of it,Not confident,3.0,Yes,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+85,Arts and Humanities,AHRC;Leverhulme,Research fellow,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+86,Science,NERC;Royal Society ,Postdoctoral researcher (co-investigator),Yes,5,Yes,2.0,Yes,No,Not interested,Yes,Not confident,Not confident,Not heard of it,2.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+87,English Language Teaching Centre,None,Activities and Educational Visits Coordinator,No,1,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Suitable,Unsuitable
+88,Engineering,Sheffield Hospitals Charitable Trust,PDRA,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+89,"Medicine, Dentistry and Health",MRC;British Heart Foundation;Industry,Professor / BHF Senior Fellow,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Perfect
+90,"Medicine, Dentistry and Health",NIHR,Head of Data Management,Yes,5,Yes,3.0,Yes,No,Not interested,it's not suitable for risk-bearing data,Confident,Not confident,Confident,1.0,Yes,Yes,Perfect,Perfect
+91,"Medicine, Dentistry and Health",ESRC;Wellcome Trust;Nuffield Foundation; Leverhulme,Senior Lecturer,Yes,5,No,,,,,,,,,,Yes,Yes,Unsuitable,Perfect
+92,"Medicine, Dentistry and Health",NIHR;Public Health Scotland,Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+93,"Medicine, Dentistry and Health",MRC;NIHR;Wellcome Trust,Professor of Public Health,Yes,5,Yes,4.0,No,No,No,Yes,Confident,Not heard of it,Not confident,3.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+94,Science,BBSRC;MRC;Wellcome Trust,Postdoc,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,Suitable
+95,Science,BBSRC;MRC;Wellcome Trust;Royal society,Senior Research Fellow,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+96,Engineering,EPSRC,Lecturer,Yes,5,Yes,4.0,Yes,Yes,No,Yes,Very confident,Not heard of it,Very confident,4.0,Yes,Yes;No (but we DID expect to write software as part of the project),Suitable,Perfect
+97,Science,BBSRC;EPSRC;MRC;British Heart Foundation;Cancer Research UK;Wellcome Trust,Microscope Facility Manager,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Perfect
+98,Arts and Humanities,"AHRC;British Academy, Leverhulme Trust",Professor,Yes,5,No,,,,,,,,,,Yes,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+99,Engineering,EPSRC,Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+100,Social Sciences,EPSRC;ESRC;NERC;Commercial organisations,Lecturer in Management Accounting,Yes,3,No,,,,,,,,,,No,Yes,Unsuitable,Perfect
+101,Engineering,EPSRC,PhD student,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),,
+102,Science,BBSRC;University of Sheffield,PDRA,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+103,Science,Almost nothing externally funded in a formal way other than by creating the data,Professor,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Not confident,Not heard of it,Not confident,1.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+104,Science,BBSRC;Leverhulme trust,Lecturer,Yes,5,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Suitable,Perfect
+105,Science,BBSRC;Wellcome Trust;Action on Hearing Loss,Professor of Sensory Neuroscience,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+106,Science,"EPSRC;It's not directly funded, reserachers pay per sample from their grants",Experimental Officer,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+107,"Medicine, Dentistry and Health",Wellcome Trust,,Yes,4,No,,,,,,,,,,No,Yes,Suitable,Suitable
+108,Science,Wellcome Trust,Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+109,Science,BBSRC;MRC;Wellcome Trust,Professor,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Perfect
+110,"Print & Design Solutions, EFM",Not funded,Print Estimator,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+111,Science,MRC,research fellow ,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+112,Engineering,EPSRC,research associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+113,"Medicine, Dentistry and Health",Weston Park Cancer Charity,Research Associate in Thoracic Oncological MR Imaging,Yes,5,Yes,4.0,Yes,Yes,No,Yes,Confident,Not heard of it,Confident,4.0,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+114,"Medicine, Dentistry and Health",BBSRC;MRC;Wellcome Trust;Royal Society,Research Fellow,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not confident,Not confident,4.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+115,Science,BBSRC;EPSRC;Wellcome Trust,Lecturer,Yes,5,Yes,3.0,No,No,Not interested,"I tried but couldn't figure out how to use it, then I was advised it's probably faster just to use my own laptop rather than waiting for the queue on hpc",Confident,Not heard of it,Not heard of it,4.0,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+116,Engineering,Conacyt Mexico,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+117,Engineering,EPSRC;ERC,Professor,Yes,4,Yes,5.0,Yes,Yes,Yes,Yes,Very confident,Very confident,Very confident,3.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+118,"Medicine, Dentistry and Health",EPSRC,PhD Student,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+119,Science,Cancer Research UK,Lecturer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+120,Science,EPSRC,PhD Student,Yes,5,Yes,3.0,No,Yes,No,Yes,Not confident,Not heard of it,Not confident,1.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+121,Engineering,INSIGNEO,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+122,Department of Biomedical Science ,,Postdoctoral Researcher ,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+123,NAMRC,Innovate UK,Industrial adviser,No,2,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Perfect,Suitable
+124,Science,BBSRC;Wellcome Trust,Research Fellow,Yes,5,Yes,1.0,No,No,No,"No, I do not require HPC in my research",Not confident,Not heard of it,Not heard of it,1.0,Yes,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+125,Science,BBSRC,Senior Lecturer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+126,IT Services Research IT Support,,Statistical Support Advisor,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+127,"Medicine, Dentistry and Health",EPSRC;MRC;NIHR;British Heart Foundation;Wellcome Trust,Research Associate - Software Development,Yes,5,Yes,5.0,Yes,Yes,Yes,"No, I do not require HPC in my research",Confident,Not confident,Not confident,5.0,No,Yes,Suitable,Unsuitable
+128,Social Sciences,University of Sheffield,Doctoral Associate in Accounting & Finance,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+129,"Medicine, Dentistry and Health",Various charities,Professor of Orthodontics,No,2,No,,,,,,,,,,No,Yes,Unsuitable,Suitable
+130,"Medicine, Dentistry and Health",NIHR;Glaxosmithkline,Professor,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,Perfect
+131,Science,BBSRC,Research Technician,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+132,Social Sciences,AHRC;ESRC,Community Outreach Manager,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Perfect,
+133,"Medicine, Dentistry and Health",BBSRC;Bone and Joint research charities,Senior Research Technician,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,Suitable
+134,Engineering,Private funding,PhD Student,Yes,5,Yes,3.0,No,No,Not interested,"No, I do not require HPC in my research",Confident,Not confident,Not confident,4.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+135,Engineering,EPSRC,Research Associate,Yes,5,Yes,3.0,No,No,Not interested,"No, I do not require HPC in my research",Not confident,Not heard of it,Not heard of it,3.0,No,Yes,Suitable,Perfect
+136,"Medicine, Dentistry and Health",British Heart Foundation,Postdoc,Yes,5,Yes,3.0,Yes,Yes,No,"No, but I would like to use ShARC/Bessemer in the future",Not confident,Not heard of it,Not confident,4.0,Yes,No (I'm not involved in writing funding proposals),,
+137,Science,BBSRC,Lightsheet Microscope Manager,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not heard of it,Not heard of it,4.0,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+138,Engineering,EPSRC;NERC;EU; Industry; Innovate UK,Research Associate,Yes,5,Yes,3.0,Yes,No,Yes,"No, I do not require HPC in my research",Confident,Not heard of it,Confident,4.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+139,Science,,Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+140,"Medicine, Dentistry and Health",NIHR;NHS,Medical statistician,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+141,Engineering,EPSRC;HVM Catapult,Technical Fellow,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+142,Engineering,NIH (USA),Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Perfect
+143,Engineering,EPSRC,Research Associate,Yes,5,Yes,3.0,No,Yes,No,Yes,Confident,Confident,Confident,3.0,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+144,Engineering,EPSRC;Innovate UK,Technical Fellow,Yes,5,Yes,3.0,No,Yes,No,"No, I do not require HPC in my research",Confident,Not heard of it,Not heard of it,2.0,No,No (but we DID expect to write software as part of the project);No (we did NOT expect to write software as part of the project),Suitable,Suitable
+145,Engineering,EPSRC,Research Associate,Yes,5,Yes,4.0,No,No,No,Yes,Confident,Not confident,Not confident,2.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+146,Engineering,"EPSRC;Innovate UK, H2020, Industry",Research Engineer,Yes,5,Yes,,No,Yes,Yes,"No, I do not require HPC in my research",Confident,Not heard of it,Not confident,4.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+147,Engineering,ERC,Research Fellow,Yes,5,Yes,5.0,Yes,No,Not interested,"No, I use other HPC facilities",Confident,Not confident,Confident,4.0,Yes,Yes,Suitable,Perfect
+148,Engineering,EPSRC,Research Associate,Yes,5,Yes,4.0,No,Yes,Yes,"No, I do not require HPC in my research",Not confident,Not confident,Not confident,1.0,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+149,Nuclear AMRC,,Manufacturing Engineer,No,1,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),,
+150,Engineering,EPSRC;STFC,PDRA,Yes,5,Yes,3.0,No,Yes,No,"No, but I would like to use ShARC/Bessemer in the future",Not confident,Not heard of it,Not heard of it,3.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Unsuitable
+151,Engineering,Pitch-In,Research Assistant,Yes,5,Yes,3.0,No,No,Not interested,"No, I do not require HPC in my research",Confident,Not confident,Not confident,4.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+152,Engineering,EPSRC,Research Associate,Yes,5,No,,,,,,,,,,No,Yes,Unsuitable,Unsuitable
+153,Engineering,EPSRC;MRC;NIHR,Research Associate,Yes,4,Yes,3.0,No,Yes,No,Yes,Confident,Not confident,Not confident,3.0,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+154,Engineering,Biopharma companies,Research associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+155,Engineering,EPSRC,Research Associate,Yes,5,Yes,4.0,No,No,No,"No, but I would like to use ShARC/Bessemer in the future",Not confident,Not heard of it,Not heard of it,3.0,No,No (I'm not involved in writing funding proposals);No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+156,Engineering,Innovate UK AMRC,Project Manager,Yes,2,No,,,,,,,,,,Yes,Yes,Perfect,Suitable
+157,Engineering,EPSRC,Research Associate,Yes,5,Yes,4.0,No,Yes,No,Yes,Not confident,Not confident,Confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+158,AMRC,"EPSRC;Innovate UK, Horizon 2020",Research Engineer,Yes,5,Yes,3.0,No,Yes,No,"No, I do not require HPC in my research",Not confident,Not confident,Not confident,3.0,No,Yes,Perfect,Suitable
+159,Engineering,EPSRC;Innovate UK,,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+160,Engineering,EPSRC;External companies,Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Perfect
+161,Engineering,"EPSRC;Innovate UK, External",Research Associate,Yes,5,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+162,Engineering,EPSRC,Research Associate,Yes,5,Yes,3.0,Yes,No,No,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not heard of it,Not confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+163,Engineering,EPSRC,Research Associate,Yes,5,Yes,3.0,Yes,No,Not interested,"No, I do not require HPC in my research",Not confident,Not heard of it,Not confident,2.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+164,Engineering,ATI,Research Associate,Yes,4,Yes,4.0,Yes,Yes,No,"No, I do not require HPC in my research",Very confident,Not confident,Confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+165,Engineering,EPSRC;MRC,Research Fellow,Yes,5,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+166,Engineering,EPSRC,Research Associate,Yes,5,Yes,3.0,No,No,Not interested,"No, I do not require HPC in my research",Confident,Confident,Confident,2.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+167,Engineering,"EPSRC;Innovate UK, High Value Manufacturing Catapult, ATI",Technical Fellow,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+168,Engineering,EPSRC;MRC,Postdoctoral Research Associate in Robot Navigation,Yes,5,Yes,4.0,No,No,Not interested,"not Sheffield's recently, but I used Nottingham and Manchester University's platforms when I was a postdoc there.",Very confident,Not confident,Not confident,4.0,No,No (but we DID expect to write software as part of the project),Suitable,Perfect
+169,AMRC,Catapult,Project engineer,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,
+170,Engineering,EPSRC,Research Associate ,Yes,5,Yes,2.0,No,No,Not interested,Yes,Confident,Not confident,Not confident,3.0,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+171,AMRC NW,ERDF,Project Engineer,Yes,2,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+172,Engineering,EPSRC,Research Associate,Yes,5,Yes,3.0,No,No,No,Yes,Confident,Not confident,Not confident,3.0,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+173,Engineering,EPSRC,PDRA,Yes,3,Yes,3.0,No,Yes,Yes,May require in future,Confident,Not heard of it,Not heard of it,1.0,No,No (but we DID expect to write software as part of the project),Perfect,Unsuitable
+174,Arts and Humanities,AHRC,PhD student,Yes,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+175,Arts and Humanities,,PGR,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+176,Arts and Humanities,AHRC,PhD student and Teaching Assistant,No,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+177,Arts and Humanities,AHRC,PhD Researcher,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+178,Arts and Humanities,AHRC,PhD Student ,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+179,Engineering,EPSRC,Research associate in soft tribology,No,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals);No (but we DID expect to write software as part of the project),Suitable,Suitable
+180,Arts and Humanities,Self-funded,PhD Student,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+181,Arts and Humanities,AHRC,PhD researcher,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Perfect,Perfect
+182,Arts and Humanities,,Retired lecturer,No,1,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+183,Arts and Humanities,"National Heritage Lottery Fund, The Peak District National Park, Individual donors, Historic England, Historic Environment Scotland",Field Officer,Yes,5,No,,,,,,,,,,Yes,Yes,Unsuitable,Unsuitable
+184,Arts and Humanities,,Zooarchaeologist,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+185,Science,MRC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Perfect,Suitable
+186,Science,MRC,PhD student,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+187,Science,BBSRC,Postgraduate Researcher,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+188,Science,STFC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+189,Science,,PhD student,Yes,5,Yes,3.0,No,No,No,Yes,Confident,Not confident,Not confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+190,Science,BBSRC;MRC,PDRA,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Perfect
+191,Science,BBSRC,Postdoctoral researcher,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+192,Science,ESRC,Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+193,Science,EPSRC,PhD Student,Yes,5,Yes,2.0,Yes,No,Not interested,"No, but I have used HPC at a different university",Not heard of it,Not heard of it,Not heard of it,2.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+194,Science,University of Sheffield PGR scholarship,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+195,Science,EPSRC,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+196,Science,,PhD Researcher,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Perfect
+197,Science,Grantham Institute,PhD,Yes,4,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),,Suitable
+198,Science,EPSRC,PhD student,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+199,Science,STFC,Postgraduate Research Student in Experimental Particle Physics,Yes,5,Yes,4.0,No,No,Not interested,"No, I use other HPC facilities",Confident,Confident,Confident,2.0,Yes,No (I'm not involved in writing funding proposals),,
+200,Arts and Humanities,AHRC,PhD student,No,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+201,Science,STFC,Postgraduate student,Yes,5,Yes,3.0,Yes,No,No,"No, I use other HPC facilities",Very confident,Not confident,Not heard of it,4.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+202,Science,,Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+203,Science,BBSRC;MRC;Royal Society,Research Fellow,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Perfect
+204,Science,Me,PhD student,Yes,5,Yes,3.0,No,No,Not interested,I am unaware of ShARC/Bessemer,Very confident,Not heard of it,Not heard of it,1.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+205,Science,The university ,PhD student,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+206,Arts and Humanities,,Retired,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+207,Science,BBSRC;Wellcome Trust,Lecturer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+208,Science,NERC,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+209,Science,EPSRC;NERC,Research Associate,Yes,5,Yes,3.0,No,No,Not interested,Yes,Not confident,Not heard of it,Not heard of it,3.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Unsuitable
+210,Arts and Humanities,AHRC,Doctoral Researcher,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+211,Science,,PhD Student,Yes,5,Yes,3.0,Yes,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Confident,Confident,Confident,3.0,No,No (I'm not involved in writing funding proposals),,
+212,Science,BBSRC,PhD student ,Yes,5,No,,,,,,,,,,Yes,No (we did NOT expect to write software as part of the project),Suitable,Perfect
+213,Science,STFC,Research Associate,Yes,5,Yes,4.0,Yes,Yes,No,"No, I do not require HPC in my research",Very confident,Not confident,Not confident,3.0,No,Yes,Suitable,Suitable
+214,Science,Indonesian Endowmend Fund for Education,PhD Student,Yes,5,No,,,,,,,,,,Yes,Yes,Unsuitable,Suitable
+215,Science,NERC;University of Sheffield ,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+216,Science,MRC,PhD Student,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Perfect
+217,Science,BBSRC;MRC,PhD student,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+218,Science,EPSRC,Research Associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+219,Science,Grantham Centre for Sustainable Futures,PGR student department of Chemistry,Yes,5,Yes,4.0,Yes,Yes,No,"No, but I would like to use ShARC/Bessemer in the future",Confident,Confident,Not confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+220,Science,EPSRC,PhD Researcher ,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+221,Science,EPSRC,PhD Researcher ,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+222,Arts and Humanities,AHRC,PhD Researcher,Yes,2,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+223,Science,"BBSRC;European Research Council, Leverhulme Trust",PostDoc,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+224,Science,ESRC,research associate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+225,Science,EPSRC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Unsuitable
+226,Science,Horizon 2002 - MSCA,Phd student - research assistant,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+227,Science,Portuguese Science and Technology Foundation (FCT),PhD in Matematics,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+228,Science,BBSRC;NERC,Research Fellow,Yes,5,Yes,3.0,No,Yes,No,Yes,Not confident,Not confident,Not confident,3.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+229,Science,British Heart Foundation,PhD student ,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Perfect,Unsuitable
+230,Social Sciences,the university of sheffield ,student ,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+231,Science,Grantham Centre for Sustainable Futures,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+232,Arts and Humanities,AHRC,PhD researcher,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Perfect
+233,Science,Saudia government ,PhD student ,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+234,Science,GCRF,Postdoc ,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+235,Science,,,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+236,Science,,PhD candidate,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+237,Science,,"Ph.d. student, part-time lecturer",Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+238,Science,GCRF,Postdoc ,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+239,Science,EPSRC,PhD Student,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not confident,Confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+240,Science,EPSRC,PhD student,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Suitable,Perfect
+241,Science,Leverhulme Trust,senior research fellow,Yes,5,Yes,4.0,Yes,No,Not interested,Yes,Confident,Not heard of it,Not heard of it,4.0,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+242,Science,self-funded phd student,psychologist,Yes,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+243,Science,AWE,PHD student,Yes,4,Yes,3.0,Yes,No,Not interested,"No, I use other HPC facilities",Not confident,Not confident,Not confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+244,Science,EPSRC,Research associate,Yes,3,Yes,1.0,No,No,No,"No, I do not require HPC in my research",Not heard of it,Not heard of it,Not heard of it,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+245,Arts and Humanities,AHRC,PhD student,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+246,Science,STFC,Postdoctoral Research Associate,Yes,5,Yes,3.0,No,No,No,"No, I use other HPC facilities",Confident,Confident,Confident,3.0,No,No (I'm not involved in writing funding proposals),Suitable,Unsuitable
+247,Science,EPSRC,Research Assistant,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+248,Science,BBSRC;MRC;Cancer Research UK,Research associate,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+249,Science,EPSRC,PhD student,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+250,Science,EPSRC,PhD student,Yes,5,Yes,3.0,No,No,Not interested,"No, I do not require HPC in my research",Confident,Not confident,Not confident,1.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+251,Engineering,BBSRC;EPSRC;British Council,,Yes,4,No,,,,,,,,,,No,Yes,Unsuitable,Perfect
+252,Science,NERC,Postdoctoral Research Associate,Yes,5,No,,,,,,,,,,No,Yes,Suitable,Suitable
+253,Science,STFC,PhD Student,Yes,5,Yes,3.0,No,No,Not interested,"No, I use other HPC facilities",Not confident,Not heard of it,Not confident,2.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+254,Science,BBSRC,PDRA,Yes,5,No,,,,,,,,,,Yes,Yes;No (I'm not involved in writing funding proposals),Suitable,Unsuitable
+255,Science,EPSRC,PhD Researcher,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+256,Science,University,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+257,Engineering,Leverhulme trust,Research associate,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+258,AMRC,"CATAPULT, AMRC membership, some grant funding",Project Engineer,Yes,5,Yes,1.0,No,Yes,No,The need for HPC within my team is growing. There is a HPC being comissioned at AMRC.,Confident,Not heard of it,Not heard of it,,Yes,Yes,,Suitable
+259,Social Sciences,Self funded,PhD Researcher,No,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+260,Social Sciences,NIHR,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+261,Social Sciences,ESRC,PhD student,Yes,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+262,Science,EPSRC,researcher,Yes,5,Yes,2.0,No,No,No,"No, but I would like to use ShARC/Bessemer in the future",Not confident,Not heard of it,Not heard of it,3.0,Yes,No (but we DID expect to write software as part of the project),,Suitable
+263,Social Sciences,Wellcome Trust,Post-doctoral research associate,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+264,Social Sciences,ESRC,Research Associate,Yes,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+265,Social Sciences,ESRC,Research Associate,Yes,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+266,Social Sciences,Grantham Centre for Sustainable Futures,PhD,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,Perfect
+267,Social Sciences,STFC;European Research Council,Postdoctoral Research Assistant,Yes,5,No,,,,,,,,,,Yes,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+268,Social Sciences,AHRC;ESRC,Doctoral Researcher,No,2,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+269,Social Sciences,ESRC,Postdoctoral Research Associate,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Perfect
+270,Social Sciences,Private,PhD student,Yes,4,Yes,3.0,No,Yes,Yes,"No, I do not require HPC in my research",Not confident,Not confident,Not heard of it,1.0,Yes,Yes,Suitable,Suitable
+271,Social Sciences,self-funded,PhD student,Yes,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+272,Social Sciences,EPSRC,Phd student ,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+273,Social Sciences,ESRC,PhD researcher,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+274,Arts and Humanities,University of Sheffield,PhD researcher,No,1,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+275,Social Sciences,LPDP,Doctoral Researcher,Yes,3,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Unsuitable,Unsuitable
+276,Social Sciences,ESRC,PhD student,No,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,
+277,Management school,ESRC,Research associate,Yes,4,No,,,,,,,,,,No,Yes,Unsuitable,Suitable
+278,Science,EPSRC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+279,Social Sciences,ESRC,Research Associate,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+280,Social Sciences,ESRC,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+281,Social Sciences,,PhD student,Yes,5,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Perfect,Perfect
+282,Social Sciences,My university and department,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals);No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+283,Social Sciences,ESRC,PhD Student,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+284,Social Sciences,Leverhulme Trust,Leverhulme Early Career Fellow,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+285,Social Sciences,Wellcome Trust,lecturer,Yes,4,Yes,4.0,Yes,Yes,Yes,"No, I do not require HPC in my research",Confident,Not confident,Not heard of it,3.0,Yes,Yes,Suitable,Suitable
+286,Arts and Humanities,AHRC,Phd candidate,Yes,5,No,,,,,,,,,,No,Yes,Unsuitable,Perfect
+287,Social Sciences,World Bank,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+288,Social Sciences,Wellcome Trust;Self-funded,Accountant,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+289,Social Sciences,AHRC;EPSRC;ESRC;British Academy,Research Associate,No,1,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+290,Social Sciences,Endeavour Scheme,Head of Department,No,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+291,Science,STFC;University of Sheffield,PhD Research Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+292,Social Sciences,ESRC,PhD student,Yes,2,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+293,Engineering,EPSRC,Research Associate,Yes,5,Yes,1.0,Yes,No,No,"No, I do not require HPC in my research",Not heard of it,Not heard of it,Not heard of it,4.0,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+294,Social Sciences,STFC,Research Associate,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+295,Social Sciences,ESRC,Adult education tutor,No,1,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+296,Science,,PGR,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+297,Social Sciences,EPSRC;ESRC,Research Associate,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+298,Social Sciences,Nuffield Foundation funds my role.,Postdoctoral Research Associate,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),,Perfect
+299,Arts and Humanities,AHRC,,No,2,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+300,Social Sciences,,Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+301,Engineering,EPSRC,PDRA,Yes,5,Yes,3.0,No,No,No,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not confident,Not heard of it,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+302,Science,ESRC,Research Associate (PDRA),Yes,5,No,,,,,,,,,,Yes,Yes,Suitable,Suitable
+303,Science,BBSRC;EPSRC;MRC;British Heart Foundation;Cancer Research UK;Wellcome Trust,Biological mass spectrometry facility manager,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals);No (but we DID expect to write software as part of the project);No (we did NOT expect to write software as part of the project),Suitable,Suitable
+304,Social Sciences,Wellcome Trust,Research Associate,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+305,Engineering,EPSRC,,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+306,Engineering,EPSRC,PhD student,Yes,3,Yes,3.0,No,Yes,No,"No, I do not require HPC in my research",Confident,Not confident,Not confident,2.0,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+307,Engineering,EPSRC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+308,Engineering,EPSRC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+309,Engineering,EPSRC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+310,Engineering,Self funded,,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+311,Engineering,Voicebase,PhD Student,Yes,5,No,,,,,,,,,,No,Yes,Suitable,Suitable
+312,Engineering,EPSRC,RA,Yes,5,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Suitable,Suitable
+313,Engineering,EPSRC,PhD student,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not confident,Confident,3.0,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+314,Engineering,EPSRC,EngD Student,Yes,4,Yes,3.0,Yes,No,Not interested,"No, I do not require HPC in my research",Not confident,Not heard of it,Not heard of it,4.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+315,Social Sciences,AHRC;ESRC,Research Associate,Yes,5,No,,,,,,,,,,No,Yes,Suitable,Suitable
+316,Engineering,EPSRC,PhD Student,Yes,4,Yes,3.0,No,No,Not interested,"No, I do not require HPC in my research",Confident,Not heard of it,Not heard of it,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+317,Engineering,,PhD student,Yes,5,Yes,3.0,Yes,No,Not interested,Yes,Not confident,Not heard of it,Not heard of it,3.0,No,No (I'm not involved in writing funding proposals),,
+318,Engineering,Midea,PHD,Yes,5,Yes,3.0,No,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Confident,Confident,Confident,4.0,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+319,Engineering,Siemens,PHD,Yes,5,No,,,,,,,,,,No,Yes;No (I'm not involved in writing funding proposals),Perfect,Suitable
+320,Engineering,ESRC,student,Yes,5,Yes,3.0,No,Yes,No,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not heard of it,Not heard of it,5.0,No,Yes,Suitable,Suitable
+321,Engineering,BBSRC,PhD Student - Resilience in Decarbonised Energy,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+322,Engineering,EPSRC,PhD student,Yes,5,Yes,2.0,No,No,No,Yes,Not confident,Not heard of it,Not heard of it,2.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+323,Engineering,EPSRC,PhD Student,Yes,5,No,,,,,,,,,,No,No (but we DID expect to write software as part of the project),Suitable,Suitable
+324,Engineering,EPSRC;Nuclear Decommissioning Authority,Postgraduate Research Student,Yes,4,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Perfect
+325,Engineering,EPSRC,PhD student and research assistant,Yes,5,Yes,3.0,No,Yes,No,"No, but I would like to use ShARC/Bessemer in the future",Not confident,Not heard of it,Not confident,2.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+326,Engineering,,PhD Student,Yes,5,No,,,,,,,,,,Yes,No (but we DID expect to write software as part of the project),Suitable,Perfect
+327,Engineering,EPSRC,PGR,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+328,Engineering,EPSRC,PhD Student/Researcher,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+329,Engineering,UKRI,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+330,Engineering,BBSRC,PhD student,Yes,5,No,,,,,,,,,,No,Yes,Suitable,Perfect
+331,Engineering,EPSRC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+332,Engineering,ESRC;Rolls Royce,PhD student ,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+333,Engineering,Commonwealth Scholarship Commission ,PhD Scholar,Yes,5,No,,,,,,,,,,No,Yes;No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+334,Engineering,EPSRC,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Perfect
+335,Engineering,EPSRC,,Yes,5,Yes,4.0,Yes,No,Not interested,"No, but I would like to use ShARC/Bessemer in the future",Very confident,Confident,Confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+336,Engineering,,,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+337,Engineering,,,No,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+338,Engineering,EPSRC,EngD Student,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+339,Social Sciences,EPSRC;ESRC;NERC,Research Associate,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+340,Engineering,EPSRC,PhD Student,Yes,4,Yes,2.0,No,Yes,No,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not confident,Not confident,3.0,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+341,Engineering,Libyan Embassy ,Fire Dynamic ,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+342,Engineering,EU (Marie Curie Fellowship),PhD student,Yes,5,No,,,,,,,,,,No,Yes;No (I'm not involved in writing funding proposals),Suitable,Suitable
+343,Social Sciences,Chilean government scholarship,Doctoral researcher,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+344,Engineering,NERC;STFC,PhD student,Yes,3,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+345,Engineering,EPSRC,PhD,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),,Suitable
+346,Engineering,"Ministry of Higher Education, Research and Innovation, Oman",Lecturer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Suitable,Suitable
+347,Engineering,EPSRC,,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Perfect,Perfect
+348,Engineering,EPSRC,EngD research engineer,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+349,Engineering,EPSRC;Industry sponsor,PhD student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Perfect,Suitable
+350,Engineering,EPSRC,PhD Student ,Yes,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+351,Engineering,EPSRC,PhD Student,Yes,4,Yes,3.0,Yes,No,No,"No, I do not require HPC in my research",Not confident,Not heard of it,Not confident,4.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+352,Engineering,EPSRC,Senior Design and Development Engineer,Yes,2,Yes,2.0,No,Yes,No,"No, I use other HPC facilities",Confident,Not heard of it,Not heard of it,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+353,Science,BBSRC;Wellcome Trust,Research Associate,Yes,5,Yes,3.0,No,No,No,Yes,Not confident,Not confident,Not confident,,No,No (but we DID expect to write software as part of the project),,Suitable
+354,Engineering,EPSRC,PGR Student,Yes,5,Yes,3.0,Yes,No,No,"No, but I would like to use ShARC/Bessemer in the future",Confident,Not confident,Not confident,4.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+355,Social Sciences,ESRC,Research Associate,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+356,Engineering,co funduded by university of sheffield ,Phd student,Yes,5,Yes,3.0,No,Yes,No,"No, I use other HPC facilities",Not heard of it,Not confident,Not heard of it,2.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+357,Engineering,EPSRC,PhD Student,Yes,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+358,Engineering,EPSRC,PhD Student,Yes,5,No,,,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+359,Engineering,EPSRC,PhD student,Yes,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+360,Engineering,,Student,Yes,5,Yes,3.0,No,No,Not interested,Yes,Confident,Not confident,Not confident,4.0,No,Yes,Unsuitable,Unsuitable
+361,Engineering,EPSRC,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+362,Engineering,International sponser,maintenance engineer,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Perfect
+363,Engineering,CONACYT,PhD Biomaterials and Regenerative Medicine,No,3,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals);No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+364,Engineering,EPSRC,PhD research student,Yes,2,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+365,Engineering,My Employer,Senior robotics and controls engineer,No,4,No,,,,,,,,,,No,Yes,Suitable,Suitable
+366,Engineering,EPSRC,PhD student,Yes,4,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+367,Social Sciences,,PhD candidate ,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Perfect,Perfect
+368,Engineering,EPSRC,Research Associate,Yes,5,Yes,5.0,No,Yes,Yes,Yes,Very confident,Very confident,Very confident,2.0,No,No (I'm not involved in writing funding proposals),,
+369,"Medicine, Dentistry and Health",EPSRC,PhD Student,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+370,Engineering,,PGR,Yes,5,No,,,,,,,,,,No,No (I'm not involved in writing funding proposals);No (we did NOT expect to write software as part of the project),Suitable,Suitable
+371,Social Sciences,ESRC,Research Associate,Yes,4,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+372,"Medicine, Dentistry and Health",NIHR,Information Specialist,Yes,4,No,,,,,,,,,,Yes,Yes,Unsuitable,Suitable
+373,Engineering,EPSRC;innovate UK,Lecturer,Yes,5,Yes,4.0,No,Yes,No,"No, I use other HPC facilities",Not confident,Not heard of it,Not confident,3.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+374,"Medicine, Dentistry and Health",MRC,Research Software Engineer,Yes,5,Yes,5.0,Yes,Yes,Yes,"No, but I would like to use ShARC/Bessemer in the future",Very confident,Very confident,Very confident,4.0,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+375,Science,STFC,Research Fellow,Yes,5,Yes,5.0,No,No,Not interested,Yes,Very confident,Confident,Confident,2.0,Yes,No (but we DID expect to write software as part of the project),Suitable,Suitable
+376,"Medicine, Dentistry and Health",MRC;NIHR,Data Architect,Yes,5,Yes,3.0,No,No,Not interested,ShARC/Bessemer do not meet the IG requirements of our data suppliers,Confident,Not confident,Confident,2.0,Yes,Yes;No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+377,Science,BBSRC;EPSRC;MRC,Lecturer in Bioinformatics,Yes,5,Yes,4.0,Yes,No,Not interested,Yes,Very confident,Confident,Not confident,2.0,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+378,Engineering,EPSRC;industry,Reader,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+379,Engineering,EPSRC,Research Associate,Yes,5,Yes,4.0,No,No,Not interested,Yes,Confident,Not confident,Not confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+380,Engineering,EPSRC;industry,Reader,Yes,5,No,,,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Unsuitable
+381,Engineering,EPSRC,Research Associate,Yes,5,Yes,4.0,No,No,Not interested,Yes,Confident,Not confident,Not confident,3.0,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
