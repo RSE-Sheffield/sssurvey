@@ -50,3 +50,10 @@ wip_df['hire_rse'] = wip_df['hire_rse'].astype('category')
 
 # Save clean data
 wip_df.to_csv('./data/clean/sheffield_clean.csv', index=False)
+
+# Make and save list of funders
+funders_sos = wip_df['funders'].str.split(pat=r'[,;]')
+funders = funders_sos.apply(pd.Series).stack().reset_index(drop = True)
+funder_df = pd.DataFrame({'funder' : funders})
+funder_df['funder'] = funder_df['funder'].str.strip()
+funder_df.to_csv('./data/clean/funders_clean.csv', index=False)
