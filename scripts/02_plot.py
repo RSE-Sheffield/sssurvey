@@ -4,6 +4,8 @@ from plotnine import * # Not generally good practise
 
 sheffield_df = pd.read_csv('./data/clean/sheffield_clean.csv')
 
+funders_df = pd.read_csv('./data/clean/funders_clean.csv')
+
 # Response by faculty
 (ggplot(sheffield_df, aes(x='faculty')) + 
     geom_bar() + 
@@ -11,6 +13,10 @@ sheffield_df = pd.read_csv('./data/clean/sheffield_clean.csv')
 ).save('./plots/01_faculty_plot.png')
 
 # Funders
+(ggplot(funders_df, aes(x='funder')) + 
+    geom_bar() + 
+    coord_flip()
+).save('./plots/02_funders.png')
 
 # Job titles
 (ggplot(sheffield_df, aes(x='clean_job')) + 
