@@ -15,7 +15,7 @@ funders_df = pd.read_csv('./data/clean/funders_clean.csv')
 
 alt.Chart(sheffield_df).mark_bar().encode(
     alt.Y('faculty:N'),
-    alt.X('count(kind):Q')
+    alt.X('count(faculty):Q')
 ).save('./plots/01_faculty_plot_alt.html')
 
 # Funders
