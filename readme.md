@@ -1,26 +1,15 @@
-# Reproducible Research Template
+# University of Sheffield Research Software Survey 2020 Results
 
-This folder contains a basic template file and folder structure for reproducible resreach in Python. It is based on [https://github.com/airqo-platform/AirQo-experiments/tree/master/reproducibility-template]. It consists of the following folders and files:
+It consists of the following folders and files:
 
 ## `data/`
 
 ### `raw/`
 
-**Mandatory**
-
-- Must contain eiter the raw data used for this research, or a reference to that data if it cannot be uploaded (e.g. it's too big or it's confidential).
-
+Anonymised data
 ### `clean/`
 
-**Optional**
-
-- If the analysis is not performed directly on raw data, this folder should contain "clean" (munged, combined) data.
-
-## `models/`
-
-**Optional**
-
-- If the analysis includes a model output files, e.g. a `.pkl` of a neural network, store them here.
+Data cleaned using (`01_clean_data.py`)[scripts/01_clean_data.py].
 
 ## `notebooks/`
 
@@ -31,11 +20,7 @@ This folder contains a basic template file and folder structure for reproducible
 
 ## `scripts/`
 
-**Optional**
-
-- Must contain Python scripts.
-- There must (at a minimum) be clear seperation of function between data download, data munging and analysis. In the case of Jupyter notebooks these may be seperate headings, for scripts they may be seperate files.
-- ToDo: Structure for tests and Python modules.
+Scripts used in data cleaning and analysis
 
 ## LICENSE
 
