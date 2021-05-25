@@ -36,7 +36,7 @@ Scripts used in data cleaning and analysis
 
 > Clone this repository:
 > ```
-> git clone https://github.com/airqo-platform/AirQo-experiments.git
+> git clone https://github.com/RSE-Sheffield/sssurvey.git
 > ```
 > Change directory to this folder:
 > ```
@@ -53,9 +53,8 @@ Scripts used in data cleaning and analysis
 > ```
 > Execute code:
 > ```
-> python code/01_get_data.py
-> python code/02_clean_data.py
-> python code/03_analysis.py
+> python code/01_clean_data.py
+> python code/02_plot.py
 > ```
 
 ## `requirements.txt`
