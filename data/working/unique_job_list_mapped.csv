@@ -1,152 +1,152 @@
 raw_job,clean_job
-professor,
-Senior Lecturer in Quantitative Methods,
-Lecturer,
-Senior Lecturer,
-Professor,
-Research Associate,
-Innovation Fellow ,
-UKRI Innovation Fellow,
-Policy Research Associate,
-Senior Lecturer in Quantitative Social Sciences,
-Senior Research Fellow,
-ESRC Research Fellow,
-Senior Lecturer in Social Work,
-Research Fellow,
-Reader in Political Theory,
-SL,
-Lecturer in Criminology and Social Policy,
-British Academy Postdoctoral Fellow,
-research associate,
-Postdoctoral Research Associate,
-Senior Lecturer in Physical Geography,
-Pos-doctoral fellow,
-Sr. Lecturer,
-Professor East Asian Cinema.,
-Lecturer in Korean Studies,
-Research Assistant ,
-PhD Candidate,
-Prof of Public health,
-PGR Student,
-Doctoral researcher,
-LEcturer,
-Professor ,
-Senior Lecturer ,
-Senior Lecturer in Psychology,
-Senior Lecturer in Economics ,
-Senior Lecturer in Human Osteology,
-Senior Lecturer in ...,
-Honorary Research Fellow,
-Professor of Electroacoustic Music Composition,
-Professor Emeritus,
-University Teacher,
-Professor of Applied Linguistics,
-PhD candidate,
+professor,Professor
+Senior Lecturer in Quantitative Methods,Senior Lecturer
+Lecturer,Lecturer
+Senior Lecturer,Senior Lecturer
+Professor,Professor
+Research Associate,Research Associate
+"Innovation Fellow ",Fellow
+UKRI Innovation Fellow,Fellow
+Policy Research Associate,Research Associate
+Senior Lecturer in Quantitative Social Sciences,Senior Lecturer
+Senior Research Fellow,Fellow
+ESRC Research Fellow,Fellow
+Senior Lecturer in Social Work,Senior Lecturer
+Research Fellow,Fellow
+Reader in Political Theory,Reader
+SL,Senior Lecturer
+Lecturer in Criminology and Social Policy,Lecturer
+British Academy Postdoctoral Fellow,Research Associate
+research associate,Research Associate
+Postdoctoral Research Associate,Research Associate
+Senior Lecturer in Physical Geography,Senior Lecturer
+Pos-doctoral fellow,Research Associate
+Sr. Lecturer,Senior Lecturer
+Professor East Asian Cinema.,Professor
+Lecturer in Korean Studies,Lecturer
+"Research Assistant ",Research Associate
+PhD Candidate,PhD Student
+Prof of Public health,Professor
+PGR Student,PGR Student
+Doctoral researcher,PhD Student
+LEcturer,Lecturer
+"Professor ",Professor
+"Senior Lecturer ",Senior Lecturer
+Senior Lecturer in Psychology,Senior Lecturer
+"Senior Lecturer in Economics ",Senior Lecturer
+Senior Lecturer in Human Osteology,Senior Lecturer
+Senior Lecturer in ...,Senior Lecturer
+Honorary Research Fellow,Fellow
+Professor of Electroacoustic Music Composition,Professor
+Professor Emeritus,Professor
+University Teacher,University Teacher
+Professor of Applied Linguistics,Professor
+PhD candidate,PhD Student
 ,
-Scientific Officer,
-Clinical PhD fellow ,
-Visiting Professor,
-honorary research fellow,
-Research fellow,
-Postdoctoral researcher (co-investigator),
-Activities and Educational Visits Coordinator,
-PDRA,
-Professor / BHF Senior Fellow,
-Head of Data Management,
-Professor of Public Health,
-Postdoc,
-Microscope Facility Manager,
-Lecturer in Management Accounting,
-PhD student,
-Professor of Sensory Neuroscience,
-Experimental Officer,
-Print Estimator,
-research fellow ,
-Research Associate in Thoracic Oncological MR Imaging,
-PhD Student,
-Postdoctoral Researcher ,
-Industrial adviser,
-Statistical Support Advisor,
-Research Associate - Software Development,
-Doctoral Associate in Accounting & Finance,
-Professor of Orthodontics,
-Research Technician,
-Community Outreach Manager,
-Senior Research Technician,
-Lightsheet Microscope Manager,
-Medical statistician,
-Technical Fellow,
-Research Engineer,
-Manufacturing Engineer,
-Research Assistant,
-Research associate,
-Project Manager,
-Postdoctoral Research Associate in Robot Navigation,
-Project engineer,
-Research Associate ,
-Project Engineer,
-PGR,
-PhD student and Teaching Assistant,
-PhD Researcher,
-PhD Student ,
-Research associate in soft tribology,
-PhD researcher,
-Retired lecturer,
-Field Officer,
-Zooarchaeologist,
-Postgraduate Researcher,
-Postdoctoral researcher,
-PhD,
-Postgraduate Research Student in Experimental Particle Physics,
-Postgraduate student,
-Retired,
-Doctoral Researcher,
-PhD student ,
-PGR student department of Chemistry,
-PhD Researcher ,
-PostDoc,
-Phd student - research assistant,
-PhD in Matematics,
-student ,
-Postdoc ,
-"Ph.d. student, part-time lecturer",
-senior research fellow,
-psychologist,
-PHD student,
-researcher,
-Post-doctoral research associate,
-Postdoctoral Research Assistant,
-Phd student ,
-Leverhulme Early Career Fellow,
-lecturer,
-Phd candidate,
-Accountant,
-Head of Department,
-PhD Research Student,
-Adult education tutor,
-Student,
-Research Associate (PDRA),
-Biological mass spectrometry facility manager,
-RA,
-EngD Student,
-PHD,
-student,
-PhD Student - Resilience in Decarbonised Energy,
-Postgraduate Research Student,
-PhD student and research assistant,
-PhD Student/Researcher,
-PhD Scholar,
-Fire Dynamic ,
-EngD research engineer,
-Senior Design and Development Engineer,
-Phd student,
-maintenance engineer,
-PhD Biomaterials and Regenerative Medicine,
-PhD research student,
-Senior robotics and controls engineer,
-PhD candidate ,
-Information Specialist,
-Research Software Engineer,
-Data Architect,
-Lecturer in Bioinformatics,
-Reader,
+Scientific Officer,Scientific Officer
+"Clinical PhD fellow ",PhD Student
+Visiting Professor,Professor
+honorary research fellow,Fellow
+Research fellow,Fellow
+Postdoctoral researcher (co-investigator),Research Associate
+Activities and Educational Visits Coordinator,Activities and Educational Visits Coordinator
+PDRA,Research Associate
+Professor / BHF Senior Fellow,Professor
+Head of Data Management,Head of Data Management
+Professor of Public Health,Professor
+Postdoc,Research Associate
+Microscope Facility Manager,Facility Manager
+Lecturer in Management Accounting,Lecturer
+PhD student,PhD Student
+Professor of Sensory Neuroscience,Professor
+Experimental Officer,Experimental Officer
+Print Estimator,Print Estimator
+"research fellow ",Fellow
+Research Associate in Thoracic Oncological MR Imaging,Research Associate
+PhD Student,PhD Student
+"Postdoctoral Researcher ",Research Associate
+Industrial adviser,Industrial Adviser
+Statistical Support Advisor,Statistical Support Advisor
+Research Associate - Software Development,Research Associate
+Doctoral Associate in Accounting & Finance,Research Associate
+Professor of Orthodontics,Professor
+Research Technician,Research Technician
+Community Outreach Manager,Community Outreach Manager
+Senior Research Technician,Senior Research Technician
+Lightsheet Microscope Manager,Microscope Manager
+Medical statistician,Medical Statistician
+Technical Fellow,Technical Fellow
+Research Engineer,Research Engineer
+Manufacturing Engineer,Manufacturing Engineer
+Research Assistant,Research Associate
+Research associate,Research Associate
+Project Manager,Project Manager
+Postdoctoral Research Associate in Robot Navigation,Research Associate
+Project engineer,Project Engineer
+"Research Associate ",Research Associate
+Project Engineer,Project Engineer
+PGR,PGR Student
+PhD student and Teaching Assistant,PhD Student
+PhD Researcher,PhD Student
+"PhD Student ",PhD Student
+Research associate in soft tribology,Research Associate
+PhD researcher,PhD Student
+Retired lecturer,Lecturer
+Field Officer,Field Officer
+Zooarchaeologist,Zooarchaeologist
+Postgraduate Researcher,Research Associate
+Postdoctoral researcher,Research Associate
+PhD,PhD Student
+Postgraduate Research Student in Experimental Particle Physics,PhD Student
+Postgraduate student,PGR Student
+Retired,Retired
+Doctoral Researcher,PhD Student
+"PhD student ",PhD Student
+PGR student department of Chemistry,PhD Student
+"PhD Researcher ",PhD Student
+PostDoc,Research Associate
+Phd student - research assistant,PhD Student
+PhD in Matematics,PhD Student
+"student ",Student
+"Postdoc ",Research Associate
+"Ph.d. student, part-time lecturer",PhD Student
+senior research fellow,Senior Research Fellow
+psychologist,Psychologist
+PHD student,PhD Student
+researcher,Researcher
+Post-doctoral research associate,Research Associate
+Postdoctoral Research Assistant,Research Associate
+"Phd student ",PhD Student
+Leverhulme Early Career Fellow,Fellow
+lecturer,Lecturer
+Phd candidate,PhD Student
+Accountant,Accountant
+Head of Department,Head of Department
+PhD Research Student,PhD Student
+Adult education tutor,Adult Education Tutor
+Student,Student
+Research Associate (PDRA),Research Associate
+Biological mass spectrometry facility manager,Facility Manager
+RA,Research Associate
+EngD Student,EngD Student
+PHD,PhD Student
+student,Student
+PhD Student - Resilience in Decarbonised Energy,PhD Student
+Postgraduate Research Student,PGR Student
+PhD student and research assistant,PhD Student
+PhD Student/Researcher,PhD Student
+PhD Scholar,PhD Student
+"Fire Dynamic ",Fire Dynamic
+EngD research engineer,EngD Research Engineer
+Senior Design and Development Engineer,Senior Engineer
+Phd student,PhD Student
+maintenance engineer,Maintenance Engineer
+PhD Biomaterials and Regenerative Medicine,PhD Student
+PhD research student,PhD Student
+Senior robotics and controls engineer,Senior Engineer
+"PhD candidate ",PhD Student
+Information Specialist,Information Specialist
+Research Software Engineer,Research Software Engineer
+Data Architect,Data Architect
+Lecturer in Bioinformatics,Lecturer
+Reader,Reader
