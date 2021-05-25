@@ -1,3 +1,4 @@
+import altair as alt
 import pandas as pd
 
 from plotnine import * # Not generally good practise
@@ -11,6 +12,11 @@ funders_df = pd.read_csv('./data/clean/funders_clean.csv')
     geom_bar() + 
     coord_flip()
 ).save('./plots/01_faculty_plot.png')
+
+alt.Chart(sheffield_df).mark_bar().encode(
+    alt.Y('faculty:N'),
+    alt.X('count(kind):Q')
+).save('./plots/01_faculty_plot_alt.html')
 
 # Funders
 (ggplot(funders_df, aes(x='funder')) + 
