@@ -3,11 +3,6 @@ import pandas as pd
 
 # Get details for plots from look up table
 from column_name_renaming import col_shortener
-from column_name_renaming import sort_no_further_analysis
-from column_name_renaming import yes_no_analysis
-from column_name_renaming import add_an_other_category
-from column_name_renaming import scale_analysis
-from column_name_renaming import worded_scale_analysis
 
 wip_df = pd.read_csv('./data/raw/sheffield.csv')
 
