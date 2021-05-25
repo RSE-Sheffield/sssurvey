@@ -16,6 +16,10 @@ wip_df.drop(labels=['Timestamp'], axis='columns', inplace=True)
 # Shorten faculty names
 wip_df['faculty'].replace(regex=True, inplace=True, to_replace=r'Faculty of ', value=r'')
 
+# Tidy job titles
+unique_job_list_mapped_df = pd.read_csv('./data/working/unique_job_list_mapped.csv')
+wip_df = wip_df.merge(unique_job_list_mapped_df, left_on='job_title', right_on='raw_job', how='left')
+
 # Shorten wordy answers
 wip_df['ready_to_share'].replace(inplace=True, to_replace='I\'m not interested in commercialising my research software', value='Not interested')
 
