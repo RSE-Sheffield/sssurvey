@@ -44,6 +44,4 @@ wip_df['hire_full_time_developer'] = wip_df['hire_full_time_developer'].astype('
 wip_df['hire_rse'] = wip_df['hire_rse'].astype('category')
 
 # Save clean data
-wip_df.to_csv('./data/clean/sheffield_clean.csv')
-
-print(wip_df.dtypes)
+wip_df.to_csv('./data/clean/sheffield_clean.csv', index=False)

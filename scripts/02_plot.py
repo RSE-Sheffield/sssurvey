@@ -1,6 +1,6 @@
 import pandas as pd
 
-from plotnine import *
+from plotnine import * # Not generally good practise
 
 sheffield_df = pd.read_csv('./data/clean/sheffield_clean.csv')
 
