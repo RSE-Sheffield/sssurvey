@@ -4,12 +4,11 @@ import pandas as pd
 # Get details for plots from look up table
 from column_name_renaming import col_shortener
 
+
 wip_df = pd.read_csv('./data/raw/sheffield.csv')
 
 # Rename columns
-col_name_map = pd.read_csv('./data/raw/col_name_map.csv').to_dict(orient = 'index')
-print(col_name_map)
-wip_df.rename(columns=col_name_map, inplace=True)
+wip_df.rename(index=str, columns=col_shortener, inplace=True)
 
 # Drop timestamp
 wip_df.drop(labels=['Timestamp'], axis='columns', inplace=True)
