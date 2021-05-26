@@ -1,6 +1,6 @@
 # University of Sheffield Research Software Survey 2020 Results
 
-It consists of the following folders and files:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RSE-Sheffield/sssurvey.git/HEAD?filepath=sheffield_software_report.ipynb)
 
 ## `data/`
 
@@ -10,13 +10,6 @@ Anonymised data
 ### `clean/`
 
 Data cleaned using (`01_clean_data.py`)[scripts/01_clean_data.py].
-
-## `notebooks/`
-
-**Optional**
-
-- Must contain Jupyer notebooks.
-- There must (at a minimum) be clear seperation of function between data download, data munging and analysis. In the case of Jupyter notebooks these may be seperate headings, for scripts they may be seperate files.
 
 ## `scripts/`
 
