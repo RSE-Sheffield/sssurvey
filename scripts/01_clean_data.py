@@ -4,8 +4,11 @@ import pandas as pd
 # Get details for plots from look up table
 from column_name_renaming import col_shortener
 
-
+# Load raw data
 wip_df = pd.read_csv('./data/raw/sheffield.csv')
+
+# Deal with nulls
+wip_df.fillna('No response', inplace=True)
 
 # Rename columns
 wip_df.rename(index=str, columns=col_shortener, inplace=True)
