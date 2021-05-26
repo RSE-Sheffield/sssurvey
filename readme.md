@@ -5,7 +5,7 @@
 Make HTML:
 
 ```
-jupyter nbconvert --to html sheffield_software_report.ipynb --output ./gh_pages/index.html --no-input 
+jupyter nbconvert --to html sheffield_software_report.ipynb --output ./docs/index.html --no-input 
 ```
 
 ## `data/`
