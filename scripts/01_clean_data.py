@@ -39,3 +39,10 @@ funders = funders_sos.apply(pd.Series).stack().reset_index(drop = True)
 funder_df = pd.DataFrame({'funder' : funders})
 funder_df['funder'] = funder_df['funder'].str.strip()
 funder_df.to_csv('./data/clean/funders_clean.csv', index=False)
+
+# Make and save list of funders
+funds_for_development_sos = wip_df['funds_for_development'].str.split(pat=r'[,;]')
+funds_for_development = funds_for_development_sos.apply(pd.Series).stack().reset_index(drop = True)
+funds_for_development_df = pd.DataFrame({'funds_for_development' : funds_for_development})
+funds_for_development_df['funds_for_development'] = funds_for_development_df['funds_for_development'].str.strip()
+funds_for_development_df.to_csv('./data/clean/funds_for_development_clean.csv', index=False)
