@@ -8,6 +8,12 @@ Make HTML:
 jupyter nbconvert --to html charts.ipynb --output ./docs/index.html --no-input 
 ```
 
+Make `.png` charts:
+
+```
+npm install -g vega vega-cli vega-lite canvas
+```
+
 ## `data/`
 
 ### `raw/`
