@@ -2,7 +2,13 @@
 
 # University of Sheffield Software Survey
 
-## Executive Summary
+## Major Findings
+
+* xxx participants.
+* 91% of participants use research software (92% nationally).
+* 65% of participants report that software is vital to their research.
+* 27% of participants develop their own code, while 31% of participants (who responded to the question) feel they have had sufficient training to develop reliable software.
+* 
 
 ## Introduction
 
