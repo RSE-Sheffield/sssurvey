@@ -1,14 +1,16 @@
-# D R A F T
+# W I P
 
 # University of Sheffield Software Survey
 
 ## Major Findings
 
-* xxx participants.
-* 91% of participants use research software (92% nationally).
-* 65% of participants report that software is vital to their research.
-* 27% of participants develop their own code, while 31% of participants (who responded to the question) feel they have had sufficient training to develop reliable software.
-* 
+* 382 respondants.
+* 91% of respondants use research software (92% nationally *ref*).
+* 65% report that software is vital to their research (nationally, 69% report that "It would not be practical to conduct my work without software").
+* 27% develop their own code (56% nationally).
+* 69% (of the 27% subset who responded to this question) feel they have **not had sufficient training** to develop reliable software.
+* Of the 54% of respondants who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
+* Of those who expected to write software, 40% did not request funding for this (compared to 20%, nationally).
 
 ## Introduction
 
