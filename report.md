@@ -12,6 +12,11 @@
 * Of the 54% of respondants who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
 * Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
 
+## Recommendations
+
+- Investigate why 69% of respondants feel they have not had sufficient training.
+- 
+
 ## Introduction
 
 ## Sample characteristics
@@ -20,6 +25,8 @@
   - TUoS survey went to all PhD students and research staff with a prize incentive.
   - 2020 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
   - 2014 national survey - it is not clear what sampling strategy was used.
+
+If someone was a no response for one optional question, it looks like they were also a no response for all the other optional questions.
 ## Prevalence and importance of research software
 
 **91% of participants report that they use research software** (defined as *"...any software you have used in the generation of a result that you expect to appear in a publication. This might be anything from a few-line script to clean some data, to a fully fledged software suite. It includes code you have written yourself and code written by someone else."* in the survey form). A 2014 study reports that [nationally this is **92%**](https://zenodo.org/record/1183562#.YMnQFahKiUk), another from the University of Southampton in 2020 [reports **95%**](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Research%20software%20at%20the%20University%20of%20Southampton.pdf).
@@ -55,6 +62,17 @@ The response rate for our question on self-assesment of software development exp
 **How do you rate your software development expertise?**
 
 Self-assesment will lead to bias as some people will rate themselves more highly than others. However, we do not see a substantial skew towards *Beginner* or *Professional* - most respondants see themselves as somewhere in the middle.
+
+The question of whether people have the expertise they need to do the software aspects of their research was further examined by asking about sufficiency of training.
+
+![Do you feel that you have received sufficient training to develop reliable software?](charts/08_training_exclude_no_response.png)
+
+*Do you feel that you have received sufficient training to develop reliable software?*
+
+Again the number of responses was low (27%), but a majority felt that they had not had sufficient training. This might be because the training cannot be accessed (for a number of reasons including cost, time constraints, or not knowing about it) or is simply not available. This should be investigated further.
+
+We asked later in the survey about confidence in (application of) specific technologies that are important for well engineered software: 
+
 ## Methods
 
 ## References
