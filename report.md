@@ -16,6 +16,7 @@
 
 - Investigate why 69% of respondants feel they have not had sufficient training.
 - Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
+- Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
 
 ## Introduction
 
@@ -77,7 +78,7 @@ We asked later in the survey about confidence in (application of) specific techn
 - Continuous integration
 - Unit testing
 
-Here we show results for the subset of participants that responded to these questions:
+Here we show results for the (27%) subset of participants that responded to these questions:
 
 ![Version control](charts/12_tech_vc_exclude_no_response.png)
 
@@ -92,6 +93,14 @@ Here we show results for the subset of participants that responded to these ques
 *Unit testing*
 
 It appears that either a sizable minority, or a majority of respondants have either not heard of, or are not confident in each of these technologies. Due to their importance for research software engineering, this indicates more should be done to raise confidence.
+
+The question of support for software development was raised from the perspective of what researchers get from "the university", with a 26% response rate. An interval scale between 1: *"poor"* and 5: *"excellent"* was used.
+
+![How would you rate the university's current level of support for your software-development needs?](charts/15_support_exclude_no_response.png)
+
+*How would you rate the university's current level of support for your software-development needs?*
+
+Clearly, level of support provided depends hugely on resources available. And responses are subjective - we don't all have the same definition of "poor" and "excellent". The majority of responses were in the middle of the scale, but at the extremes there were more "poor" (12%) responses than "excellent" (4%).
 
 ## Methods
 
