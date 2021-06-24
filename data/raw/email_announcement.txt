@@ -1,0 +1,18 @@
+Dear Researcher,
+
+Although software is a vital part of most research, there is little help available for researchers who use software in their work. The University is now investigating how to improve support in this area through a survey run by the Research Software Engineering Group and the University of Sheffield, Research Practice Lead.
+ 
+The first step is to understand how software is being used via a very short (i.e. 3.5 minute) survey. We want to hear from everyone, not just those who use software regularly! Everyone who completes the survey will have the option to take part in a prize draw for a £50 Amazon voucher and to request a free 1 hour software consultation from our team.
+ 
+Please complete the survey before the XX/XX/XXX: https://bit.ly/3jNfNPY
+ 
+Further information
+ 
+The University of Sheffield Research Software Group (https://rse.shef.ac.uk/) is based within the department of Computer Science and is co-funded by IT services. We provide researchers from all faculties with access to our Research Software Engineers (https://rse.ac.uk/) for projects that last from weeks to years.
+ 
+Further information on the survey can be found here: https://bit.ly/30PGBsH. Permission to send this email to all PhD students and research staff was obtained by the University of Sheffield, Research Practice Lead. This survey has ethics approval (ethics approval number: 032771).
+ 
+Regards,
+ 
+Paul Richmond (Director of Research Software Engineering Group, University of Sheffield)
+Tom Stafford (University of Sheffield, Research Practice Lead)

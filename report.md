@@ -14,11 +14,11 @@
 
 ## Introduction
 
-## Results and discussion
+## Sample characteristics
 
-### Sample characteristics
-
-### Research software use
+- ToDo: Sampling bias in this survey and those we're comparing with. 
+  - TUoS survey went to all PhD students and research staff with a £50 Amazon voucher and an hour consultancy prize incentive.
+## Prevalence and importance of research software
 
 **91% of participants report that they use research software** (defined as *"...any software you have used in the generation of a result that you expect to appear in a publication. This might be anything from a few-line script to clean some data, to a fully fledged software suite. It includes code you have written yourself and code written by someone else."* in the survey form). A 2014 study reports that [nationally this is **92%**](https://zenodo.org/record/1183562#.YMnQFahKiUk), another from the University of Southampton in 2020 [reports **95%**](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Research%20software%20at%20the%20University%20of%20Southampton.pdf).
 
@@ -37,6 +37,14 @@ Participants were asked to express how important research software is to their w
 *How important is research software to your work?*
 
 65% of participants reported that research software is vital to their work.
+
+## Software development practise
+
+Only 27% of our participants had developed their own code. This compares with 56% nationally. This could be because a smaller proportion of researchers at the University of Sheffield develop code than that for the whole country, or due to sampling bias.
+
+![Have you developed your own research software?](charts/06_developed.png)
+
+*Have you developed your own research software?*
 ## Methods
 
 ## References
