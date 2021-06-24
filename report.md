@@ -42,13 +42,19 @@ Participants were asked to express how important research software is to their w
 
 ## Software development practise
 
-Only 27% of our participants had developed their own code. This compares with 56% nationally. This could be because a smaller proportion of researchers at the University of Sheffield develop code than that for the whole country, or due to sampling bias. In the 2020 Southampton survey, which records an 8% to 11% response rate accross faculties, 33% report developing their own software - much closer to our figure. This is consistent with the national survey response having been somewhat biased towards people more engaged with software. Nonetheless, this remains a large proportion of researchers.
+Only 27% of our participants had developed their own code. This compares with 56% nationally. This could be because a smaller proportion of researchers at the University of Sheffield develop code than that for the whole country, or due to sampling bias in either survey. In the 2020 Southampton survey, which records an 8% to 11% response rate accross faculties, suggesting low sample bias, 33% report developing their own software - much closer to our figure. This is consistent with the national survey response having been somewhat biased towards people more engaged with software. Nonetheless, this remains a large proportion of researchers and provokes a question as to whether enough attention is given to software development in our organisation.
 
 ![Have you developed your own research software?](charts/06_developed.png)
 
 *Have you developed your own research software?*
 
+The response rate for our question on self-assesment of software development expertise had a low response rate (27% responded). The use of an interval scale introduces challenges in interpretation of results between 1 which is defined as *"Beginner"* and 5, *"Professional"*.
 
+![How do you rate your software development expertise?](charts/07_rate_dev_exclude_no_response.png)
+
+**How do you rate your software development expertise?**
+
+Self-assesment will lead to bias as some people will rate themselves more highly than others. However, we do not see a substantial skew towards *Beginner* or *Professional* - most respondants see themselves as somewhere in the middle.
 ## Methods
 
 ## References
