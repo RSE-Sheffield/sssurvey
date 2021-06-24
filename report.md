@@ -15,7 +15,7 @@
 ## Recommendations
 
 - Investigate why 69% of respondants feel they have not had sufficient training.
-- 
+- Provide training / support to increase researcher confidence with Version control, continuous integration and unit testing.
 
 ## Introduction
 
@@ -71,7 +71,27 @@ The question of whether people have the expertise they need to do the software a
 
 Again the number of responses was low (27%), but a majority felt that they had not had sufficient training. This might be because the training cannot be accessed (for a number of reasons including cost, time constraints, or not knowing about it) or is simply not available. This should be investigated further.
 
-We asked later in the survey about confidence in (application of) specific technologies that are important for well engineered software: 
+We asked later in the survey about confidence in (application of) specific technologies that are important for well engineered software:
+
+- Version control
+- Continuous integration
+- Unit testing
+
+Here we show results for the subset of participants that responded to these questions:
+
+![Version control](charts/12_tech_vc_exclude_no_response.png)
+
+*Version control*
+
+![Continuous integration](charts/13_tech_ci_exclude_no_response.png)
+
+*Continuous integration*
+
+![Unit testing](charts/14_tech_test_exclude_no_response.png)
+
+*Unit testing*
+
+It appears that either a sizable minority, or a majority of respondants have either not heard of, or are not confident in each of these technologies. Due to their importance for research software engineering, this indicates more should be done to raise confidence.
 
 ## Methods
 
