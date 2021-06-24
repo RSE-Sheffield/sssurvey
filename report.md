@@ -42,11 +42,13 @@ Participants were asked to express how important research software is to their w
 
 ## Software development practise
 
-Only 27% of our participants had developed their own code. This compares with 56% nationally. This could be because a smaller proportion of researchers at the University of Sheffield develop code than that for the whole country, or due to sampling bias.
+Only 27% of our participants had developed their own code. This compares with 56% nationally. This could be because a smaller proportion of researchers at the University of Sheffield develop code than that for the whole country, or due to sampling bias. In the 2020 Southampton survey, which records an 8% to 11% response rate accross faculties, 33% report developing their own software - much closer to our figure. This is consistent with the national survey response having been somewhat biased towards people more engaged with software. Nonetheless, this remains a large proportion of researchers.
 
 ![Have you developed your own research software?](charts/06_developed.png)
 
 *Have you developed your own research software?*
+
+
 ## Methods
 
 ## References
