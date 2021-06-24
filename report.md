@@ -20,7 +20,7 @@
 
 ### Research software use
 
-**91% of participants report that they use research software** (defined as *"...any software you have used in the generation of a result that you expect to appear in a publication. This might be anything from a few-line script to clean some data, to a fully fledged software suite. It includes code you have written yourself and code written by someone else."* in the survey form). A 2014 study reports that nationally this is **92%** (https://zenodo.org/record/1183562#.YMnQFahKiUk), another from 2020 reports **95%** (https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Research%20software%20at%20the%20University%20of%20Southampton.pdf).
+**91% of participants report that they use research software** (defined as *"...any software you have used in the generation of a result that you expect to appear in a publication. This might be anything from a few-line script to clean some data, to a fully fledged software suite. It includes code you have written yourself and code written by someone else."* in the survey form). A 2014 study reports that [nationally this is **92%**](https://zenodo.org/record/1183562#.YMnQFahKiUk), another from the University of Southampton in 2020 [reports **95%**](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Research%20software%20at%20the%20University%20of%20Southampton.pdf).
 
 This indicates that research software is critical for researchers at the University of Sheffield, and that this is not exceptional.
 
@@ -36,7 +36,7 @@ Participants were asked to express how important research software is to their w
 
 *How important is research software to your work?*
 
-65% of participants reported that software is vital to their work.
+65% of participants reported that research software is vital to their work.
 ## Methods
 
 ## References
