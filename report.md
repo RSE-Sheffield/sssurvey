@@ -15,7 +15,7 @@
 ## Recommendations
 
 - Investigate why 69% of respondants feel they have not had sufficient training.
-- Provide training / support to increase researcher confidence with Version control, continuous integration and unit testing.
+- Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
 
 ## Introduction
 
