@@ -17,6 +17,7 @@
 - Investigate why 69% of respondants feel they have not had sufficient training.
 - Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
 - Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
+- Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
 
 ## Introduction
 
@@ -92,7 +93,7 @@ Here we show results for the (27%) subset of participants that responded to thes
 
 *Unit testing*
 
-It appears that either a sizable minority, or a majority of respondants have either not heard of, or are not confident in each of these technologies. Due to their importance for research software engineering, this indicates more should be done to raise confidence.
+It appears that in each case either a sizable minority, or a majority of respondants have either not heard of, or are not confident in each of these technologies. Due to their importance for research software engineering, this indicates more should be done to raise confidence.
 
 The question of support for software development was raised from the perspective of what researchers get from "the university", with a 26% response rate. An interval scale between 1: *"poor"* and 5: *"excellent"* was used.
 
@@ -106,7 +107,25 @@ Clearly, level of support provided depends hugely on resources available. And re
 
 ## High Performance Computing
 
-## 
+## Licensing and commercialisation
+
+Response rate for both questions on commercialisation was 27% and results are presented as proportions of those who responded.
+
+A minority of respondants were interested in help from "the university" with commercialising some of their research software.
+
+![Would you be interested in the university helping you commercialise some of your research software?](charts/09_commercialise_exclude_no_response.png)
+
+*Would you be interested in the university helping you commercialise some of your research software?*
+
+Many respondants (45%) were not interested in sharing their software with a commercial partner and a similar proportion (44%) felt that their software was not ready for this.
+
+![Do you feel that your research software is ready to be shared with a commercial partner?](charts/10_partner_exclude_no_response.png)
+
+*Do you feel that your research software is ready to be shared with a commercial partner?*
+
+These results suggest a situation where few participants are interested in or ready to commercialise their software. However, for some, help would be appreciated in doing so.
+
+The [University of Sheffield's Open Research Statement](https://www.sheffield.ac.uk/openresearch/university-statement-open-research) states that researchers should *"Strive to make all scholarly outputs freely available..."* which indicates that software not intended for commercialisation should be made available. This is likely the majority of University of Sheffield research software outputs. Researchers may need additional support to realise this.
 
 ## Methods
 
