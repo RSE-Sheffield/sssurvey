@@ -102,6 +102,8 @@ The question of support for software development was raised from the perspective
 
 Clearly, level of support provided depends hugely on resources available. And responses are subjective - we don't all have the same definition of "poor" and "excellent". The majority of responses were in the middle of the scale, but at the extremes there were more "poor" (12%) responses than "excellent" (4%). Even the best things get poor reviews sometimes - this can be more down to the reviewer than the thing.
 
+## High Performance Computing
+
 ## Methods
 
 ## References
