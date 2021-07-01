@@ -125,7 +125,8 @@ Many respondants (45%) were not interested in sharing their software with a comm
 
 These results suggest a situation where few participants are interested in or ready to commercialise their software. However, for some, help would be appreciated in doing so.
 
-The [University of Sheffield's Open Research Statement](https://www.sheffield.ac.uk/openresearch/university-statement-open-research) states that researchers should *"Strive to make all scholarly outputs freely available..."* which indicates that software not intended for commercialisation should be made available. This is likely the majority of University of Sheffield research software outputs. Researchers may need additional support to realise this.
+The [University of Sheffield's Open Research Statement](https://www.sheffield.ac.uk/openresearch/university-statement-open-research) states that researchers should *"Strive to make all scholarly outputs freely available..."* which indicates that software not intended for commercialisation should be made available. This is likely the majority of University of Sheffield research software outputs. Researchers may need additional support to realise this. There may also need to be more support for researchers who are considering, or want to commercialise their software outputs.
+
 
 ## Methods
 
