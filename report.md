@@ -4,17 +4,17 @@
 
 ## Major Findings
 
-* 382 respondants.
-* 91% of respondants use research software ([92% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
+* 382 respondents.
+* 91% of respondents use research software ([92% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
 * 65% report that software is vital to their research (nationally, 69% report that "It would not be practical to conduct my work without software").
 * 27% develop their own code ([56% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
 * 69% (of the 27% subset who responded to this question) feel they have **not had sufficient training** to develop reliable software.
-* Of the 54% of respondants who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
+* Of the 54% of respondents who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
 * Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
 
 ## Recommendations
 
-- Investigate why 69% of respondants feel they have not had sufficient training.
+- Investigate why 69% of respondents feel they have not had sufficient training.
 - Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
 - Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
 - Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
@@ -57,13 +57,13 @@ Only 27% of our participants had developed their own code. This compares with 56
 
 *Have you developed your own research software?*
 
-The response rate for our question on self-assesment of software development expertise had a low response rate (27% responded). The use of an interval scale introduces challenges in interpretation of results between 1 which is defined as *"Beginner"* and 5, *"Professional"*.
+The response rate for our question on self-assessment of software development expertise had a low response rate (27% responded). The use of an interval scale introduces challenges in interpretation of results between 1 which is defined as *"Beginner"* and 5, *"Professional"*.
 
 ![How do you rate your software development expertise?](charts/07_rate_dev_exclude_no_response.png)
 
 **How do you rate your software development expertise?**
 
-Self-assesment will lead to bias as some people will rate themselves more highly than others. However, we do not see a substantial skew towards *Beginner* or *Professional* - most respondants see themselves as somewhere in the middle.
+Self-assessment will lead to bias as some people will rate themselves more highly than others. However, we do not see a substantial skew towards *Beginner* or *Professional* - most respondents see themselves as somewhere in the middle.
 
 The question of whether people have the expertise they need to do the software aspects of their research was further examined by asking about sufficiency of training.
 
@@ -93,7 +93,7 @@ Here we show results for the (27%) subset of participants that responded to thes
 
 *Unit testing*
 
-It appears that in each case either a sizable minority, or a majority of respondants have either not heard of, or are not confident in each of these technologies. Due to their importance for research software engineering, this indicates more should be done to raise confidence.
+It appears that in each case either a sizable minority, or a majority of respondents have either not heard of, or are not confident in each of these technologies. Due to their importance for research software engineering, this indicates more should be done to raise confidence.
 
 The question of support for software development was raised from the perspective of what researchers get from "the university", with a 26% response rate. An interval scale between 1: *"poor"* and 5: *"excellent"* was used.
 
@@ -111,13 +111,13 @@ Clearly, level of support provided depends hugely on resources available. And re
 
 Response rate for both questions on commercialisation was 27% and results are presented as proportions of those who responded.
 
-A minority of respondants were interested in help from "the university" with commercialising some of their research software.
+A minority of respondents were interested in help from "the university" with commercialising some of their research software.
 
 ![Would you be interested in the university helping you commercialise some of your research software?](charts/09_commercialise_exclude_no_response.png)
 
 *Would you be interested in the university helping you commercialise some of your research software?*
 
-Many respondants (45%) were not interested in sharing their software with a commercial partner and a similar proportion (44%) felt that their software was not ready for this.
+Many respondents (45%) were not interested in sharing their software with a commercial partner and a similar proportion (44%) felt that their software was not ready for this.
 
 ![Do you feel that your research software is ready to be shared with a commercial partner?](charts/10_partner_exclude_no_response.png)
 
