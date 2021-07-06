@@ -19,6 +19,7 @@
 - Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
 - Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
 - Discover if any action can be taken to help the 22% of respondents who don't currently use University of Sheffield HPC to do so.
+- Advocate for researchers to include costs for software development in their funding applications.
 
 ## Introduction
 
@@ -30,6 +31,7 @@
   - 2014 national survey - it is not clear what sampling strategy was used.
 
 If someone was a no response for one optional question, it looks like they were also a no response for all the other optional questions.
+
 ## Prevalence and importance of research software
 
 **91% of participants report that they use research software** (defined as *"...any software you have used in the generation of a result that you expect to appear in a publication. This might be anything from a few-line script to clean some data, to a fully fledged software suite. It includes code you have written yourself and code written by someone else."* in the survey form). A 2014 study reports that [nationally this is **92%**](https://zenodo.org/record/1183562#.YMnQFahKiUk), another from the University of Southampton in 2020 [reports **95%**](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Research%20software%20at%20the%20University%20of%20Southampton.pdf).
@@ -105,6 +107,19 @@ The question of support for software development was raised from the perspective
 Clearly, level of support provided depends hugely on resources available. And responses are subjective - we don't all have the same definition of "poor" and "excellent". The majority of responses were in the middle of the scale, but at the extremes there were more "poor" (12%) responses than "excellent" (4%). Even the best things get poor reviews sometimes - this can be more down to the reviewer than the thing.
 
 ## Funding for Software Development
+
+We found that 44% of participants were involved in writing funding applications.
+
+![Have you ever included costs for software development in a funding proposal?](charts/17_funding.png)
+
+*Have you ever included costs for software development in a funding proposal?*
+
+If we exclude those respondents not involved in writing funding applications, 45% expected to write software and of these 40% did not request funds for this.
+
+![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)](charts/17a_funding_excl_not_funding.png)
+
+*Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)*
+## Staffing of software development
 
 ## High Performance Computing
 
