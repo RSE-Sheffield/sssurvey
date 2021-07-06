@@ -18,6 +18,7 @@
 - Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
 - Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
 - Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
+- Discover if any action can be taken to help the 22% of respondents who don't currently use University of Sheffield HPC to do so.
 
 ## Introduction
 
@@ -106,6 +107,14 @@ Clearly, level of support provided depends hugely on resources available. And re
 ## Funding for Software Development
 
 ## High Performance Computing
+
+Only 27% of participants responded to our question about the use of High Performance Computing (HPC) - most other optional questions had a similarly low response rate, so lack of response here should not be interpreted as lack of interest in HPC. Of those who responded, 25% did not require HPC. 
+
+![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system?](charts/11_hpc_exclude_no_response.png)
+
+*Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system?*
+
+A broad range of possible responses were provided, here. Most important numerically were that 30% of respondents use the University of Sheffield HPC systems, and 22% would like to.
 
 ## Licensing and commercialisation
 
