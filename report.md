@@ -121,6 +121,18 @@ If we exclude those respondents not involved in writing funding applications, 45
 *Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)*
 ## Staffing of software development
 
+Participants were asked about the suitability of models for staffing their software development needs: *"How suitable would the following models be for your software development needs?"*. These were either hiring a full time developer or using a fraction of an RSE. The response rates for these questions were 89% and 92% respectively.
+
+![Hire a full-time software developer](charts/18_model_ft_exclude_no_response.png)
+
+*Hire a full-time software developer*
+
+![Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed](charts/19_model_rse_exclude_no_response.png)
+
+*Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed*
+
+The results indicate that respondents felt it was generally preferable to make use of a pool RSE rather than hire a full time developer.
+
 ## High Performance Computing
 
 Only 27% of participants responded to our question about the use of High Performance Computing (HPC) - most other optional questions had a similarly low response rate, so lack of response here should not be interpreted as lack of interest in HPC. Of those who responded, 25% did not require HPC. 
