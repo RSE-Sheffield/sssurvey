@@ -25,10 +25,22 @@
 
 ## Sample characteristics
 
-- ToDo: Sampling bias in this survey and those we're comparing with. 
-  - TUoS survey went to all PhD students and research staff with a prize incentive.
-  - 2020 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
-  - 2014 national survey - it is not clear what sampling strategy was used.
+This survey and those we make comparisons with used different sampling strategies:
+
+- This survey went to all PhD students and research staff with a prize incentive.
+- A 2020 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
+- 2014 national survey - it is not clear what sampling strategy was used.
+
+In this survey, participants were asked in which faculty they are based in a list of University of Sheffield (UK) faculties and professional services divisions.
+
+![In which faculty are you based?](charts/01_faculty.png)
+
+*In which faculty are you based?*
+
+We do not know the relative sizes of the different faculties which makes it hard to tell if there is a bias in our responses towards the faculties with higher response rates.
+
+
+### Optional questions
 
 If someone was a no response for one optional question, it looks like they were also a no response for all the other optional questions.
 
@@ -167,3 +179,13 @@ The [University of Sheffield's Open Research Statement](https://www.sheffield.ac
 ## Methods
 
 ## References
+
+## Glossary
+
+| Term | Definition |
+| --- | --- |
+| AMRC | Advanced Manufacturing Research Centre |
+| AMRC NW | |
+| EFM | Estates and facilities management |
+| NAMRC | Nuclear Advanced Manufacturing Research Centre |
+
