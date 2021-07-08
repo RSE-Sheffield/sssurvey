@@ -53,5 +53,5 @@ funds_for_development_df['funds_for_development'] = funds_for_development_df['fu
 funds_for_development_df.to_csv('./data/clean/funds_for_development_clean.csv', index=False)
 
 # Count job titles (facilitates plotting where there are many different job titles)
-job_title_counts = wip_df['job_title'].to_frame().groupby('job_title').size().reset_index(name='counts')
+job_title_counts = wip_df['clean_job'].to_frame().groupby('clean_job').size().reset_index(name='counts')
 job_title_counts.to_csv('./data/clean/job_title_counts_clean.csv', index=False)
