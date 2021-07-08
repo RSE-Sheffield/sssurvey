@@ -40,6 +40,10 @@ funder_df = pd.DataFrame({'funder' : funders})
 funder_df['funder'] = funder_df['funder'].str.strip()
 funder_df.to_csv('./data/clean/funders_clean.csv', index=False)
 
+funder_counts = funder_df.groupby('funder').size().reset_index(name='counts')
+funder_counts.to_csv('./data/clean/funder_counts_clean.csv', index=False)
+
+
 # Make and save list of funders
 funds_for_development_sos = wip_df['funds_for_development'].str.split(pat=r'[,;]')
 funds_for_development = funds_for_development_sos.apply(pd.Series).stack().reset_index(drop = True)
