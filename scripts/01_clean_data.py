@@ -40,6 +40,7 @@ funder_df = pd.DataFrame({'funder' : funders})
 funder_df['funder'] = funder_df['funder'].str.strip()
 funder_df.to_csv('./data/clean/funders_clean.csv', index=False)
 
+# Count funders (facilitates plotting where there are many different funders)
 funder_counts = funder_df.groupby('funder').size().reset_index(name='counts')
 funder_counts.to_csv('./data/clean/funder_counts_clean.csv', index=False)
 
@@ -50,3 +51,7 @@ funds_for_development = funds_for_development_sos.apply(pd.Series).stack().reset
 funds_for_development_df = pd.DataFrame({'funds_for_development' : funds_for_development})
 funds_for_development_df['funds_for_development'] = funds_for_development_df['funds_for_development'].str.strip()
 funds_for_development_df.to_csv('./data/clean/funds_for_development_clean.csv', index=False)
+
+# Count job titles (facilitates plotting where there are many different job titles)
+job_title_counts = wip_df['job_title'].to_frame().groupby('job_title').size().reset_index(name='counts')
+job_title_counts.to_csv('./data/clean/job_title_counts_clean.csv', index=False)
