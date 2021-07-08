@@ -44,7 +44,7 @@ funder_counts = funder_df.groupby('funder').size().reset_index(name='counts')
 funder_counts.to_csv('./data/clean/funder_counts_clean.csv', index=False)
 
 
-# Make and save list of funders
+# Make and save list of funds for development responses
 funds_for_development_sos = wip_df['funds_for_development'].str.split(pat=r'[,;]')
 funds_for_development = funds_for_development_sos.apply(pd.Series).stack().reset_index(drop = True)
 funds_for_development_df = pd.DataFrame({'funds_for_development' : funds_for_development})
