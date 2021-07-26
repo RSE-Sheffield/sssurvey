@@ -29,9 +29,7 @@ Scripts used in data cleaning and analysis
 
 ## LICENSE
 
-**Mandatory**
-
-- If this folder is not in a repository which already has a license, an appropriate license is essential.
+The contents of this repository are available under [this license](LICENSE), apart from the subfolder <source_material/> which is licensed under [this license](source_material/LICENSE).
 
 ## `readme.md`
 
