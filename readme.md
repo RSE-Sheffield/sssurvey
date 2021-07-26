@@ -49,7 +49,7 @@ The contents of this repository contributed by [@mondus](https://github.com/mond
 > ```
 > Create and activate clean conda enviroment:
 > ```
-> conda create --force -n sssurvey python=3.6
+> conda create --force -n sssurvey python=3.7
 > conda activate sssurvey
 > ```
 > Install requirements:
