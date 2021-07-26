@@ -23,6 +23,10 @@ Anonymised data
 
 Data cleaned using (`01_clean_data.py`)[scripts/01_clean_data.py].
 
+### `working/`
+
+Intermediate data that required manual annotation during processing.
+
 ## `scripts/`
 
 Scripts used in data cleaning and analysis
@@ -31,9 +35,7 @@ Scripts used in data cleaning and analysis
 
 The contents of this repository contributed by [@mondus](https://github.com/mondus) and [@bobturneruk](https://github.com/bobturneruk) are available under [this license](LICENSE). The contents of this repository contributed by [@SimonHettrick](https://github.com/SimonHettrick) are available under [this license](source_material/LICENSE).
 
-## `readme.md`
-
-**Mandatory**
+# Installation
 
 - Instructions to run the code, for example:
 
@@ -43,25 +45,36 @@ The contents of this repository contributed by [@mondus](https://github.com/mond
 > ```
 > Change directory to this folder:
 > ```
-> cd reproducibility-template
+> cd sssurvey
 > ```
 > Create and activate clean conda enviroment:
 > ```
-> conda create --force -n reproducibility-template python=3.6
-> conda activate reproducibility-template
+> conda create --force -n sssurvey python=3.6
+> conda activate sssurvey
 > ```
 > Install requirements:
 > ```
 > pip install -r requirements.txt
 > ```
+
+# Reproducing the analysis
+
+## Data cleanup
+
 > Execute code:
 > ```
-> python code/01_clean_data.py
-> python code/02_plot.py
+> python scripts/00_make_cleanup_helpers.py
 > ```
 
-## `requirements.txt`
+This will regenerate files in `data/working`. A manual process is required to map the funders listed in `unique_funders_list.csv` and `unique_jobs_list.csv` to clean, consistent nomenclature (as these fields had free text options).
 
-This file must list the package requirements needed to execute the code in `code/`.
+> Execute code:
+> ```
+> python scripts/01_clean_data.py
+> ```
 
-Substitute `environment.yml` for `requirements.txt`, if appropriate. If using Jupyter notebooks, instructions may be better embedded within the notebook file.
+This will regenerate the contents of `data/clean`.
+
+## Make charts
+
+Load the notebook `charts.ipynb` and click "Restart and run all". This will regenerate the charts in `charts`.
