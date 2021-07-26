@@ -131,6 +131,8 @@ If we exclude those respondents not involved in writing funding applications, 45
 ![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)](charts/17a_funding_excl_not_funding.png)
 
 *Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)*
+
+
 ## Staffing of software development
 
 Participants were asked about the suitability of models for staffing their software development needs: *"How suitable would the following models be for your software development needs?"*. These were either hiring a full time developer or using a fraction of an RSE. The response rates for these questions were 89% and 92% respectively.
