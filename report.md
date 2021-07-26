@@ -127,8 +127,6 @@ Clearly, level of support provided depends hugely on resources available. And re
 
 ## Funding for Software Development
 
-
-
 We found that 44% of participants were involved in writing funding applications.
 
 ![Have you ever included costs for software development in a funding proposal?](charts/17_funding.png)
@@ -153,7 +151,13 @@ Participants were asked about the suitability of models for staffing their softw
 
 *Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed*
 
-The results indicate that respondents felt it was generally preferable to make use of a pool RSE rather than hire a full time developer.
+In practise, 15% of respondents research teams had hired a developer.
+
+![Have you or someone in your group ever hired someone specifically to develop software?](charts/16_hired.png)
+
+*Have you or someone in your group ever hired someone specifically to develop software?*
+
+These results indicate that respondents felt it was generally preferable to make use of a pool RSE rather than hire a full time developer.
 
 ## High Performance Computing
 
