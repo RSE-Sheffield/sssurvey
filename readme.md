@@ -29,7 +29,7 @@ Scripts used in data cleaning and analysis
 
 ## LICENSE
 
-The contents of this repository contributed by @mondus and @bobturneruk are available under [this license](LICENSE). The contents of this repository contributed by @SimonHettrick are available under [this license](source_material/LICENSE).
+The contents of this repository contributed by [@mondus](https://github.com/mondus) and [@bobturneruk](https://github.com/bobturneruk) are available under [this license](LICENSE). The contents of this repository contributed by [@SimonHettrick](https://github.com/SimonHettrick) are available under [this license](source_material/LICENSE).
 
 ## `readme.md`
 
