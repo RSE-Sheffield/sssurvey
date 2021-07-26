@@ -29,7 +29,7 @@ Scripts used in data cleaning and analysis
 
 ## LICENSE
 
-The contents of this repository are available under [this license](LICENSE), apart from the subfolder <source_material/> which is licensed under [this license](source_material/LICENSE).
+The contents of this repository are available under [this license](LICENSE), apart from the subfolder `source_material/` which is licensed under [this license](source_material/LICENSE).
 
 ## `readme.md`
 
