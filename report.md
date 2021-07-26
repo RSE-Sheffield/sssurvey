@@ -49,6 +49,10 @@ Where there were three or less responses for a given agency, these were grouped 
 
 All of the major branches of UKRI are represented, along with charities including the Wellcome Trust and Leverhulme Trust. This chart can't be interpreted as indicating which bodies are more or less likely to fund software development due to sample bias in which researchers responded to the survey. The largest funder by proportion was the EPSRC, and the largest faculties by response proportion were Engineering and Science, who might be expected to draw most from this funder. We also have not corrected in any way for funder budgets, or number of applications funded. It is not clear that all of these funders funded software development.
 
+![Which of the following organisations usually fund your research?](charts/03_job.png)
+
+*Which of the following organisations usually fund your research?*
+
 ### Optional questions
 
 If someone was a no response for one optional question, it looks like they were also a no response for all the other optional questions.
