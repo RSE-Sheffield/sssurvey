@@ -39,6 +39,13 @@ In this survey, participants were asked in which faculty they are based in a lis
 
 We do not know the relative sizes of the different faculties which makes it hard to tell if there is a bias in our responses towards the faculties with higher response rates.
 
+Participants were asked where the funding from their research comes from, and could enter more than one source:
+
+![Which of the following organisations usually fund your research?](charts/02_funders.png)
+
+*Which of the following organisations usually fund your research?*
+
+All of the major branches of UKRI are represented, along with charities including the Wellcome Trust and Leverhulme Trust. This chart can't be interpreted as indicating which bodies are more or less likely to fund software development due to sample bias in which researchers responded to the survey. The largest funder by proportion was the EPSRC, and the largest faculties by response proportion were Engineering and Science, who might be expected to draw most from this funder. We also have not corrected in any way for funder budgets, or number of applications funded. It is not clear that all of these funders funded software development.
 
 ### Optional questions
 
@@ -120,6 +127,8 @@ Clearly, level of support provided depends hugely on resources available. And re
 
 ## Funding for Software Development
 
+
+
 We found that 44% of participants were involved in writing funding applications.
 
 ![Have you ever included costs for software development in a funding proposal?](charts/17_funding.png)
@@ -131,7 +140,6 @@ If we exclude those respondents not involved in writing funding applications, 45
 ![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)](charts/17a_funding_excl_not_funding.png)
 
 *Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)*
-
 
 ## Staffing of software development
 
