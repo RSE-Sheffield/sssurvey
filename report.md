@@ -61,7 +61,7 @@ This indicates that research software is critical for researchers at the Univers
 
 *Do you use research software?*
 
-This is the vast majority of participants and indicates that research software is near ubiqitous amongst researchers at the University of Sheffield.
+This is the vast majority of participants and indicates that research software is near ubiquitous amongst researchers at the University of Sheffield.
 
 Participants were asked to express how important research software is to their work, with 1 being *"Not at all"*, and 5 *"Vital"*.
 
