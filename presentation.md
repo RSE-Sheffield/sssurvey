@@ -55,7 +55,11 @@ This survey and those we make comparisons with used different sampling strategie
 
 # Prevalence and importance of research software
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 ![Do you use research software?](charts/04_use.png)
-
+:::
+::: {.column width="50%"}
 ![How important is research software to your work?](charts/05_important.png)
-
+:::
+::::::::::::::
