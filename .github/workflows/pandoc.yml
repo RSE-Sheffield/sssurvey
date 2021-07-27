@@ -14,6 +14,9 @@ jobs:
         with:
           ref: main
 
+      - name: Make docs folder
+        run: mkdir docs
+
       - name: Convert
         uses: docker://pandoc/core:latest
         with:
