@@ -31,6 +31,6 @@ This survey and those we make comparisons with used different sampling strategie
 
 # Faculty
 
-![In which faculty are you based?](../charts/01_faculty.png)
+![In which faculty are you based?](charts/01_faculty.png)
 
 *In which faculty are you based?*
