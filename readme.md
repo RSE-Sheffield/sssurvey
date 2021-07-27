@@ -2,18 +2,6 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RSE-Sheffield/sssurvey.git/HEAD?filepath=sheffield_software_report.ipynb)
 
-Make HTML:
-
-```
-jupyter nbconvert --to html charts.ipynb --output ./docs/index.html --no-input 
-```
-
-Make `.png` charts:
-
-```
-npm install -g vega vega-cli vega-lite canvas
-```
-
 ## `data/`
 
 ### `raw/`
