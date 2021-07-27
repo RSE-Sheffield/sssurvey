@@ -1,7 +1,6 @@
-% University of Sheffield Research Software Survey (2020)
+% University of Sheffield Research Software Survey (2020) - WORK IN PROGRESS
 % Robert Turner, Paul Richmond, University of Sheffield RSE Team
 % September, 2021
-% Work in progress
 
 # Major Findings
 
