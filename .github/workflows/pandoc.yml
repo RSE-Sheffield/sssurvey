@@ -6,6 +6,11 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-latest
     steps:
+      - name: CHeckout
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
       - name: Convert
         uses: docker://pandoc/core:latest
         with:
