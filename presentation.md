@@ -20,12 +20,12 @@
 
 ::: incremental
 
-- Investigate why 69% of respondents feel they have not had sufficient training.
-- Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
-- Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
-- Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
-- Discover if any action can be taken to help researchers who would like to use University of Sheffield HPC but don't currently use  to do so.
-- Advocate for researchers to include costs for software development in their funding applications.
+* Investigate why 69% of respondents feel they have not had sufficient training.
+* Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
+* Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
+* Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
+* Discover if any action can be taken to help researchers who would like to use University of Sheffield HPC but don't currently use  to do so.
+* Advocate for researchers to include costs for software development in their funding applications.
 
 :::
 
@@ -35,9 +35,9 @@ This survey and those we make comparisons with used different sampling strategie
 
 ::: incremental
 
-- This survey went to all PhD students and research staff with a prize incentive.
-- A 2020 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
-- 2014 national survey - it is not clear what sampling strategy was used.
+* This survey went to all PhD students and research staff with a prize incentive.
+* A 2020 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
+* 2014 national survey * it is not clear what sampling strategy was used.
 
 :::
 
