@@ -41,8 +41,21 @@ This survey and those we make comparisons with used different sampling strategie
 
 :::
 
-# Faculty
+# Sample Characteristics - Faculty
 
 ![In which faculty are you based?](charts/01_faculty.png)
 
 *In which faculty are you based?*
+
+# Sample Characteristics - Funders
+
+![Which of the following organisations usually fund your research?](charts/02_funders.png)
+
+*Which of the following organisations usually fund your research?*
+
+# Sample Characteristics - Job
+
+![What is your job title?](charts/03_job.png)
+
+*What is your job title?*
+
