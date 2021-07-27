@@ -59,3 +59,12 @@ This survey and those we make comparisons with used different sampling strategie
 
 *What is your job title?*
 
+# Prevalence and importance of research software
+
+![Do you use research software?](charts/04_use.png)
+
+*Do you use research software?*
+
+![How important is research software to your work?](charts/05_important.png)
+
+*How important is research software to your work?*
