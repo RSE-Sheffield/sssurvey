@@ -213,7 +213,17 @@ The survey was sent out on 2020-11-09 and closed to responses on ????.
 
 ### Anonymisation
 
+### Data cleaning
 
+### Plotting 
+
+### Report compilation
+
+This report was written in markdown and converted to `.pdf` using `pandoc` and MiKTeX.
+
+### Presentation compilation
+
+An [accompanying presentation](presentation.md) is hosted as a [web page](https://rse.shef.ac.uk/sssurvey) built using continuous integration defined with [GitHub actions YAML](.github/workflows/pandoc.yml).
 
 ## References
 
