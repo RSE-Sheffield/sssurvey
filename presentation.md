@@ -85,3 +85,11 @@ This survey and those we make comparisons with used different sampling strategie
 1 *"Beginner"* to 5, *"Professional"*
 :::
 ::::::::::::::
+
+# Awareness around key skills
+
+![Version control](charts/12_tech_vc_exclude_no_response.png)
+
+![Continuous integration](charts/13_tech_ci_exclude_no_response.png)
+
+![Unit testing](charts/14_tech_test_exclude_no_response.png)
