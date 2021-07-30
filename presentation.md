@@ -66,5 +66,20 @@ This survey and those we make comparisons with used different sampling strategie
 :::
 ::: {.column width="50%"}
 ![How important is research software to your work?](charts/05_important.png)
+
+1 *"Not at all"*, to 5 *"Vital"*
+:::
+::::::::::::::
+
+# Software development practise
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Have you developed your own research software?](charts/06_developed.png)
+:::
+::: {.column width="50%"}
+![How do you rate your software development expertise?](charts/07_rate_dev_exclude_no_response.png)
+
+1 *"Beginner"* to 5, *"Professional"*
 :::
 ::::::::::::::
