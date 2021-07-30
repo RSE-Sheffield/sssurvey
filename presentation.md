@@ -138,3 +138,14 @@ This survey and those we make comparisons with used different sampling strategie
 # High Performance Computing
 
 ![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system?](charts/11_hpc_exclude_no_response.png)
+
+# Licensing and commercialisation
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Would you be interested in the university helping you commercialise some of your research software?](charts/09_commercialise_exclude_no_response.png)
+:::
+::: {.column width="50%"}
+![Do you feel that your research software is ready to be shared with a commercial partner?](charts/10_partner_exclude_no_response.png)
+:::
+::::::::::::::
