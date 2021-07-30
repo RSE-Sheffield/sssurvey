@@ -117,3 +117,20 @@ This survey and those we make comparisons with used different sampling strategie
 ![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)](charts/17a_funding_excl_not_funding.png)
 :::
 ::::::::::::::
+
+# Staffing of software development
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Hire a full-time software developer](charts/18_model_ft_exclude_no_response.png)
+:::
+::: {.column width="50%"}
+![Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed](charts/19_model_rse_exclude_no_response.png)
+:::
+::::::::::::::
+
+# Hiring practise
+
+![Have you or someone in your group ever hired someone specifically to develop software?](charts/16_hired.png)
+
+
