@@ -29,7 +29,7 @@
 * Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
 * Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
 * Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
-* Discover if any action can be taken to help researchers who would like to use University of Sheffield HPC but don't currently use  to do so.
+* Discover if any action can be taken to help researchers who would like to use University of Sheffield HPC but don't currently use to do so.
 * Advocate for researchers to include costs for software development in their funding applications.
 
 :::
@@ -93,3 +93,10 @@ This survey and those we make comparisons with used different sampling strategie
 ![Continuous integration](charts/13_tech_ci_exclude_no_response.png)
 
 ![Unit testing](charts/14_tech_test_exclude_no_response.png)
+
+# Current level of support
+
+![How would you rate the university's current level of support for your software-development needs?](charts/15_support_exclude_no_response.png)
+
+1: *"poor"* to 5: *"excellent"*
+
