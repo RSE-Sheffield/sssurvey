@@ -149,3 +149,7 @@ This survey and those we make comparisons with used different sampling strategie
 ![Do you feel that your research software is ready to be shared with a commercial partner?](charts/10_partner_exclude_no_response.png)
 :::
 ::::::::::::::
+
+# Methods
+
+# What I'd like to fund out

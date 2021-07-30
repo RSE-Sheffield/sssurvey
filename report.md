@@ -197,8 +197,23 @@ These results suggest a situation where few participants are interested in or re
 
 The [University of Sheffield's Open Research Statement](https://www.sheffield.ac.uk/openresearch/university-statement-open-research) states that researchers should *"Strive to make all scholarly outputs freely available..."* which indicates that software not intended for commercialisation should be made available. This is likely the majority of University of Sheffield research software outputs. Researchers may need additional support to realise this. There may also need to be more support for researchers who are considering, or want to commercialise their software outputs.
 
-
 ## Methods
+
+### Survey design
+
+The survey was based on previous surveys undertaken [nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk) and at the [University of Southampton](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019).
+
+### Data collection
+
+The survey was sent to all staff and PhD students at the University of Sheffield via email as a linked Google Form. The text of the email is archived in this repository <data/raw/email_announcement.txt>. Responses were incentivised with:
+
+> Everyone who completes the survey will have the option to take part in a prize draw for a £50 Amazon voucher and to request a free 1 hour software consultation from our team.
+
+The survey was sent out on 2020-11-09 and closed to responses on ????.
+
+### Anonymisation
+
+
 
 ## References
 
