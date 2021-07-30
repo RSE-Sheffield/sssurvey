@@ -215,8 +215,17 @@ The survey was sent out on 2020-11-09 and closed to responses on ????.
 
 ### Data cleaning
 
-### Plotting 
+[Raw data](data/raw/sheffield.csv) in `.csv` format underwent modifications to make it suitable for analysis:
 
+* In the fields (job titles, funding sources) where free text fields was allowed, the text entered was mapped to standard responses as much as possible.
+* The full text of questions was replaced with a shorter column name.
+* Verbose answers from multiple choice were replaced with more concise ones.
+* Where respondents could select multiple responses to a question, a separate file was created to accomodate these.
+* Where convenient, responses were counted and saved as separate files.
+
+### Plotting
+
+Plotting was done using the `seaborn` Python package in a [Jupyter notebook](charts.ipynb) which facilitated iterative improvement of plots.
 ### Report compilation
 
 This report was written in markdown and converted to `.pdf` using `pandoc` and MiKTeX.
