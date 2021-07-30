@@ -169,7 +169,7 @@ These results indicate that respondents felt it was generally preferable to make
 
 ## High Performance Computing
 
-Only 27% of participants responded to our question about the use of High Performance Computing (HPC) - most other optional questions had a similarly low response rate, so lack of response here should not be interpreted as lack of interest in HPC. Of those who responded, 25% did not require HPC. 
+Only 27% of participants responded to our question about the use of High Performance Computing (HPC) - most other optional questions had a similarly low response rate, so lack of response here should not be interpreted as lack of interest in HPC. Of those who responded, 25% did not require HPC.
 
 ![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system?](charts/11_hpc_exclude_no_response.png)
 

@@ -133,4 +133,6 @@ This survey and those we make comparisons with used different sampling strategie
 
 ![Have you or someone in your group ever hired someone specifically to develop software?](charts/16_hired.png)
 
+# High Performance Computing
 
+![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system?](charts/11_hpc_exclude_no_response.png)
