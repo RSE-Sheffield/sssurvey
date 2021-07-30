@@ -105,3 +105,13 @@ This survey and those we make comparisons with used different sampling strategie
 
 1: *"poor"* to 5: *"excellent"*
 
+# Funding for Software Development
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Have you ever included costs for software development in a funding proposal?](charts/17_funding.png)
+:::
+::: {.column width="50%"}
+![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)](charts/17a_funding_excl_not_funding.png)
+:::
+::::::::::::::
