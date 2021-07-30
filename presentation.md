@@ -88,11 +88,16 @@ This survey and those we make comparisons with used different sampling strategie
 
 # Awareness around key skills
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 ![Version control](charts/12_tech_vc_exclude_no_response.png)
 
 ![Continuous integration](charts/13_tech_ci_exclude_no_response.png)
-
+:::
+::: {.column width="50%"}
 ![Unit testing](charts/14_tech_test_exclude_no_response.png)
+:::
+::::::::::::::
 
 # Current level of support
 
