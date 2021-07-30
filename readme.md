@@ -23,7 +23,9 @@ Scripts used in data cleaning and analysis
 
 The contents of this repository contributed by [@mondus](https://github.com/mondus) and [@bobturneruk](https://github.com/bobturneruk) are available under [this license](LICENSE). The contents of this repository contributed by [@SimonHettrick](https://github.com/SimonHettrick) are available under [this license](source_material/LICENSE).
 
-# Installation
+# Reproducing the analysis
+
+## Installation
 
 - Instructions to run the code, for example:
 
@@ -45,8 +47,6 @@ The contents of this repository contributed by [@mondus](https://github.com/mond
 > pip install -r requirements.txt
 > ```
 
-# Reproducing the analysis
-
 ## Data cleanup
 
 > Execute code:
@@ -66,3 +66,11 @@ This will regenerate the contents of `data/clean`.
 ## Make charts
 
 Load the notebook `charts.ipynb` and click "Restart and run all". This will regenerate the charts in `charts`.
+
+## Build a `.pdf` report
+
+Install [pandoc](https://pandoc.org/installing.html) and [MiKTeX](https://miktex.org/download).
+
+```
+pandoc report.md --pdf-engine=xelatex -o report.pdf
+```
