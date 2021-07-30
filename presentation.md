@@ -2,6 +2,11 @@
 % Robert Turner, Paul Richmond, University of Sheffield RSE Team
 % September, 2021
 
+# Sources
+
+* Data and analysis software <https://github.com/RSE-Sheffield/sssurvey>.
+* Report in `.pdf` format <https://github.com/RSE-Sheffield/sssurvey/blob/main/report.pdf>.
+
 # Major Findings
 
 ::: incremental
