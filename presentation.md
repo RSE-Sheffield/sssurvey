@@ -76,7 +76,9 @@ This survey and those we make comparisons with used different sampling strategie
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 ![Have you developed your own research software?](charts/06_developed.png)
+
 ---
+
 ![Do you feel that you have received sufficient training to develop reliable software?](charts/08_training_exclude_no_response.png)
 :::
 ::: {.column width="50%"}
