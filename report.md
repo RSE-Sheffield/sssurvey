@@ -213,6 +213,10 @@ The survey was sent out on 2020-11-09 and closed to responses on ????.
 
 ### Anonymisation
 
+### Execution environment
+
+
+
 ### Data cleaning
 
 [Raw data](data/raw/sheffield.csv) in `.csv` format underwent modifications to make it suitable for analysis:
