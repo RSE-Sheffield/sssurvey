@@ -152,4 +152,4 @@ This survey and those we make comparisons with used different sampling strategie
 
 # Methods
 
-# What I'd like to fund out
+# What I'd like to find out
