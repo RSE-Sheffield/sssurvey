@@ -1,8 +1,14 @@
-# W I P
+---
+title: "University of Sheffield Software Survey"
+author: Robert Turner, Paul Richmond, RSE Team
+date: August 02, 2021
+geometry: margin=1cm
+output: pdf_document
+---
 
-# University of Sheffield Software Survey
+W I P
 
-## Major Findings
+# Major Findings
 
 * 382 respondents.
 * 91% of respondents use research software ([92% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
@@ -12,7 +18,7 @@
 * Of the 54% of respondents who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
 * Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
 
-## Recommendations
+# Recommendations
 
 - Investigate why 69% of respondents feel they have not had sufficient training.
 - Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
@@ -21,9 +27,9 @@
 - Discover if any action can be taken to help researchers would like to use University of Sheffield HPC but don't currently use  to do so.
 - Advocate for researchers to include costs for software development in their funding applications.
 
-## Introduction
+# Introduction
 
-## Sample characteristics
+# Sample characteristics
 
 This survey and those we make comparisons with used different sampling strategies:
 
@@ -55,11 +61,11 @@ All of the major branches of UKRI are represented, along with charities includin
 
 Respondents job titles (or student status) show that our sample contained a large proportion of PhD students and Research Associates.
 
-### Optional questions
+## Optional questions
 
 If someone was a no response for one optional question, it looks like they were also a no response for all the other optional questions.
 
-## Prevalence and importance of research software
+# Prevalence and importance of research software
 
 **91% of participants report that they use research software** (defined as *"...any software you have used in the generation of a result that you expect to appear in a publication. This might be anything from a few-line script to clean some data, to a fully fledged software suite. It includes code you have written yourself and code written by someone else."* in the survey form). A 2014 study reports that [nationally this is **92%**](https://zenodo.org/record/1183562#.YMnQFahKiUk), another from the University of Southampton in 2020 [reports **95%**](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Research%20software%20at%20the%20University%20of%20Southampton.pdf).
 
@@ -79,7 +85,7 @@ Participants were asked to express how important research software is to their w
 
 65% of participants reported that research software is vital to their work.
 
-## Software development practise
+# Software development practise
 
 Only 27% of our participants had developed their own code. This compares with 56% nationally. This could be because a smaller proportion of researchers at the University of Sheffield develop code than that for the whole country, or due to sampling bias in either survey. In the 2020 Southampton survey, which records an 8% to 11% response rate accross faculties, suggesting low sample bias, 33% report developing their own software - much closer to our figure. This is consistent with the national survey response having been somewhat biased towards people more engaged with software. Nonetheless, this remains a large proportion of researchers and provokes a question as to whether enough attention is given to software development in our organisation.
 
@@ -133,7 +139,7 @@ The question of support for software development was raised from the perspective
 
 Clearly, level of support provided depends hugely on resources available. And responses are subjective - we don't all have the same definition of "poor" and "excellent". The majority of responses were in the middle of the scale, but at the extremes there were more "poor" (12%) responses than "excellent" (4%). Even the best things get poor reviews sometimes - this can be more down to the reviewer than the thing.
 
-## Funding for Software Development
+# Funding for Software Development
 
 We found that 44% of participants were involved in writing funding applications.
 
@@ -147,7 +153,7 @@ If we exclude those respondents not involved in writing funding applications, 45
 
 *Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)*
 
-## Staffing of software development
+# Staffing of software development
 
 Participants were asked about the suitability of models for staffing their software development needs: *"How suitable would the following models be for your software development needs?"*. These were either hiring a full time developer or using a fraction of an RSE. The response rates for these questions were 89% and 92% respectively.
 
@@ -167,7 +173,7 @@ In practise, 15% of respondents research teams had hired a developer.
 
 These results indicate that respondents felt it was generally preferable to make use of a pool RSE rather than hire a full time developer.
 
-## High Performance Computing
+# High Performance Computing
 
 Only 27% of participants responded to our question about the use of High Performance Computing (HPC) - most other optional questions had a similarly low response rate, so lack of response here should not be interpreted as lack of interest in HPC. Of those who responded, 25% did not require HPC.
 
@@ -177,7 +183,7 @@ Only 27% of participants responded to our question about the use of High Perform
 
 A broad range of possible responses were provided, here. Most important numerically were that 30% of respondents use the University of Sheffield HPC systems, and 22% would like to.
 
-## Licensing and commercialisation
+# Licensing and commercialisation
 
 Response rate for both questions on commercialisation was 27% and results are presented as proportions of those who responded.
 
@@ -197,13 +203,13 @@ These results suggest a situation where few participants are interested in or re
 
 The [University of Sheffield's Open Research Statement](https://www.sheffield.ac.uk/openresearch/university-statement-open-research) states that researchers should *"Strive to make all scholarly outputs freely available..."* which indicates that software not intended for commercialisation should be made available. This is likely the majority of University of Sheffield research software outputs. Researchers may need additional support to realise this. There may also need to be more support for researchers who are considering, or want to commercialise their software outputs.
 
-## Methods
+# Methods
 
-### Survey design
+## Survey design
 
 The survey was based on previous surveys undertaken [nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk) and at the [University of Southampton](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019).
 
-### Data collection
+## Data collection
 
 The survey was sent to all staff and PhD students at the University of Sheffield via email as a linked Google Form. The text of the email is archived in this repository <data/raw/email_announcement.txt>. Responses were incentivised with:
 
@@ -211,13 +217,13 @@ The survey was sent to all staff and PhD students at the University of Sheffield
 
 The survey was sent out on 2020-11-09 and closed to responses on ????.
 
-### Anonymisation
+## Anonymisation
 
-### Execution environment
+## Execution environment
 
 
 
-### Data cleaning
+## Data cleaning
 
 [Raw data](data/raw/sheffield.csv) in `.csv` format underwent modifications to make it suitable for analysis:
 
@@ -227,20 +233,20 @@ The survey was sent out on 2020-11-09 and closed to responses on ????.
 * Where respondents could select multiple responses to a question, a separate file was created to accomodate these.
 * Where convenient, responses were counted and saved as separate files.
 
-### Plotting
+## Plotting
 
 Plotting was done using the `seaborn` Python package in a [Jupyter notebook](charts.ipynb) which facilitated iterative improvement of plots.
-### Report compilation
+## Report compilation
 
 This report was written in markdown and converted to `.pdf` using `pandoc` and MiKTeX.
 
-### Presentation compilation
+## Presentation compilation
 
 An [accompanying presentation](presentation.md) is hosted as a [web page](https://rse.shef.ac.uk/sssurvey) built using continuous integration defined with [GitHub actions YAML](.github/workflows/pandoc.yml).
 
-## References
+# References
 
-## Glossary
+# Glossary
 
 | Term | Definition |
 | --- | --- |
