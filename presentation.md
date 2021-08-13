@@ -71,7 +71,7 @@ September, 2021
 
 # Funders
 
-![Which of the following organisations usually fund your research?](charts/02_funders.png)
+![Which organisations usually fund your research?](charts/02_funders.png)
 
 # Job
 
@@ -95,15 +95,9 @@ September, 2021
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 ![Have you developed your own research software?](charts/06_developed.png)
-
----
-
-![Do you feel that you have received sufficient training to develop reliable software?](charts/08_training_exclude_no_response.png)
 :::
 ::: {.column width="50%"}
-![How do you rate your software development expertise?](charts/07_rate_dev_exclude_no_response.png)
-
-1 *"Beginner"* to 5, *"Professional"*
+![Do you feel that you have received sufficient training to develop reliable software?](charts/08_training_exclude_no_response.png)
 :::
 ::::::::::::::
 
