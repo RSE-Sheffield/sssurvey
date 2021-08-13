@@ -19,7 +19,7 @@ jobs:
           ref: main
 
       - name: Convert
-        uses: docker://pandoc/core:latest
+        uses: docker://pandoc/latex:latest
         with:
           args: >-  # allows you to break string into multiple lines
             -s presentation.md  
