@@ -142,3 +142,6 @@ cython_debug/
 
 # html output
 *.htm*
+
+# pdf output
+*.pdf
