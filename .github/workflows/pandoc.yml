@@ -23,6 +23,7 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             --self-contained   
             -t revealjs
+            -V theme=moon
             -o docs/index.html
             presentation.md
 
