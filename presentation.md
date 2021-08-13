@@ -104,14 +104,13 @@ September, 2021
 # Awareness around key skills
 
 :::::::::::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="33%"}
 ![Version control](charts/12_tech_vc_exclude_no_response.png)
-
----
-
+:::
+::: {.column width="33%"}
 ![Continuous integration](charts/13_tech_ci_exclude_no_response.png)
 :::
-::: {.column width="50%"}
+::: {.column width="33%"}
 ![Unit testing](charts/14_tech_test_exclude_no_response.png)
 :::
 ::::::::::::::
