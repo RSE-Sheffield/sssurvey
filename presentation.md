@@ -1,7 +1,7 @@
 # University of Sheffield Research Software Survey (2020) - WORK IN PROGRESS
 
 <style>
-    .reveal h1 { font-size: 2.5em; }
+    .reveal h1 { font-size: 2em; }
 </style>
 
 Robert Turner, Paul Richmond, University of Sheffield RSE Team
@@ -76,7 +76,7 @@ September, 2021
 
 ![What is your job title?](charts/03_job.png)
 
-# Prevalence and importance of research software
+# Importance of research software
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
