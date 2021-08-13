@@ -204,7 +204,7 @@ The [University of Sheffield's Open Research Statement](https://www.sheffield.ac
 
 ## Survey design
 
-The survey was based on previous surveys undertaken nationally [@Hettrick2018] and at the University of Southampton [@Wyatt2019].
+The survey was based on previous surveys undertaken nationally [@Hettrick2018] and at the University of Southampton [@Wyatt2019]. The study was deisgned to help to understand the demand for software-development expertise within the university so that it can provide an adequate level of support. The anonymous results of the local survey will be shared with the SSI to where they will be combined with results form other institutions to build a national picture of the demand for software within research.
 
 ## Data collection
 
@@ -212,7 +212,7 @@ The survey was sent to all staff and PhD students at the University of Sheffield
 
 > Everyone who completes the survey will have the option to take part in a prize draw for a £50 Amazon voucher and to request a free 1 hour software consultation from our team.
 
-The survey was sent out on 2020-11-09 and closed to responses on ????.
+The survey was sent out on 2020-11-09 and closed to responses on 06/11/2020. Further information on the survey can be found here: https://bit.ly/30PGBsH. Permission to send an email to all PhD students and research staff was obtained by the University of Sheffield, Research Practice Lead. The survey obtained ethics approval (ethics approval number: 032771).
 
 ## Anonymisation
 
