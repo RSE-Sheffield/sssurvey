@@ -41,7 +41,7 @@ This survey and those we make comparisons with used different sampling strategie
 ::: incremental
 
 * This survey went to all PhD students and research staff with a prize incentive.
-* A 2020 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
+* A 2019 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
 * 2014 national survey - it is not clear what sampling strategy was used.
 
 :::

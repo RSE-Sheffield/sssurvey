@@ -72,5 +72,5 @@ Load the notebook `charts.ipynb` and click "Restart and run all". This will rege
 Install [pandoc](https://pandoc.org/installing.html) and [MiKTeX](https://miktex.org/download).
 
 ```
-pandoc report.md --pdf-engine=xelatex -o report.pdf
+pandoc -s report.md --pdf-engine=xelatex --bibliography biblio.yaml --citeproc -o report.pdf
 ```

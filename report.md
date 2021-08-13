@@ -6,6 +6,41 @@ geometry: margin=2cm
 output: pdf_document
 papersize: a4
 numbersections: true
+references:
+- title: "softwaresaved/software_in_research_survey_2014: Software in research survey"
+  author:
+  - family: Hettrick
+    given: Simon
+  publisher: "Zenodo" 
+  DOI: "10.5281/zenodo.1183562"
+  id: Hettrick2018
+  issued: 2018  
+  version: "1.0"
+  type: "article"
+- title: "Southampton-RSG/soton_software_survey_analysis_2019: Release with DOI in report"
+  author:
+  - family: Brown
+    given: A
+  - family: Crouch
+    given: S
+  - family: Graham
+    given: J
+  - family: Grylls
+    given: PJ
+  - family: Hettrick
+    given: SJ
+  - family: Mangham
+    given: SW
+  - family: Robinson
+    given: J
+  - family: Wyatt
+    given: C
+  publisher: "Zenodo"
+  DOI: "10.5281/zenodo.3569558"
+  id: Wyatt2019
+  issued: 2019  
+  version: "1.1"
+  type: "article"
 ---
 
 W I P
@@ -13,12 +48,12 @@ W I P
 # Major Findings
 
 * 382 respondents.
-* 91% of respondents use research software ([92% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
-* 65% report that software is vital to their research (nationally, 69% report that "It would not be practical to conduct my work without software").
-* 27% develop their own code ([56% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
+* 91% of respondents use research software (92% nationally [@Hettrick2018]).
+* 65% report that software is vital to their research (nationally, 69% report that "It would not be practical to conduct my work without software" [@Hettrick2018]).
+* 27% develop their own code (56% nationally [@Hettrick2018]).
 * 69% (of the 27% subset who responded to this question) feel they have **not had sufficient training** to develop reliable software.
 * Of the 54% of respondents who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
-* Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
+* Of those who expected to write software, 40% did not request funding for this (compared to 20%, nationally [@Hettrick2018]).
 
 # Recommendations
 
@@ -36,7 +71,7 @@ W I P
 This survey and those we make comparisons with used different sampling strategies:
 
 - This survey went to all PhD students and research staff with a prize incentive.
-- A 2020 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
+- A 2019 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties. (@Wyatt2019)
 - 2014 national survey - it is not clear what sampling strategy was used.
 
 In this survey, participants were asked in which faculty they are based in a list of University of Sheffield (UK) faculties and professional services divisions.
