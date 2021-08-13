@@ -242,8 +242,6 @@ This report was written in markdown and converted to `.pdf` using `pandoc` and M
 
 An [accompanying presentation](presentation.md) is hosted as a [web page](https://rse.shef.ac.uk/sssurvey) built using continuous integration defined with [GitHub actions YAML](.github/workflows/pandoc.yml).
 
-# References
-
 # Glossary
 
 | Term | Definition |
@@ -253,3 +251,4 @@ An [accompanying presentation](presentation.md) is hosted as a [web page](https:
 | EFM | Estates and facilities management |
 | NAMRC | Nuclear Advanced Manufacturing Research Centre |
 
+# References
