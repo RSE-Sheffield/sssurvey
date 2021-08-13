@@ -5,7 +5,7 @@
 # Sources
 
 * Data and analysis software <https://github.com/RSE-Sheffield/sssurvey>.
-* Report in `.pdf` format <https://github.com/RSE-Sheffield/sssurvey/blob/main/report.pdf>.
+* Report in `.pdf` format <https://github.com/RSE-Sheffield/sssurvey/releases>.
 
 # Major Findings
 
