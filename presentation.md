@@ -2,7 +2,6 @@
 
 <style>
     .reveal h1 { font-size: 2em; }
-    .reveal section figcaption { font-size: 0.5; }
 </style>
 
 Robert Turner, Paul Richmond, University of Sheffield RSE Team
@@ -23,6 +22,8 @@ September, 2021
 :::
 
 # Analysis
+
+*Generally, "non responses" to optional (O) questions were ignored. Mandatory questions are marked (M).*
 
 ::: incremental
 
@@ -67,24 +68,24 @@ September, 2021
 
 # Faculty
 
-![In which faculty are you based?](charts/01_faculty.png)
+![In which faculty are you based? (M)](charts/01_faculty.png)
 
 # Funders
 
-![Which organisations usually fund your research?](charts/02_funders.png)
+![Which organisations usually fund your research? (O)](charts/02_funders.png)
 
 # Job
 
-![What is your job title?](charts/03_job.png)
+![What is your job title? (O)](charts/03_job.png)
 
 # Importance of research software
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![Do you use research software?](charts/04_use.png)
+![Do you use research software? (M)](charts/04_use.png)
 :::
 ::: {.column width="50%"}
-![How important is research software to your work?](charts/05_important.png)
+![How important is research software to your work? (M)](charts/05_important.png)
 
 1 *"Not at all"*, to 5 *"Vital"*
 :::
@@ -94,10 +95,10 @@ September, 2021
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![Have you developed your own research software?](charts/06_developed.png)
+![Have you developed your own research software? (M)](charts/06_developed.png)
 :::
 ::: {.column width="50%"}
-![Do you feel that you have received sufficient training to develop reliable software?](charts/08_training_exclude_no_response.png)
+![Do you feel that you have received sufficient training to develop reliable software? (M)](charts/08_training_exclude_no_response.png)
 :::
 ::::::::::::::
 
@@ -105,19 +106,19 @@ September, 2021
 
 :::::::::::::: {.columns}
 ::: {.column width="33%"}
-![Version control](charts/12_tech_vc_exclude_no_response.png)
+![Version control (O)](charts/12_tech_vc_exclude_no_response.png)
 :::
 ::: {.column width="33%"}
-![Continuous integration](charts/13_tech_ci_exclude_no_response.png)
+![Continuous integration (O)](charts/13_tech_ci_exclude_no_response.png)
 :::
 ::: {.column width="33%"}
-![Unit testing](charts/14_tech_test_exclude_no_response.png)
+![Unit testing (O)](charts/14_tech_test_exclude_no_response.png)
 :::
 ::::::::::::::
 
 # Current level of support
 
-![How would you rate the university's current level of support for your software-development needs?](charts/15_support_exclude_no_response.png)
+![How would you rate the university's current level of support for your software-development needs? (O)](charts/15_support_exclude_no_response.png)
 
 1: *"poor"* to 5: *"excellent"*
 
@@ -125,10 +126,10 @@ September, 2021
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![Have you ever included costs for software development in a funding proposal?](charts/17_funding.png)
+![Have you ever included costs for software development in a funding proposal? (M)](charts/17_funding.png)
 :::
 ::: {.column width="50%"}
-![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals)](charts/17a_funding_excl_not_funding.png)
+![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals) (M)](charts/17a_funding_excl_not_funding.png)
 :::
 ::::::::::::::
 
@@ -136,29 +137,29 @@ September, 2021
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![Hire a full-time software developer](charts/18_model_ft_exclude_no_response.png)
+![Hire a full-time software developer (M)](charts/18_model_ft_exclude_no_response.png)
 :::
 ::: {.column width="50%"}
-![Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed](charts/19_model_rse_exclude_no_response.png)
+![Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed (O)](charts/19_model_rse_exclude_no_response.png)
 :::
 ::::::::::::::
 
 # Hiring practise
 
-![Have you or someone in your group ever hired someone specifically to develop software?](charts/16_hired.png)
+![Have you or someone in your group ever hired someone specifically to develop software? (M)](charts/16_hired.png)
 
 # High Performance Computing
 
-![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system?](charts/11_hpc_exclude_no_response.png)
+![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system? (M)](charts/11_hpc_exclude_no_response.png)
 
 # Licensing and commercialisation
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![Would you be interested in the university helping you commercialise some of your research software?](charts/09_commercialise_exclude_no_response.png)
+![Would you be interested in the university helping you commercialise some of your research software? (O)](charts/09_commercialise_exclude_no_response.png)
 :::
 ::: {.column width="50%"}
-![Do you feel that your research software is ready to be shared with a commercial partner?](charts/10_partner_exclude_no_response.png)
+![Do you feel that your research software is ready to be shared with a commercial partner? (M)](charts/10_partner_exclude_no_response.png)
 :::
 ::::::::::::::
 
