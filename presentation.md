@@ -12,7 +12,7 @@ September, 2021
 * Data and analysis software <https://github.com/RSE-Sheffield/sssurvey>.
 * Report in `.pdf` format <https://github.com/RSE-Sheffield/sssurvey/releases/download/latest/report.pdf>.
 
-# Major Findings
+# Software Importance
 
 ::: incremental
 
@@ -20,6 +20,13 @@ September, 2021
 * 91% of respondents use research software ([92% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
 * 65% report that software is vital to their research (nationally, 69% report that "It would not be practical to conduct my work without software").
 * 27% develop their own code ([56% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
+
+:::
+
+# Training and funding
+
+::: incremental
+
 * 69% (of the 27% subset who responded to this question) feel they have **not had sufficient training** to develop reliable software.
 * Of the 54% of respondents who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
 * Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
