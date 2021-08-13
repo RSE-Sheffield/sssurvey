@@ -12,6 +12,27 @@ September, 2021
 * Data and analysis software <https://github.com/RSE-Sheffield/sssurvey>.
 * Report in `.pdf` format <https://github.com/RSE-Sheffield/sssurvey/releases/download/latest/report.pdf>.
 
+# The Survey
+
+::: incremental
+
+* Based on surveys carried out [nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk) in 2014 and at the [University of Southampton](https://zenodo.org/record/3569558#.YRZfS4hKiUl) in 2019, led by Simon Hettrick.
+* Asked about "demographics", use and development of software, training and funding.
+
+:::
+
+# Analysis
+
+::: incremental
+
+* Data anonymised manually.
+* Cleaned and annotated using Python scripts (with some manual decision).
+* Plotted charts using Jupyter notebook.
+* Presentation and report written in markdown.
+* Outputs built using pandoc / GitHub actions.
+
+:::
+
 # Software Importance
 
 ::: incremental
@@ -34,8 +55,6 @@ September, 2021
 :::
 
 # Sample characteristics
-
-This survey and those we make comparisons with used different sampling strategies:
 
 ::: incremental
 
