@@ -64,15 +64,15 @@ September, 2021
 
 :::
 
-# Sample Characteristics - Faculty
+# Faculty
 
 ![In which faculty are you based?](charts/01_faculty.png)
 
-# Sample Characteristics - Funders
+# Funders
 
 ![Which of the following organisations usually fund your research?](charts/02_funders.png)
 
-# Sample Characteristics - Job
+# Job
 
 ![What is your job title?](charts/03_job.png)
 
@@ -168,10 +168,6 @@ September, 2021
 :::
 ::::::::::::::
 
-# Methods
-
-# What I'd like to find out
-
 # Actions - Research and Advocacy
 
 ::: incremental
@@ -191,3 +187,5 @@ September, 2021
 * Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
 
 :::
+
+# Future work
