@@ -22,7 +22,7 @@ jobs:
         with:
           args: >-  # allows you to break string into multiple lines
             --self-contained   
-            -t slidy
+            -t revealjs
             -o docs/index.html
             presentation.md
 
