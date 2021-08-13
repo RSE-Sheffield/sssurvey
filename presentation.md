@@ -2,9 +2,9 @@
     .reveal h1 { font-size: 2.5em; }
 </style>
 
-% University of Sheffield Research Software Survey (2020) - WORK IN PROGRESS
-% Robert Turner, Paul Richmond, University of Sheffield RSE Team
-% September, 2021
+# University of Sheffield Research Software Survey (2020) - WORK IN PROGRESS
+Robert Turner, Paul Richmond, University of Sheffield RSE Team
+September, 2021
 
 # Sources
 
