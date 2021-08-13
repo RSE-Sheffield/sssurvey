@@ -1,6 +1,8 @@
 # University of Sheffield Research Software Survey 2020 Results
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RSE-Sheffield/sssurvey.git/HEAD?filepath=sheffield_software_report.ipynb)
+Findings can be viewed as [a slide presentation](https://rse.shef.ac.uk/sssurvey) or [`pdf` report](https://github.com/RSE-Sheffield/sssurvey/releases/download/latest/report.pdf).
+
+Charts were made in a Jupyter notebook which can be run here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RSE-Sheffield/sssurvey.git/HEAD?filepath=sheffield_software_report.ipynb)
 
 ## `data/`
 
@@ -72,5 +74,5 @@ Load the notebook `charts.ipynb` and click "Restart and run all". This will rege
 Install [pandoc](https://pandoc.org/installing.html) and [MiKTeX](https://miktex.org/download).
 
 ```
-pandoc -s report.md --pdf-engine=xelatex --bibliography biblio.yaml --citeproc -o report.pdf
+pandoc -s report.md --pdf-engine=xelatex --citeproc -o report.pdf
 ```
