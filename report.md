@@ -71,7 +71,7 @@ W I P
 This survey and those we make comparisons with used different sampling strategies:
 
 - This survey went to all PhD students and research staff with a prize incentive.
-- A 2019 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties. (@Wyatt2019)
+- A 2019 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties [@Wyatt2019].
 - 2014 national survey - it is not clear what sampling strategy was used.
 
 In this survey, participants were asked in which faculty they are based in a list of University of Sheffield (UK) faculties and professional services divisions.
@@ -98,7 +98,7 @@ If someone was a no response for one optional question, it looks like they were 
 
 # Prevalence and importance of research software
 
-**91% of participants report that they use research software** (defined as *"...any software you have used in the generation of a result that you expect to appear in a publication. This might be anything from a few-line script to clean some data, to a fully fledged software suite. It includes code you have written yourself and code written by someone else."* in the survey form). A 2014 study reports that [nationally this is **92%**](https://zenodo.org/record/1183562#.YMnQFahKiUk), another from the University of Southampton in 2020 [reports **95%**](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019/blob/master/report/Research%20software%20at%20the%20University%20of%20Southampton.pdf).
+**91% of participants report that they use research software** (defined as *"...any software you have used in the generation of a result that you expect to appear in a publication. This might be anything from a few-line script to clean some data, to a fully fledged software suite. It includes code you have written yourself and code written by someone else."* in the survey form). A 2014 study reports that nationally this is **92%** [@Hettrick2018], another from the University of Southampton in 2019 reports **95%** [@Wyatt2019].
 
 This indicates that research software is critical for researchers at the University of Sheffield, and that this is not exceptional.
 
@@ -114,7 +114,7 @@ Participants were asked to express how important research software is to their w
 
 # Software development practise
 
-Only 27% of our participants had developed their own code. This compares with 56% nationally. This could be because a smaller proportion of researchers at the University of Sheffield develop code than that for the whole country, or due to sampling bias in either survey. In the 2020 Southampton survey, which records an 8% to 11% response rate accross faculties, suggesting low sample bias, 33% report developing their own software - much closer to our figure. This is consistent with the national survey response having been somewhat biased towards people more engaged with software. Nonetheless, this remains a large proportion of researchers and provokes a question as to whether enough attention is given to software development in our organisation.
+Only 27% of our participants had developed their own code. This compares with 56% nationally. This could be because a smaller proportion of researchers at the University of Sheffield develop code than that for the whole country, or due to sampling bias in either survey. In the 2019 Southampton survey [@Wyatt2019], which records an 8% to 11% response rate accross faculties, suggesting low sample bias, 33% report developing their own software - much closer to our figure. This is consistent with the national survey response having been somewhat biased towards people more engaged with software. Nonetheless, this remains a large proportion of researchers and provokes a question as to whether enough attention is given to software development in our organisation.
 
 ![Have you developed your own research software?](charts/06_developed.png){ width=10cm }
 
@@ -204,7 +204,7 @@ The [University of Sheffield's Open Research Statement](https://www.sheffield.ac
 
 ## Survey design
 
-The survey was based on previous surveys undertaken [nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk) and at the [University of Southampton](https://github.com/Southampton-RSG/soton_software_survey_analysis_2019).
+The survey was based on previous surveys undertaken nationally [@Hettrick2018] and at the University of Southampton [@Wyatt2019].
 
 ## Data collection
 
