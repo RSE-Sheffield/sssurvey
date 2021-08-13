@@ -5,11 +5,19 @@ Findings can be viewed as [a slide presentation](https://rse.shef.ac.uk/sssurvey
 Charts were made in a Jupyter notebook which can be run here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RSE-Sheffield/sssurvey.git/HEAD?filepath=sheffield_software_report.ipynb)
 
 ## Repository contents
+- `.github/workflows/` YAML files to configure automated building of presentation and pdf report.
+- `charts/` Charts showing data, generated using `charts.ipynb`.
 - `data/`
   - `raw/` Anonymised data
   - `clean/` Data cleaned using (`01_clean_data.py`)[scripts/01_clean_data.py].
   - `working/` Intermediate data that required manual annotation during processing.
 - `scripts/` Scripts used in data cleaning and analysis
+- `LICENSE`
+- `charts.ipynb` Jupyter notebook used to make charts.
+- `presentation.md` Slideshow for presentation based on survey.
+- `readme.md`
+- `report.md` Report based on survey.
+- `requirements.txt` Dependencies required to reproduce analysis.
 
 ## Reproducing the analysis
 ### Installation
