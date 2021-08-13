@@ -4,30 +4,15 @@ Findings can be viewed as [a slide presentation](https://rse.shef.ac.uk/sssurvey
 
 Charts were made in a Jupyter notebook which can be run here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RSE-Sheffield/sssurvey.git/HEAD?filepath=sheffield_software_report.ipynb)
 
-## `data/`
+## Repository contents
+- `data/`
+  - `raw/` Anonymised data
+  - `clean/` Data cleaned using (`01_clean_data.py`)[scripts/01_clean_data.py].
+  - `working/` Intermediate data that required manual annotation during processing.
+- `scripts/` Scripts used in data cleaning and analysis
 
-### `raw/`
-
-Anonymised data
-### `clean/`
-
-Data cleaned using (`01_clean_data.py`)[scripts/01_clean_data.py].
-
-### `working/`
-
-Intermediate data that required manual annotation during processing.
-
-## `scripts/`
-
-Scripts used in data cleaning and analysis
-
-## LICENSE
-
-The contents of this repository contributed by [@mondus](https://github.com/mondus) and [@bobturneruk](https://github.com/bobturneruk) are available under [this license](LICENSE). The contents of this repository contributed by [@SimonHettrick](https://github.com/SimonHettrick) are available under [this license](source_material/LICENSE).
-
-# Reproducing the analysis
-
-## Installation
+## Reproducing the analysis
+### Installation
 
 - Instructions to run the code, for example:
 
@@ -49,7 +34,7 @@ The contents of this repository contributed by [@mondus](https://github.com/mond
 > pip install -r requirements.txt
 > ```
 
-## Data cleanup
+### Data cleanup
 
 > Execute code:
 > ```
@@ -65,14 +50,18 @@ This will regenerate files in `data/working`. A manual process is required to ma
 
 This will regenerate the contents of `data/clean`.
 
-## Make charts
+### Make charts
 
 Load the notebook `charts.ipynb` and click "Restart and run all". This will regenerate the charts in `charts`.
 
-## Build a `.pdf` report
+### Build a `.pdf` report
 
 Install [pandoc](https://pandoc.org/installing.html) and [MiKTeX](https://miktex.org/download).
 
 ```
 pandoc -s report.md --pdf-engine=xelatex --citeproc -o report.pdf
 ```
+
+## LICENSE
+
+The contents of this repository contributed by [@mondus](https://github.com/mondus) and [@bobturneruk](https://github.com/bobturneruk) are available under [this license](LICENSE). The contents of this repository contributed by [@SimonHettrick](https://github.com/SimonHettrick) are available under [this license](source_material/LICENSE).
