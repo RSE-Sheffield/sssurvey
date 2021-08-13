@@ -2,6 +2,7 @@
 
 <style>
     .reveal h1 { font-size: 2em; }
+    .reveal figcaption { font-size: 0.5; }
 </style>
 
 Robert Turner, Paul Richmond, University of Sheffield RSE Team
