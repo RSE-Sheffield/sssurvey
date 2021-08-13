@@ -22,7 +22,7 @@ jobs:
         uses: docker://pandoc/latex:latest
         with:
           args: >-  # allows you to break string into multiple lines
-            -s presentation.md  
+            -s report.md  
             --pdf-engine=xelatex
             --citeproc
             -o report.pdf
@@ -33,7 +33,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: true
-          title: "Development Build"
+          title: "Work In Progress"
           files: |
-            LICENSE.txt
             *.pdf
