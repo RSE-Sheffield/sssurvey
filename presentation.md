@@ -7,6 +7,17 @@
 Robert Turner, Paul Richmond, University of Sheffield RSE Team
 September, 2021
 
+# About me
+
+![Bob Turner](images/bobicorn.jpg)
+
+Mix of software engineering and research experience.
+# RSE at Sheffield
+
+![Spike](images/spike-the-wooly-rhino.jpg)
+
+13 RSEs, 35 projects / year worth ~£11m total
+
 # Sources
 
 * Data and analysis software <https://github.com/RSE-Sheffield/sssurvey>.
@@ -25,7 +36,7 @@ September, 2021
 
 ![Inductive inference](images/inference.svg)
 
-from "The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 paperback"
+from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 paperback"*
 
 # Analysis
 
@@ -34,7 +45,7 @@ from "The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 paper
 ::: incremental
 
 * Data anonymised manually.
-* Cleaned and annotated using Python scripts (with some manual decision).
+* Cleaned and annotated using Python scripts (with some manual decisions).
 * Plotted charts using Jupyter notebook.
 * Presentation and report written in markdown.
 * Outputs built using pandoc / GitHub actions.
