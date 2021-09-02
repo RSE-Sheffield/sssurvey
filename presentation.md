@@ -29,6 +29,12 @@ Mix of software engineering and research experience.
 
 from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 paperback"*
 
+# Reasoning
+
+![Inductive inference](images/inference.svg)
+
+from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 paperback"*
+
 # Sources
 
 * Data and analysis software <https://github.com/RSE-Sheffield/sssurvey>.
@@ -42,12 +48,6 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 * Asked about "demographics", use and development of software, training and funding.
 
 :::
-
-# Reasoning
-
-![Inductive inference](images/inference.svg)
-
-from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 paperback"*
 
 # Analysis
 
