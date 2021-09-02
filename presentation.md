@@ -21,7 +21,9 @@ Mix of software engineering and research experience.
 
 # I'm scared of surveys
 
+![Ryanair](images/ryanair.jpg){ height=256px }
 
+from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 paperback"*
 
 # Sources
 
