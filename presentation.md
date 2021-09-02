@@ -21,6 +21,12 @@ September, 2021
 
 :::
 
+# Reasoning
+
+![Inductive inference](images/inference.svg)
+
+from "The Art of Statistics: Leraning from Data, David Spiegelhalter, 2020 paperback"
+
 # Analysis
 
 *Generally, "non responses" to optional (O) questions were ignored. Mandatory questions are marked (M).*
