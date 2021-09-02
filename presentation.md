@@ -7,6 +7,10 @@
 Robert Turner, Paul Richmond, University of Sheffield RSE Team
 September, 2021
 
+# Thank you!
+
+Thanks for coming, thanks to the conference organisers, thanks to the RSE team at Sheffield, Paul Richmond in particular.
+
 # About me
 
 ![Bob Turner](images/bobicorn.jpg){ height=256px }
