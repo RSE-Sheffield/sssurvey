@@ -25,7 +25,7 @@ September, 2021
 
 ![Inductive inference](images/inference.svg)
 
-from "The Art of Statistics: Leraning from Data, David Spiegelhalter, 2020 paperback"
+from "The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 paperback"
 
 # Analysis
 
