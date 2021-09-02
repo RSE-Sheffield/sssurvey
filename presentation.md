@@ -9,14 +9,19 @@ September, 2021
 
 # About me
 
-![Bob Turner](images/bobicorn.jpg)
+![Bob Turner](images/bobicorn.jpg){ height=256px }
 
 Mix of software engineering and research experience.
+
 # RSE at Sheffield
 
-![Spike](images/spike-the-wooly-rhino.jpg)
+![Spike](images/spike-the-wooly-rhino.jpg){ height=256px }
 
 13 RSEs, 35 projects / year worth ~£11m total
+
+# I'm scared of surveys
+
+
 
 # Sources
 
