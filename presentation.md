@@ -19,7 +19,7 @@ Mix of software engineering and research experience.
 
 # RSE at Sheffield
 
-![RSE]([images/spike-the-wooly-rhino.jpg](https://github.com/RSE-Sheffield/RSE-Sheffield.github.io/raw/master/assets/images/logo/rse-logoonly-stroke.png)){ height=256px }
+![RSE](https://github.com/RSE-Sheffield/RSE-Sheffield.github.io/raw/master/assets/images/logo/rse-logoonly-stroke.png){ height=256px }
 
 13 RSEs, 35 projects / year worth ~£11m total
 
