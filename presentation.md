@@ -207,8 +207,16 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 * Investigate why 69% of respondents feel they have not had sufficient training.
 * Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
-* Investigate why participants responded as they did to a question about level of support for software development. Create a target for this and monitor performance against it.
+* Investigate why participants responded as they did to a question about level of support for software development.
 
 :::
 
-# Future work
+# Future work (Final Slide)
+
+::: incremental
+
+* Can we say if responses are different for different funders, research subjects using subgroup analysis?
+* Can we find out more about training needs and check we are meeting them?
+* Does the national / international picture need to be revisited?
+
+:::
