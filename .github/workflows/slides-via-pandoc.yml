@@ -18,11 +18,11 @@ jobs:
         run: mkdir docs
 
       - name: Convert
-        uses: docker://pandoc/core:latest
+        uses: docker://marcelwiget/pandoc-mermaid:latest
         with:
           args: >-  # allows you to break string into multiple lines
             --self-contained   
-            -F mermaid-filter
+            --filter=pandoc_filter.py
             -t revealjs
             -V theme=moon
             -o docs/index.html
