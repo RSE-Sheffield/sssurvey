@@ -7,6 +7,14 @@
 Robert Turner, Paul Richmond, University of Sheffield RSE Team
 September, 2021
 
+# Test Mermaid
+
+~~~mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+~~~
+
 # Sources
 
 * Data and analysis software <https://github.com/RSE-Sheffield/sssurvey>.
