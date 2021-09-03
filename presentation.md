@@ -23,6 +23,16 @@ Mix of software engineering and research experience.
 
 13 RSEs, 35 projects / year worth ~£11m total
 
+# Why survey?
+
+::: incremental
+
+* Improve our practise and procedures.
+* Prioritise our resources.
+* Data-driven advocacy.
+
+:::
+
 # I'm scared of surveys
 
 ![Ryanair](images/ryanair.jpg){ height=256px }
