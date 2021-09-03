@@ -1,0 +1,16 @@
+Question,Type,Free_Text_Allowed,Mandatory
+In which faculty are you based?,Single,TRUE,TRUE
+Which of the following organisations usually fund your research?,Mulitple,TRUE,FALSE
+What is your job title?,Free,TRUE,FALSE
+Do you use research software?,Single,FALSE,TRUE
+How important is research software to your work?,Single,FALSE,TRUE
+Have you developed your own research software?,Single,FALSE,TRUE
+How do you rate your software development expertise?,Single,FALSE,FALSE
+Would you be interested in the university helping you commercialise some of your research software?,Single,FALSE,FALSE
+Do you feel that your research software is ready to be shared with a commercial partner?,Single,FALSE,TRUE
+"Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system?",Single,TRUE,TRUE
+How confident are you with the following technologies?,Single,FALSE,FALSE
+How would you rate the university's current level of support for your software-development needs?,Single,FALSE,TRUE
+Have you or someone in your group ever hired someone specifically to develop software?,Single,FALSE,TRUE
+Have you ever included costs for software development in a funding proposal?,Mulitple,FALSE,TRUE
+How suitable would the following models be for your software development needs?,Single,FALSE,FALSE
