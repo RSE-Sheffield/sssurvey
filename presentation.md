@@ -125,7 +125,7 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 # Sufficiency of training
 
-![Do you feel that you have received sufficient training to develop reliable software? (M)](charts/08_training_exclude_no_response.png)
+![Do you feel that you have received sufficient training to develop reliable software? (M/O?)](charts/08_training_exclude_no_response.png)
 
 # Awareness around key skills
 
