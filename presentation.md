@@ -158,14 +158,7 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 # Funding for Software Development
 
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-![Have you ever included costs for software development in a funding proposal? (M)](charts/17_funding.png)
-:::
-::: {.column width="50%"}
 ![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals) (M)](charts/17a_funding_excl_not_funding.png)
-:::
-::::::::::::::
 
 # Staffing of software development
 
@@ -174,13 +167,13 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 ![Hire a full-time software developer (M)](charts/18_model_ft_exclude_no_response.png)
 :::
 ::: {.column width="50%"}
-![Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed (O)](charts/19_model_rse_exclude_no_response.png)
+![Have you or someone in your group ever hired someone specifically to develop software? (M)](charts/16_hired.png)
 :::
 ::::::::::::::
 
 # Hiring practise
 
-![Have you or someone in your group ever hired someone specifically to develop software? (M)](charts/16_hired.png)
+![Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed (O)](charts/19_model_rse_exclude_no_response.png)
 
 # Staffing and funding
 
