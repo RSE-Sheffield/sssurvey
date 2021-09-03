@@ -63,32 +63,12 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 :::
 
-# Software Importance
-
-::: incremental
-
-* 382 respondents.
-* 91% of respondents use research software ([92% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
-* 65% report that software is vital to their research (nationally, 69% report that "It would not be practical to conduct my work without software").
-* 27% develop their own code ([56% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
-
-:::
-
-# Training and funding
-
-::: incremental
-
-* 69% (of the 27% subset who responded to this question) feel they have **not had sufficient training** to develop reliable software.
-* Of the 54% of respondents who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
-* Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
-
-:::
-
 # Sample characteristics
 
 ::: incremental
 
 * This survey went to all PhD students and research staff with a prize incentive.
+* 382 respondents.
 * A 2019 Southampton survey went to *"all staff employed on an ERE contract (Education, Research and Enterprise) and all PhD students"* with a prize incentive. As surveys were sent out on a faculty by faculty basis, it was possible to report a response rate of between 8% and 11% for all faculties.
 * 2014 national survey - it is not clear what sampling strategy was used.
 
@@ -121,14 +101,21 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 # Software development practise
 
-:::::::::::::: {.columns}
-::: {.column width="50%"}
 ![Have you developed your own research software? (M)](charts/06_developed.png)
+
+# Software Importance
+
+::: incremental
+
+* 91% of respondents use research software ([92% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
+* 65% report that software is vital to their research (nationally, 69% report that "It would not be practical to conduct my work without software").
+* 27% develop their own code ([56% nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
+
 :::
-::: {.column width="50%"}
+
+# Sufficiency of training
+
 ![Do you feel that you have received sufficient training to develop reliable software? (M)](charts/08_training_exclude_no_response.png)
-:::
-::::::::::::::
 
 # Awareness around key skills
 
@@ -149,6 +136,15 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 ![How would you rate the university's current level of support for your software-development needs? (O)](charts/15_support_exclude_no_response.png)
 
 1: *"poor"* to 5: *"excellent"*
+
+# Training and funding
+
+::: incremental
+
+* 69% (of the 27% subset who responded to this question) feel they have **not had sufficient training** to develop reliable software.
+* Current level of support for software development is questionable.
+
+:::
 
 # Funding for Software Development
 
@@ -176,6 +172,15 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 ![Have you or someone in your group ever hired someone specifically to develop software? (M)](charts/16_hired.png)
 
+# Staffing and funding
+
+::: incremental
+
+* Of the 54% of respondents who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
+* Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
+
+:::
+
 # High Performance Computing
 
 ![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system? (M)](charts/11_hpc_exclude_no_response.png)
@@ -191,23 +196,23 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 :::
 ::::::::::::::
 
-# Actions - Research and Advocacy
+# Actions - training
 
 ::: incremental
 
-* Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
-* Discover if any action can be taken to help researchers who would like to use University of Sheffield HPC but don't currently use to do so.
-* Advocate for researchers to include costs for software development in their funding applications.
+* Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
+* **Investigate why 69% of respondents feel they have not had sufficient training. What training is needed? How much?**
 
 :::
 
-# Actions - Training
+# Actions
 
 ::: incremental
 
-* Investigate why 69% of respondents feel they have not had sufficient training.
-* Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
 * Investigate why participants responded as they did to a question about level of support for software development.
+* Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
+* Discover if any action can be taken to help researchers who would like to use University of Sheffield HPC but don't currently use to do so.
+* **Advocate for researchers to include costs for software development in their funding applications.**
 
 :::
 
@@ -216,7 +221,6 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 ::: incremental
 
 * Can we say if responses are different for different funders, research subjects using subgroup analysis?
-* Can we find out more about training needs and check we are meeting them?
 * Does the national / international picture need to be revisited?
 
 :::
