@@ -6,6 +6,7 @@ Do you use research software?,Single,FALSE,TRUE
 How important is research software to your work?,Single,FALSE,TRUE
 Have you developed your own research software?,Single,FALSE,TRUE
 How do you rate your software development expertise?,Single,FALSE,FALSE
+Do you feel that you have received sufficient training to develop reliable software?,Single,FALSE,TRUE
 Would you be interested in the university helping you commercialise some of your research software?,Single,FALSE,FALSE
 Do you feel that your research software is ready to be shared with a commercial partner?,Single,FALSE,TRUE
 "Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system?",Single,TRUE,TRUE
