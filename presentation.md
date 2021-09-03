@@ -160,6 +160,15 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 ![Have you ever included costs for software development in a funding proposal? (excluding those who not involved in writing funding proposals) (M)](charts/17a_funding_excl_not_funding.png)
 
+# Funding
+
+::: incremental
+
+* Of the 54% of respondents who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
+* Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
+
+:::
+
 # Staffing of software development
 
 :::::::::::::: {.columns}
@@ -174,15 +183,6 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 # Hiring practise
 
 ![Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed (O)](charts/19_model_rse_exclude_no_response.png)
-
-# Staffing and funding
-
-::: incremental
-
-* Of the 54% of respondents who are involved with writing funding proposals, 45% expected to write software as part of the proposal.
-* Of those who expected to write software, 40% did not request funding for this (compared to [20%, nationally](https://zenodo.org/record/1183562#.YMnQFahKiUk)).
-
-:::
 
 # High Performance Computing
 
