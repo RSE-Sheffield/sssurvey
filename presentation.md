@@ -1,5 +1,4 @@
-# University of Sheffield Research Software Survey (2020) - WORK IN PROGRESS
-
+# University of Sheffield Research Software Survey (2020)
 <style>
     .reveal h1 { font-size: 2em; }
 </style>
