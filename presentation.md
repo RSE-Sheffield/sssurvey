@@ -187,6 +187,11 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 ![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system? (M)](charts/11_hpc_exclude_no_response.png)
 
+# Staffing
+
+* Pool RSE model seems preferable to hiring on a per-project basis
+* Some respondents see pool RSE model as unfavourable
+
 # Licensing and commercialisation
 
 :::::::::::::: {.columns}
