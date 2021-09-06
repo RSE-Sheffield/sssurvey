@@ -198,20 +198,20 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 :::
 ::::::::::::::
 
-# Actions - training
+# Actions (1)
 
 ::: incremental
 
 * Provide training / support to increase researcher confidence with version control, continuous integration and unit testing.
 * **Investigate why 69% of respondents feel they have not had sufficient training. What training is needed? How much?**
+* Investigate why participants responded as they did to a question about level of support for software development.
 
 :::
 
-# Actions
+# Actions (2)
 
 ::: incremental
 
-* Investigate why participants responded as they did to a question about level of support for software development.
 * Provide additional support to researchers to make research software outputs not intended for commercialisation freely available.
 * Discover if any action can be taken to help researchers who would like to use University of Sheffield HPC but don't currently use to do so.
 * **Advocate for researchers to include costs for software development in their funding applications.**
