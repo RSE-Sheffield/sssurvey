@@ -183,14 +183,14 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 ![Recruit a developer (or fractional FTE equivalent of a developer) from a central University of Sheffield pool as needed (O)](charts/19_model_rse_exclude_no_response.png)
 
-# High Performance Computing
-
-![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system? (M)](charts/11_hpc_exclude_no_response.png)
-
 # Staffing
 
 * Pool RSE model seems preferable to hiring on a per-project basis
 * Some respondents see pool RSE model as unfavourable
+
+# High Performance Computing
+
+![Have you used ShARC/Bessemer, the University's high-performance computing (HPC) system? (M)](charts/11_hpc_exclude_no_response.png)
 
 # Licensing and commercialisation
 
