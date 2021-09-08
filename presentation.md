@@ -146,7 +146,7 @@ from *"The Art of Statistics: Learning from Data, David Spiegelhalter, 2020 pape
 
 1: *"poor"* to 5: *"excellent"*
 
-# Training and funding
+# Training
 
 ::: incremental
 
